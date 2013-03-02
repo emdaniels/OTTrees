@@ -17,39 +17,19 @@
   })();
 </script>
 </head>
-<body onLoad="load()">
-	<noscript>
-		<p>
-			<strong>JavaScript must be enabled in order for you to use Google Maps.</strong> 
-			However, it seems JavaScript is either disabled or not
-			supported by your browser. To view Google Maps, enable JavaScript by
-			changing your browser options, and then try again.
-		</p>
-	</noscript>
-
-	<div class="map_canvas_container">
-		<div class="map_canvas" id="map_canvas"></div>
-	</div>
-	
-	<div class="zoomin_button_frame">
-		<a href="javascript:zoomIn();"><span class="zoomin_button_holder"></span></a>
-	</div>
-
-	<div class="zoomout_button_frame">
-		<a href="javascript:zoomOut();"><span class="zoomout_button_holder"></span></a>
-	</div>
-
-	<div class="toggle_button_frame">
-		<a href="javascript:buttonToggle();"><span class="toggle_button_holder" style=""></span></a>
-	</div>
-
-	<input type="button" name="toggleButton" id="nextbt" rel="myTable" value="View " onclick="buttonToggle(this,'View ','Hide ')">
-
-	<table id="myTable">
-		<tr>
-			<td>myTable</td>
-		</tr>
-	</table>
-
-</body>
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: new google.maps.LatLng(45.420353,-75.695982),
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            mapOptions);
+      }
+    </script>
+  </head>
+  <body onload="initialize()">
+    <div id="map_canvas" style="width:100%; height:100%"></div>
+  </body>
 </html>
