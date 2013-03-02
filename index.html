@@ -1,11 +1,11 @@
 <html>
 <head>
-	<title>OTTrees</title>
-	<meta name="ttw" content="8bwgdwr" />
-	<link rel="stylesheet" href="style.css" type="text/css">	
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-	<script type="text/javascript" src="tree_load.js"></script>
-	<script type="text/javascript">
+<title>OTTrees</title>
+<meta name="ttw" content="8bwgdwr" />
+<link rel="stylesheet" href="style.css" type="text/css">
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="tree_load.js"></script>
+<script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-20507504-1']);
   _gaq.push(['_trackPageview']);
@@ -15,30 +15,41 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-  </script>
+</script>
 </head>
 <body onLoad="load()">
-<noscript><p><b>JavaScript must be enabled in order for you to use Google Maps.</b> However, it seems JavaScript is either disabled or not supported by your browser. To view Google Maps, enable JavaScript by changing your browser options, and then try again.</p> </noscript>
+	<noscript>
+		<p>
+			<strong>JavaScript must be enabled in order for you to use Google Maps.</strong> 
+			However, it seems JavaScript is either disabled or not
+			supported by your browser. To view Google Maps, enable JavaScript by
+			changing your browser options, and then try again.
+		</p>
+	</noscript>
 
-	  <div class="map_canvas_container">
-		  <div class="map_canvas" id="map_canvas"></div>
-	  </div>
-    <div class="zoomin_button_frame"><a href="javascript:zoomIn();"><span class="zoomin_button_holder"></span></a></div>
-    
-	  <div class="zoomout_button_frame"><a href="javascript:zoomOut();"><span class="zoomout_button_holder"></span></a></div>
- 
-<div class="toggle_button_frame"><a href="javascript:buttonToggle();"><span class="toggle_button_holder" style="myTable"></span></a></div>
-     
-<input type="button" name="toggleButton" id="nextbt" 
-       rel="myTable" value="View " 
-       onclick="buttonToggle(this,'View ','Hide ')">
+	<div class="map_canvas_container">
+		<div class="map_canvas" id="map_canvas"></div>
+	</div>
+	
+	<div class="zoomin_button_frame">
+		<a href="javascript:zoomIn();"><span class="zoomin_button_holder"></span></a>
+	</div>
 
-<table id="myTable">
-    <tr>
-        <td>myTable</td>
-    </tr>
-</table>
-</div>
-  
+	<div class="zoomout_button_frame">
+		<a href="javascript:zoomOut();"><span class="zoomout_button_holder"></span></a>
+	</div>
+
+	<div class="toggle_button_frame">
+		<a href="javascript:buttonToggle();"><span class="toggle_button_holder" style=""></span></a>
+	</div>
+
+	<input type="button" name="toggleButton" id="nextbt" rel="myTable" value="View " onclick="buttonToggle(this,'View ','Hide ')">
+
+	<table id="myTable">
+		<tr>
+			<td>myTable</td>
+		</tr>
+	</table>
+
 </body>
 </html>
