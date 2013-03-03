@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="TreeInventory2011">
+    <Placemark id="ID_012943">      <name>1307</name>      <Point>        <coordinates> -75.61084356970164,45.42837067084915,0</coordinates>      </Point>    </Placemark></Document></kml>
