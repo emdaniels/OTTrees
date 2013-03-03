@@ -5,6 +5,8 @@ var useGeolocation = true;
 var map = null;
 var zoomLevel = 15;
 var geocoder;
+
+
 var infowindow = new google.maps.InfoWindow({
 	size: new google.maps.Size(50,50)
 });
@@ -93,6 +95,34 @@ function load() {
 			}
 		});
 	}
+	
+/*new code for collapsable menu*/
+	$(document).ready(function() {
+		$('.second_level').hide();
+		$("div.submenublock").each(function(index){
+			if($(this).children().length > 1){
+				$(this).css("background", "url(http://www.ottrees.com/images/arrow_down.png) no-repeat right 15px");
+
+			}
+
+		});
+
+		$('div.submenublock > h3').click(function() {
+			$(this).next().slideToggle('fast', function() {
+				//set arrow depending on whether menu is shown or hidden
+				if ($(this).is(':hidden')) {
+					$(this).parent().css("background", "url(http://www.ottrees.com/images/arrow_down.png)no-repeat right 15px");
+
+				} else {
+					$(this).parent().css("background", "url(http://www.ottrees.com/images/arrow_up.png) no-repeat right 15px");
+
+				}
+				return false;
+			});
+
+		});
+	});
+
 } 
 
 function showSpringElements() {	

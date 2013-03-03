@@ -1,3 +1,71 @@
+/*added for collapsible menu*/
+#sidebar {
+	float: left;
+	width: 220px;
+}
+
+#sidebar_menu {
+	width: 220px;
+	margin-left: 0px;
+}
+
+.submenublock {
+	margin: 0px;
+	padding: 0px;
+}
+
+.submenublock h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	height: 30px;
+	margin: 0px;
+	padding: 15px 10px 5px 30px;
+	border-bottom: #CCC 1px solid;
+}
+
+.submenublock h3 a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.submenublock h3 a:hover,.submenublock h3 a:active,.submenublock h3 a:focus
+	{
+	color: #00aeef;
+}
+
+.second_level {
+	list-style-type: none;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.second_level li {
+	list-style-type: none;
+	list-style: none;
+	display: block;
+	padding: 10px 0px 0px 0px;
+	border-bottom: #CCC 1px dashed;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	height: 30px;
+}
+
+.second_level li a {
+	display: block;
+	margin-left: 30px;
+	text-decoration: none;
+	color: #000000;
+}
+
+#sidebar_menu ul li a:hover,#sidebar_menu ul li a:active,#sidebar_menu ul li a:focus
+	{
+	color: #00aeef;
+}
+
+/* original css*/
 body {
 	font-size: 8pt;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -8,7 +76,7 @@ body {
 }
 
 .side_bar {
-	float: right;
+	float: left;
 	height: 100%;
 	width: 20%;
 	margin: 0px auto;
@@ -17,93 +85,11 @@ body {
 .map_canvas_container {
 	width: 80%;
 	height: 100%;
+	margin-left: 225px;
 	position: absolute;
 }
 
 .map_canvas {
 	width: 100%;
 	height: 100%;
-}
-
-.right_image_frame {
-	position: absolute;
-	top: 203px;
-	left: 584px;
-	width: 0px;
-	height: 0px;
-	z-index: 100;
-}
-
-.right_image_holder {
-	width: 920px;
-	height: 360px;
-	margin: 0px 0px 0px 0px;
-	background-repeat: no-repeat;
-	display: block;
-}
-
-.zoomin_button_frame {
-	position: absolute;
-	top: 10px;
-	left: 5px;
-	width: 0px;
-	height: 0px;
-	z-index: 101;
-}
-
-.zoomin_button_holder {
-	width: 30px;
-	height: 30px;
-	margin: 0px 0px 0px 0px;
-	background-image: url(images/zoom_in.png);
-	background-repeat: no-repeat;
-	display: block;
-}
-
-.zoomin_button_holder:hover {
-	background-image: url(images/zoom_in_pressed.png);
-}
-
-.zoomout_button_frame {
-	position: absolute;
-	top: 40px;
-	left: 5px;
-	width: 0px;
-	height: 0px;
-	z-index: 101;
-}
-
-.zoomout_button_holder {
-	width: 30px;
-	height: 30px;
-	margin: 0px 0px 0px 0px;
-	background-image: url(images/zoom_out.png);
-	background-repeat: no-repeat;
-	display: block;
-}
-
-.zoomout_button_holder:hover {
-	background-image: url(images/zoom_out_pressed.png);
-}
-
-.toggle_button_frame {
-	position: relative;
-	top: 50%;
-	left: 100%;
-	width: 0px;
-	height: 0px;
-	z-index: 101;
-}
-
-.toggle_button_holder {
-	width: 50px;
-	height: 50px;
-	margin: 0px 0px 0px 0px;
-	background-image: url(images/arrow_in.png);
-	background-repeat: no-repeat;
-	display: block;
-}
-
-.toggle_button_holder:hover {
-	background-image: url(images/arrow_in_pressed.png);
 }
