@@ -5,15 +5,14 @@ var useGeolocation = true;
 var map = null;
 var zoomLevel = 15;
 var geocoder;
-
-
 var infowindow = new google.maps.InfoWindow({
 	size: new google.maps.Size(50,50)
 });
 var season = 0;
 
 /* different marker sets */
-var treeLayer = new google.maps.KmlLayer('doc.kml?dummy=42', {suppressInfoWindows: true, preserveViewport: true});
+var treeLayer = new google.maps.KmlLayer('http://www.ottawapastoral.com/data/2009_outdoor_rinks.kml?dummy=42', {suppressInfoWindows: true, preserveViewport: true});
+
 
 /* map loading function */
 function load() {
@@ -69,11 +68,11 @@ function load() {
 
 	/* default zoom level of map */
 	map.setZoom(zoomLevel);
-
-	calibrateSeason();
+	
+	toggleKML(treeLayer, map);
 
 	addKMLListener(treeLayer);
-
+	
 	function addKMLListener(layer) {
 		google.maps.event.addListener(layer, 'click', function(kmlEvent) {
 			var name = kmlEvent.featureData.name;
@@ -95,107 +94,7 @@ function load() {
 			}
 		});
 	}
-	
-/*new code for collapsable menu*/
-	$(document).ready(function() {
-		$('.second_level').hide();
-		$("div.submenublock").each(function(index){
-			if($(this).children().length > 1){
-				$(this).css("background", "url(http://www.ottrees.com/images/arrow_down.png) no-repeat right 15px");
-
-			}
-
-		});
-
-		$('div.submenublock > h3').click(function() {
-			$(this).next().slideToggle('fast', function() {
-				//set arrow depending on whether menu is shown or hidden
-				if ($(this).is(':hidden')) {
-					$(this).parent().css("background", "url(http://www.ottrees.com/images/arrow_down.png)no-repeat right 15px");
-
-				} else {
-					$(this).parent().css("background", "url(http://www.ottrees.com/images/arrow_up.png) no-repeat right 15px");
-
-				}
-				return false;
-			});
-
-		});
-	});
-
 } 
-
-function showSpringElements() {	
-	document.getElementById("top_image").className = 'top_image_holder_sp';
-	document.getElementById("left_image").className = 'left_image_holder_sp';
-	document.getElementById("right_image").className = 'right_image_holder_sp';
-	document.getElementById("bottom_image").className = 'bottom_image_holder_sp';
-
-	toggleKML(rinkLayer, null);
-	toggleKML(splashpadLayer, null);
-	toggleKML(sleddinghillLayer, null);
-	toggleKML(lawnbowlingLayer, map);
-	toggleKML(volleyballcourtsLayer, map);
-	toggleKML(tenniscourtsLayer, map);
-	toggleKML(sportsfieldsLayer, map);
-	toggleKML(basketballcourtsLayer, map);
-	toggleKML(balldiamondsLayer, map);
-	toggleKML(wadingpoolLayer, null);
-}
-
-function showSummerElements() {
-	document.getElementById("top_image").className = 'top_image_holder_su';
-	document.getElementById("left_image").className = 'left_image_holder_su';
-	document.getElementById("right_image").className = 'right_image_holder_su';
-	document.getElementById("bottom_image").className = 'bottom_image_holder_su';
-
-	toggleKML(rinkLayer, null);
-	toggleKML(splashpadLayer, map);
-	toggleKML(sleddinghillLayer, null);
-	toggleKML(lawnbowlingLayer, map);
-	toggleKML(volleyballcourtsLayer, map);
-	toggleKML(tenniscourtsLayer, map);
-	toggleKML(sportsfieldsLayer, map);
-	toggleKML(basketballcourtsLayer, map);
-	toggleKML(balldiamondsLayer, map);
-	toggleKML(wadingpoolLayer, map);
-}
-
-function showAutumnElements() {
-	document.getElementById("top_image").className = 'top_image_holder_au';
-	document.getElementById("left_image").className = 'left_image_holder_au';
-	document.getElementById("right_image").className = 'right_image_holder_au';
-	document.getElementById("bottom_image").className = 'bottom_image_holder_au';
-
-	toggleKML(rinkLayer, null);
-	toggleKML(splashpadLayer, null);
-	toggleKML(sleddinghillLayer, null);
-	toggleKML(lawnbowlingLayer, map);
-	toggleKML(volleyballcourtsLayer, null);
-	toggleKML(tenniscourtsLayer, map);
-	toggleKML(sportsfieldsLayer, map);
-	toggleKML(basketballcourtsLayer, map);
-	toggleKML(balldiamondsLayer, map);
-	toggleKML(wadingpoolLayer, null);
-}
-
-function showWinterElements() {
-	document.getElementById("top_image").className = 'top_image_holder_wi';
-	document.getElementById("left_image").className = 'left_image_holder_wi';
-	document.getElementById("right_image").className = 'right_image_holder_wi';
-	document.getElementById("bottom_image").className = 'bottom_image_holder_wi';
-
-	toggleKML(rinkLayer, map);
-	toggleKML(splashpadLayer, null);
-	toggleKML(sleddinghillLayer, map);
-	toggleKML(lawnbowlingLayer, null);
-	toggleKML(volleyballcourtsLayer, null);
-	toggleKML(tenniscourtsLayer, null);
-	toggleKML(sportsfieldsLayer, null);
-	toggleKML(basketballcourtsLayer, null);
-	toggleKML(balldiamondsLayer, null);
-	toggleKML(wadingpoolLayer, null);
-}
 
 function zoomIn() {
 	zoomLevel = map.getZoom();
@@ -209,46 +108,7 @@ function zoomOut() {
 	map.setZoom(zoomLevel);
 }
 
-function calibrateSeason() {
-
-	var now = new Date();
-	var month = now.getMonth() + 1;
-	var date = now.getDate();
-
-	if ((month == 12 && date > 20) || (month <= 2) || (month == 3 && date < 20)) {
-		showWinterElements();
-		season = 0;
-	} else if ((month == 3 && date > 19) || (month > 3 && month < 6) || (month == 6 && date < 21)) {
-		showSpringElements();
-		season = 1;
-	} else if ((month == 6 && date > 20) || (month > 6 && month < 9) || (month == 9 && date < 23)) {
-		showSummerElements();
-		season = 2;
-	} else if ((month == 9 && date > 22) || (month > 9 && month < 12) || (month == 12 && date < 19)) {
-		showAutumnElements();
-		season = 3;
-	}
-}
-
-function changeSeason() {
-	if (season == 0) {
-		season++;
-		showSpringElements();
-	} else if (season == 1) {
-
-		season++;
-		showSummerElements();
-	} else if (season == 2) {
-		season++;
-		showAutumnElements();
-	} else if (season == 3) {
-		season = 0;
-		showWinterElements();
-	}
-}
-
-function toTitleCase(str)
-{
+function toTitleCase(str) {
 	return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 }
 
@@ -259,4 +119,3 @@ function toggleKML(kmlLayer, map) {
 		kmlLayer.setMap(null);
 	}
 }
-
