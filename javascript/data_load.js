@@ -11,7 +11,7 @@ var infowindow = new google.maps.InfoWindow({
 var season = 0;
 
 /* different marker sets */
-var treeLayer = new google.maps.KmlLayer('http://www.ottawapastoral.com/data/2009_outdoor_rinks.kml?dummy=42', {suppressInfoWindows: true, preserveViewport: true});
+var treeLayer = new google.maps.KmlLayer('http://www.ottrees.com/data/trees/Oak_Red.xml?dummy=42', {suppressInfoWindows: true, preserveViewport: true});
 
 
 /* map loading function */
