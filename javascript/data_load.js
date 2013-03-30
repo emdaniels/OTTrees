@@ -10,9 +10,14 @@ var infowindow = new google.maps.InfoWindow({
 });
 var season = 0;
 
-/* different marker sets */
-var treeLayer = new google.maps.KmlLayer('http://www.ottrees.com/data/trees/Oak_Red.xml?dummy=42', {suppressInfoWindows: true, preserveViewport: true});
+var dummyValue = new Date().getTime();
 
+var treeLayerArray = new Array();
+
+/* different marker sets */
+treeLayerArray['Oak'] = new google.maps.KmlLayer('http://www.ottrees.com/data/trees/Oak_Red.xml?dummy=' + dummyValue, {suppressInfoWindows: false, preserveViewport: true});
+
+var treeLayer = treeLayerArray['Oak'];
 
 /* map loading function */
 function load() {
@@ -71,7 +76,7 @@ function load() {
 	
 	toggleKML(treeLayer, map);
 
-	addKMLListener(treeLayer);
+	//addKMLListener(treeLayer);
 	
 	function addKMLListener(layer) {
 		google.maps.event.addListener(layer, 'click', function(kmlEvent) {
