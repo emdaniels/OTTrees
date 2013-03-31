@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
 <Document id="TreeInventory2011">
-    <Placemark id="ID_014155">      <name>88</name><description><![CDATA[<h1>Beech European</h1><p>88 MAITLAND ST</p>]]></description>      <Point>        <coordinates> -75.83436087353272,45.18473039726874,0</coordinates>      </Point><Icon>http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg</Icon>    </Placemark></Document></kml>
+    <Placemark id="ID_014155"><name>European Beech</name><description><![CDATA[<p>88 MAITLAND ST</p>]]></description>      <Point>        <coordinates> -75.83436087353272,45.18473039726874,0</coordinates>      </Point><Style><IconStyle><Icon><href>http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg</href></Icon></IconStyle></Style>    </Placemark></Document></kml>

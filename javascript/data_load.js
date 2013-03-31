@@ -13,11 +13,11 @@ var season = 0;
 var dummyValue = new Date().getTime();
 
 var treeLayerArray = new Array();
+var nameArray = new Array('Oak_Pin', 'Unknown', 'Mountain_Ash_Oakleaf', 'Pine_Jack', 'Buckeye_Ohio', 'Juniper', 'Crabapple', 'Birch', 'Hemlock', 'Oak_Bur', 'Fir_Douglas', 'Walnut_Black', 'Cherry_Choke_Schubert', 'Hackberry', 'Magnolia', 'Locust_Honey', 'Maple_Black', 'Apple', 'Willow_Weeping', 'Spruce', 'Aspen_Columnar', 'Yew_Canada', 'Sycamore_American', 'Hickory_Bitternut', 'Fir_Balsam', 'Poplar_Lombardy', 'Serviceberry', 'Beech_American', 'Maple_Sugar', 'Birch_White', 'Horsechestnut_Common', 'Mulberry', 'Aspen_Largetooth', 'Amur_Corktree', 'Cedar_Eastern_White', 'Maple_Amur', 'Maple_Norway', 'Birch_Gray', 'Hawthorn', 'Spruce_Colorado', 'Hickory_Shagbark', 'Pine_Red', 'Pine_White', 'Katsura_tree', 'Basswood', 'Spruce_Norway', 'Pine', 'Redbud_Eastern', 'Maple_Freeman', 'Ash', 'Catalpa_northern', 'Cherry_Choke', 'Beech_European', 'Cherry', 'Cherry_Black', 'Pine_Scotch', 'Oak_Red', 'Elm_Rock', 'Ash_European', 'Willow', 'Willow_Black', 'Oak', 'Ash_Black', 'Mountain_Ash_', 'Lilac_Japanese', 'Fir_Colorado', 'Linden_Littleleaf', 'Ash_Green', 'Larch_Eastern', 'Other', 'Maple', 'Elm_American', 'Beech_Blue', 'Maple_Silver', 'Mountain_Ash_Showy', 'Spruce_White', 'Poplar_Balsam', 'Elm', 'Olive_Russian', 'Oak_English', 'Elm_Prospector', 'Spruce_Black', 'Beech', 'Hazel_Turkish', 'Ash_White', 'Ginkgo', 'Maple_Red', 'Oak_White', 'See_Notes', 'Ironwod', 'Pear', 'Cherry_Purple_Leaf', 'Spruce_Red', 'Various', 'Elm_Siberian', 'Fir', 'Coffeetree_Kentucky', 'Pine_Austrian', 'Maple_Manitoba', 'Butternut', 'Birch_Yellow', 'Poplar', 'Larch_European', 'Locust_Black', 'Birch_Weeping', 'Aspen_Trembling');
 
-/* different marker sets */
-treeLayerArray['Oak'] = new google.maps.KmlLayer('http://www.ottrees.com/data/trees/Oak_Red.xml?dummy=' + dummyValue, {suppressInfoWindows: false, preserveViewport: true});
-
-var treeLayer = treeLayerArray['Oak'];
+for (var i = 0; i < nameArray.length; i++) {
+	treeLayerArray[nameArray[i]] = new google.maps.KmlLayer('http://www.ottrees.com/data/trees/' + nameArray[i] + '.xml?dummy=' + dummyValue, {suppressInfoWindows: false, preserveViewport: true});
+}
 
 /* map loading function */
 function load() {
@@ -74,7 +74,7 @@ function load() {
 	/* default zoom level of map */
 	map.setZoom(zoomLevel);
 	
-	toggleKML(treeLayer, map);
+	//toggleKML(treeLayer, map);
 
 	//addKMLListener(treeLayer);
 	

@@ -42,13 +42,19 @@ function toggle(type) {
       </div>
         
       <div class="submenublock" id="submenu3"><h3><a href="#">Category 3</a></h3>
-           <ul class="second_level">
-               <li><a href="">Option 1</a> <input type="checkbox" id="Oak" onclick="toggle('Oak');" /></li>
-               <li><a href="">Option 2</a> <input type="checkbox" id="Maple" onclick="toggle('Maple');" /></li>
-               <li><a href="">Option 3</a> <input type="checkbox" id="Ash" onclick="toggle('Ash');" /></li>
-           </ul>
+           <ul id="treeList" class="second_level"></ul>
       </div>
    </div>
-</body>
+<script type="text/javascript">
+var items = [];
 
+$.each(nameArray.sort(), function(i, item) {
+
+   items.push('<li><input type="checkbox" id="' + item + '" onclick="toggle(\'' + item + '\');" /> ' + item + '</li>');
+
+});  // close each()
+
+$('#treeList').append( items.join('') );
+</script>
+</body>
 </html>
