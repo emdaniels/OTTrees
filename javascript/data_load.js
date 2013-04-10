@@ -10,6 +10,8 @@ var infowindow = new google.maps.InfoWindow({
 });
 var season = 0;
 
+
+
 var dummyValue = new Date().getTime();
 
 var treeLayerArray = new Array();
@@ -21,7 +23,7 @@ for (var i = 0; i < nameArray.length; i++) {
 
 /* map loading function */
 function load() {
-	var myOptions = {mapTypeId: google.maps.MapTypeId.ROADMAP, center: ottawa, disableDefaultUI: true};
+	var myOptions = {mapTypeId: google.maps.MapTypeId.ROADMAP, center: ottawa, disableDefaultUI: false};
 
 	/* instantiate the map */
 	map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
@@ -99,6 +101,22 @@ function load() {
 			}
 		});
 	}
+	
+/*	var circle {
+		    path: google.maps.SymbolPath.CIRCLE,
+		    fillColor: 'red',
+		    fillOpacity: .2,
+		    scale: 1,
+		    strokeColor: 'white',
+		    strokeWeight: .5
+			};
+
+	var marker = new google.maps.Marker({
+			  position: new google.maps.LatLng(45.420353,-75.695982),
+			  icon: circle,
+			  map: map
+			});
+*/
 } 
 
 function zoomIn() {
