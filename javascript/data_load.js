@@ -75,11 +75,11 @@ function load() {
 
 	/* default zoom level of map */
 	map.setZoom(zoomLevel);
-	
+
 	//toggleKML(treeLayer, map);
 
 	//addKMLListener(treeLayer);
-	
+
 	function addKMLListener(layer) {
 		google.maps.event.addListener(layer, 'click', function(kmlEvent) {
 			var name = kmlEvent.featureData.name;
@@ -101,22 +101,60 @@ function load() {
 			}
 		});
 	}
-	
-/*	var circle {
-		    path: google.maps.SymbolPath.CIRCLE,
-		    fillColor: 'red',
-		    fillOpacity: .2,
-		    scale: 1,
-		    strokeColor: 'white',
-		    strokeWeight: .5
-			};
+
+/*
+	// Process for determining icon size and age of tree based on DBH and species
+	//examines and extracts DBH of tree from KML file and extracts growthFactor, maxSpan and maxAge for that species from CSV file
+
+	//returns estimated span for individual tree
+	function estimateTreeSpan(estimatedSpan){
+		var DBH = (KML.value);
+		var growthFactor = (CSV.value);
+		var maxSpan = (CSV.value);
+		var maxAge = (CSV value);
+		var estimatedAge= DBH * growthFactor;
+		var estimatedSpan = maxSpan * estimatedAge / maxAge;
+		return estimatedSpan;
+	}
+
+	//returns estimated age for individual tree
+	function estimateTreeAge(estimatedAge){
+		var DBH = (KML value);
+		var growthFactor = (CSV value);
+		var estimatedAge= DBH * growthFactor;
+		return estimatedAge;
+	}
+
+	//now have ability to add estimatedAge and estimatedSpan to tool-tip/info window for that tree
+	//alternately, could add an estimatedSpan column in CSV for each species with DBH 0-5, 6-10, 11-15, 16-20, 21-25, 26-30...etc. but highest DBH is around 130 for some trees
+
+	//adds estimatedSpan to symbol path for semi-accurate size on map
+	var earlySpringDTree(estimatedSpan) {
+		path: google.maps.SymbolPath.CIRCLE,
+		fillColor: 'green',
+		fillOpacity: .2,
+		scale: estimatedSpan,
+		strokeColor: 'white',
+		strokeWeight: .5
+	};
 
 	var marker = new google.maps.Marker({
-			  position: new google.maps.LatLng(45.420353,-75.695982),
-			  icon: circle,
-			  map: map
-			});
+		position: new google.maps.LatLng(45.420353,-75.695982),
+		icon: earlySpringDTree,
+		map: map
+	});
+
+	//for displaying icons for each tree in the KML file		
+	for(var i = 0; i < latitudes.length; i++) {
+		var latLng = new google.maps.LatLng(latitudes[i], longitudes[i])
+		var newCircle = new google.maps.Marker({
+			icon: earlySpringDTree,
+			position: latLng
+		});
+		newCircle.setMap(map);
+	}
 */
+
 } 
 
 function zoomIn() {
