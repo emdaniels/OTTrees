@@ -7,6 +7,7 @@
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="javascript/data_load.js"></script>
 <script type="text/javascript">
+
 function toggle(type) {
 	var currentLayer = treeLayerArray[type];
 	
@@ -17,6 +18,7 @@ function toggle(type) {
 	} 
 }
 </script>
+
 </head>
 
 <body onload="load()">
@@ -26,25 +28,80 @@ function toggle(type) {
    </div>
    
  <div id="sidebar_menu">
-    <div class="submenublock" id="submenu1">
-        
-        <h3><a href="#">Emily</a></h3>
+ <img src="images/OTTrees_logo.png" alt="OTTrees" height="98" width="200"> 
+    <div class="submenublock" id="Allergens">
+        <h3><a href="#">Allergens</a></h3>
         <ul class="second_level">
-           <li><a href="http://www.emilydaniels.com/applications">Applications</a></li>
-           <li><a href="http://www.emilydaniels.com/electronics">Electronics</a></li>
+           <li><input type="checkbox"/> Mild</li>
+           <li><input type="checkbox"/> Moderate</li>
+           <li><input type="checkbox"/> Severe</li>
         </ul>
       </div>
         
-      <div class="submenublock" id="submenu2">
+      <div class="submenublock" id="leafPersistence">
+      <h3><a href="#">Leaf Persistence</a></h3>
+        <ul class="second_level">
+           <li><input type="checkbox"/> Deciduous</li>
+           <li><input type="checkbox"/> Coniferous</li>
+           <li><input type="checkbox"/> Marcescent</li>
+        </ul>
+      </div>
       
-      <h3><a href="#">Category 2</a></h3>
-       
+      <div class="submenublock" id="growthRate">
+      <h3><a href="#">Growth Rate</a></h3>
+        <ul class="second_level">
+           <li><input type="checkbox"/> Slow (12" or less per year)</li>
+           <li><input type="checkbox"/> Moderate (13" to 24" per year)</li>
+           <li><input type="checkbox"/> Fast (25"+ per year)</li>
+        </ul>
+      </div>
+      
+      <div class="submenublock" id="estimatedAge">
+      <h3><a href="#">Estimated Age</a></h3>
+        <ul class="second_level">
+           <li><input type="checkbox"/> 0-9 years</li>
+           <li><input type="checkbox"/> 10-19 years</li>
+           <li><input type="checkbox"/> 20-29 years</li>
+           <li><input type="checkbox"/> 30-39 years</li>
+           <li><input type="checkbox"/> 40-49 years</li>
+           <li><input type="checkbox"/> 50+ years</li>
+        </ul>
+      </div>
+      
+      <div class="submenublock" id="nativeSpecies">
+      <h3><a href="#">Native Species</a></h3>
+        <ul class="second_level">
+           <li><input type="radio"/> Native</li>
+           <li><input type="radio"/> Non-Native</li>
+        </ul>
+      </div>
+      
+      <div class="submenublock" id="foodBearing">
+      <h3><a href="#">Food Bearing</a></h3>
+        <ul class="second_level">
+           <li><input type="radio"/> Food Bearing</li>
+           <li><input type="radio"/> Non-Food Bearing</li>
+        </ul>
+      </div>
+      
+      <div class="submenublock" id="seasonalFoliage">
+      <h3><a href="#">Seasonal Foliage</a></h3>
+        <ul class="second_level">
+           <li><input type="radio"/> Early Spring</li>
+           <li><input type="radio"/> Late Spring</li>
+           <li><input type="radio"/> Summer</li>
+           <li><input type="radio"/> Early Fall</li>
+           <li><input type="radio"/> Late Fall</li>
+           <li><input type="radio"/> Winter</li>
+        </ul>
       </div>
         
-      <div class="submenublock" id="submenu3"><h3><a href="#">Category 3</a></h3>
+      <div class="submenublock" id="individualSpecies"><h3>
+      <a href="#">Individual Species</a></h3>
            <ul id="treeList" class="second_level"></ul>
       </div>
    </div>
+   
 <script type="text/javascript">
 var items = [];
 
