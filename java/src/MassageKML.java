@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-public class MassageKML {
+public class MassageKML { 
 
 	public static String massageData(String input) {
 		return input;
