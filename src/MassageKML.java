@@ -15,8 +15,8 @@ public class MassageKML {
 	}
 
 	public static void main(String[] args) {
-		String input = "C:/temp/doc.xml";
-		String outputDir = "C:/temp/treedata/";
+		String input = "data/doc.kml";
+		String outputDir = "data/trees/";
 		
 		FileReader file1 = null;
 		BufferedReader reader = null;
@@ -166,7 +166,7 @@ public class MassageKML {
 				treeSpeciesWriter.write("</kml>");
 				treeSpeciesWriter.close();
 				
-				//System.out.print("'" + treeName + "', ");
+				System.out.print("'" + treeName + "', ");
 			}
 
 		} catch (FileNotFoundException e) {
