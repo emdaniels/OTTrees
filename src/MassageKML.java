@@ -10,14 +10,7 @@ import java.util.Map;
 
 public class MassageKML { 
 
-	public static String massageData(String input) {
-		return input;
-	}
-
-	public static void main(String[] args) {
-		String input = "data/doc.kml";
-		String outputDir = "data/trees/";
-		
+	public static void massageData(String inputFile, String outputDir) {
 		FileReader file1 = null;
 		BufferedReader reader = null;
 
@@ -26,7 +19,7 @@ public class MassageKML {
 		String line = "";
 		
 		try {
-			file1 = new FileReader(input);
+			file1 = new FileReader(inputFile);
 			reader = new BufferedReader(file1);
 			
 			while ((line = reader.readLine()) != null) {
@@ -41,7 +34,7 @@ public class MassageKML {
 							speciesFound = true;
 							
 							if (!"".equals(speciesLine) && !treeNames.containsKey(speciesLine)) {
-								FileWriter treeSpeciesFile = new FileWriter(outputDir + speciesLine + ".xml");
+								FileWriter treeSpeciesFile = new FileWriter(outputDir + speciesLine + ".kml");
 								BufferedWriter treeSpeciesWriter = new BufferedWriter(treeSpeciesFile);
 								
 								treeSpeciesWriter.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
@@ -63,7 +56,8 @@ public class MassageKML {
 			
 			reader.close();
 			file1.close();
-			file1 = new FileReader(input);
+			
+			file1 = new FileReader(inputFile);
 			reader = new BufferedReader(file1);
 
 			int i = 0;
@@ -166,7 +160,7 @@ public class MassageKML {
 				treeSpeciesWriter.write("</kml>");
 				treeSpeciesWriter.close();
 				
-				System.out.print("'" + treeName + "', ");
+				//System.out.print("'" + treeName + "', ");
 			}
 
 		} catch (FileNotFoundException e) {
@@ -193,6 +187,13 @@ public class MassageKML {
 				throw new RuntimeException("IO Error occured closing buffered reader");
 			}
 		}
+	}
+
+	public static void main(String[] args) {
+		String inputFile = "data/doc.kml";
+		String outputDir = "data/trees/";
+		
+		massageData(inputFile, outputDir);
 		
 		System.out.println("done");
 	}
