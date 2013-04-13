@@ -1,0 +1,102 @@
+{"kml": {
+    "Document": {
+        "id": "TreeInventory2011",
+        "Placemark": [
+            {
+                "id": "ID_00079",
+                "description": "<p>60 BITTERN CRT<\/p>",
+                "name": "Beech",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.6666148066677,45.44910122473995,0"}
+            },
+            {
+                "id": "ID_06218",
+                "description": "<p>221 SPRINGFIELD RD<\/p>",
+                "name": "Beech",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.67821634124384,45.44695140786729,0"}
+            },
+            {
+                "id": "ID_06417",
+                "description": "<p>600 MANOR AVE<\/p>",
+                "name": "Beech",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.68225598585057,45.45344967582992,0"}
+            },
+            {
+                "id": "ID_08710",
+                "description": "<p>1501 INNES RD<\/p>",
+                "name": "Beech",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.60426969913983,45.41590187018669,0"}
+            },
+            {
+                "id": "ID_013106",
+                "description": "<p>250 MONTFORT ST<\/p>",
+                "name": "Beech",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.66305446393766,45.43864307212879,0"}
+            },
+            {
+                "id": "ID_013244",
+                "description": "<p>309 ALTHA AVE<\/p>",
+                "name": "Beech",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.65787559218813,45.4360880257352,0"}
+            },
+            {
+                "id": "ID_013975",
+                "description": "<p>152 LAVAL ST<\/p>",
+                "name": "Beech",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.67139339160489,45.44075996020668,0"}
+            },
+            {
+                "id": "ID_017355",
+                "description": "<p>147 GRANVILLE ST<\/p>",
+                "name": "Beech",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.65675964886363,45.44299951812022,0"}
+            },
+            {
+                "id": "ID_022143",
+                "description": "<p>63 GENEST ST<\/p>",
+                "name": "Beech",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.67343325819692,45.43866270309108,0"}
+            },
+            {
+                "id": "ID_023101",
+                "description": "<p>253 DALY AVE<\/p>",
+                "name": "Beech",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.6813593426006,45.42898867267785,0"}
+            },
+            {
+                "id": "ID_023654",
+                "description": "<p>1400 CLYDE AVE<\/p>",
+                "name": "Beech",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.73958625241359,45.35858005928178,0"}
+            },
+            {
+                "id": "ID_027483",
+                "description": "<p>145 CLARENCE ST<\/p>",
+                "name": "Beech",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.69141166492366,45.43053626944928,0"}
+            },
+            {
+                "id": "ID_032730",
+                "description": "<p>1500 ALTA VISTA DR<\/p>",
+                "name": "Beech",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.65752488337122,45.41084142262758,0"}
+            }
+        ]
+    },
+    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
+    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "xmlns": "http://www.opengis.net/kml/2.2",
+    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
+}}

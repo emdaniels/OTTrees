@@ -1,0 +1,53 @@
+{"kml": {
+    "Document": {
+        "id": "TreeInventory2011",
+        "Placemark": [
+            {
+                "id": "ID_01291",
+                "description": "<p>12 VEERY LANE<\/p>",
+                "name": "Balsam Poplar",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.61899296459851,45.45605657286421,0"}
+            },
+            {
+                "id": "ID_04430",
+                "description": "<p>1320 OGDEN ST<\/p>",
+                "name": "Balsam Poplar",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.62434040792932,45.43106088852912,0"}
+            },
+            {
+                "id": "ID_012530",
+                "description": "<p>1320 OGDEN ST<\/p>",
+                "name": "Balsam Poplar",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.62448970206216,45.43127787153534,0"}
+            },
+            {
+                "id": "ID_013174",
+                "description": "<p>71 ST. AMBROISE ST<\/p>",
+                "name": "Balsam Poplar",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.67035031316581,45.4394741660163,0"}
+            },
+            {
+                "id": "ID_013728",
+                "description": "<p>1128 CUMMINGS AVE<\/p>",
+                "name": "Balsam Poplar",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.63384470059845,45.42849165922532,0"}
+            },
+            {
+                "id": "ID_030098",
+                "description": "<p>12 VEERY LANE<\/p>",
+                "name": "Balsam Poplar",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.61887606722807,45.45609388154705,0"}
+            }
+        ]
+    },
+    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
+    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "xmlns": "http://www.opengis.net/kml/2.2",
+    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
+}}

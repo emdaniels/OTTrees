@@ -1,0 +1,81 @@
+{"kml": {
+    "Document": {
+        "id": "TreeInventory2011",
+        "Placemark": [
+            {
+                "id": "ID_02921",
+                "description": "<p>350 KING EDWARD AVE<\/p>",
+                "name": "Maple",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.68800774441661,45.4300745060006,0"}
+            },
+            {
+                "id": "ID_04191",
+                "description": "<p>5757 ROCKDALE RD<\/p>",
+                "name": "Maple",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.35308938103898,45.35558651256159,0"}
+            },
+            {
+                "id": "ID_04780",
+                "description": "<p>125 DONALD ST<\/p>",
+                "name": "Maple",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.66380810447963,45.42732258175134,0"}
+            },
+            {
+                "id": "ID_04789",
+                "description": "<p>334 OLMSTEAD ST<\/p>",
+                "name": "Maple",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.66090139091159,45.43365401879044,0"}
+            },
+            {
+                "id": "ID_010613",
+                "description": "<p>515 CHAPEL ST<\/p>",
+                "name": "Maple",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.67344650894192,45.42206099428144,0"}
+            },
+            {
+                "id": "ID_017257",
+                "description": "<p>9 TAUNTON PL<\/p>",
+                "name": "Maple",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.61358426190371,45.44962157218248,0"}
+            },
+            {
+                "id": "ID_020452",
+                "description": "<p>313 TULIP CRES<\/p>",
+                "name": "Maple",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.50549632586719,45.48602140427364,0"}
+            },
+            {
+                "id": "ID_024860",
+                "description": "<p>9 TAUNTON PL<\/p>",
+                "name": "Maple",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.61361756032204,45.44960002986002,0"}
+            },
+            {
+                "id": "ID_034176",
+                "description": "<p>569 MELBOURNE AVE<\/p>",
+                "name": "Maple",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.75217170607732,45.38598881245258,0"}
+            },
+            {
+                "id": "ID_034312",
+                "description": "<p>14 STIKINE DR<\/p>",
+                "name": "Maple",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.92504616629651,45.31866944501906,0"}
+            }
+        ]
+    },
+    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
+    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "xmlns": "http://www.opengis.net/kml/2.2",
+    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
+}}

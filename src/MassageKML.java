@@ -191,7 +191,7 @@ public class MassageKML {
 
 	public static void main(String[] args) {
 		String inputFile = "data/doc.kml";
-		String outputDir = "data/trees/";
+		String outputDir = "data/trees/kml/";
 		
 		massageData(inputFile, outputDir);
 		

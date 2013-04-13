@@ -1,0 +1,144 @@
+{"kml": {
+    "Document": {
+        "id": "TreeInventory2011",
+        "Placemark": [
+            {
+                "id": "ID_00109",
+                "description": "<p>1508 MAXIME ST<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.6073634561776,45.42134494296895,0"}
+            },
+            {
+                "id": "ID_00684",
+                "description": "<p>1900-43 MARQUIS AVE<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.59948723913489,45.44725333003817,0"}
+            },
+            {
+                "id": "ID_01001",
+                "description": "<p>1418 MICHAEL ST<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.62927378212758,45.41671223736387,0"}
+            },
+            {
+                "id": "ID_04279",
+                "description": "<p>1418 MICHAEL ST<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.62916283686816,45.41653515881565,0"}
+            },
+            {
+                "id": "ID_05024",
+                "description": "<p>290 COLTRIN PL<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.680691808265,45.45445035020637,0"}
+            },
+            {
+                "id": "ID_05661",
+                "description": "<p>229 GREENSWAY AVE<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.66974401807549,45.43615046032324,0"}
+            },
+            {
+                "id": "ID_08381",
+                "description": "<p>3 DAVIDSON DR<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.61587541654801,45.45038693711432,0"}
+            },
+            {
+                "id": "ID_015600",
+                "description": "<p>6035 VALLEY FIELD CRES<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.5428163857431,45.45545358628364,0"}
+            },
+            {
+                "id": "ID_016825",
+                "description": "<p>616 LA VERENDRYE DR<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.6060908103557,45.4556428039389,0"}
+            },
+            {
+                "id": "ID_019457",
+                "description": "<p>35b GLENRIDGE RD<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.73543050959805,45.34567058068356,0"}
+            },
+            {
+                "id": "ID_020784",
+                "description": "<p>3 DAVIDSON DR<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.6159126187637,45.45041262252665,0"}
+            },
+            {
+                "id": "ID_022243",
+                "description": "<p>43 STE. CECILE ST<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.66933454897976,45.44209679067276,0"}
+            },
+            {
+                "id": "ID_024547",
+                "description": "<p>509 BEVAN AVE<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.74516440669886,45.39023953098833,0"}
+            },
+            {
+                "id": "ID_027153",
+                "description": "<p>202 CLOVERDALE RD<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.67305041563002,45.44929259394945,0"}
+            },
+            {
+                "id": "ID_027564",
+                "description": "<p>7 PARKGLEN CRT<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.75443784767201,45.34715911858218,0"}
+            },
+            {
+                "id": "ID_028357",
+                "description": "<p>6118 WILLOWBARK DR<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.53727332319517,45.44878553718922,0"}
+            },
+            {
+                "id": "ID_029135",
+                "description": "<p>634 GAINES DR<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.60727083921378,45.45371930622175,0"}
+            },
+            {
+                "id": "ID_030835",
+                "description": "<p>290 COLTRIN RD<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.68018320693589,45.45446490752543,0"}
+            },
+            {
+                "id": "ID_035384",
+                "description": "<p>566 EDISON AVE<\/p>",
+                "name": "Juniper",
+                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
+                "Point": {"coordinates": "-75.75143482097253,45.38629570936057,0"}
+            }
+        ]
+    },
+    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
+    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "xmlns": "http://www.opengis.net/kml/2.2",
+    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
+}}
