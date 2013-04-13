@@ -107,7 +107,7 @@ function load() {
 	//examines and extracts DBH of tree from KML file and extracts growthFactor, maxSpan and maxAge for that species from CSV file
 
 	//returns estimated span for individual tree
-	function estimateTreeSpan(estimatedSpan){
+	function estimateTreeSpan(){
 		var DBH = (KML.value);
 		var growthFactor = (CSV.value);
 		var maxSpan = (CSV.value);
@@ -118,7 +118,7 @@ function load() {
 	}
 
 	//returns estimated age for individual tree
-	function estimateTreeAge(estimatedAge){
+	function estimateTreeAge(){
 		var DBH = (KML value);
 		var growthFactor = (CSV value);
 		var estimatedAge= DBH * growthFactor;
@@ -154,8 +154,25 @@ function load() {
 		newCircle.setMap(map);
 	}
 */
+	
+	var goldStar = {
+			  path: 'M 125,5 155,90 245,90 175,145 200,230 125,180 50,230 75,145 5,90 95,90 z',
+			  fillColor: "yellow",
+			  fillOpacity: 0.8,
+			  scale: 1,
+			  strokeColor: "gold",
+			  strokeWeight: 14
+			};
+
+			var marker = new google.maps.Marker({
+			  position: new google.maps.LatLng(45.420353,-75.695982),
+			  icon: goldStar,
+			  map: map
+			});
+	
 
 } 
+
 
 function zoomIn() {
 	zoomLevel = map.getZoom();
