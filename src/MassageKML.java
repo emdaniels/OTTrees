@@ -92,6 +92,7 @@ public class MassageKML {
 									treeSpeciesWriter.write("<Document id=\"TreeInventory2011\">\n");*/
 									
 									treeSpeciesWriter.write("<name>" + speciesName + "</name>");
+									treeSpeciesWriter.write("<filename>" + speciesLine + "</filename>");
 									
 									for (int j = 0; j < labels.length; j++) {
 										treeSpeciesWriter.write("<" + labels[j] + ">" + currentTree[j] + "</" + labels[j] + ">");

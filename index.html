@@ -4,20 +4,20 @@
 <meta name="ttw" content="8bwgdwr" />
 <link rel="stylesheet" href="css/style.css" type="text/css">
 <script type="text/javascript" src="javascript/jquery-1.9.1.min.js"></script>
-<script type="text/javascript"
-	src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="javascript/data_load.js"></script>
 <script type="text/javascript">
 function toggle(type) {
-	var currentLayer = treeLayerArray[type];
+	//alert("in function");
 	if ($('#' + type).is(':checked')) {
-		toggleKML(currentLayer, map);
+		//alert("checked: " + type);
+		toggleDataOn(type);
 	} else {
-		toggleKML(currentLayer, null);
+		//alert("unchecked: " + type);
+		toggleDataOff(type);
 	} 
 }
-</script>
-<script>
+
 jQuery( document ).ready(function( $ ) {
  
 	if ( jQuery( '#accordion' )[0] ){
@@ -36,10 +36,8 @@ jQuery( document ).ready(function( $ ) {
 	}
 } );
 </script>
-
 </head>
-
-<body onload="load()">
+<body onload="initialize()">
 
 	<div class="main_content">
 		<div class="map_canvas_container" id="map_canvas"></div>
@@ -100,11 +98,9 @@ jQuery( document ).ready(function( $ ) {
 				</ul></li>
 			<li><h5>Individual Species</h5>
 				<ul id="treeList"></ul></li>
-				</li>
 		</ul>
 	</div>
-
-	<script type="text/javascript">
+<script type="text/javascript">
 var items = [];
 
 $.each(nameArray.sort(), function(i, item) {

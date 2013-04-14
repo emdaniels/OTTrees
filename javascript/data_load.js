@@ -9,28 +9,109 @@ var infowindow = new google.maps.InfoWindow({
 	size: new google.maps.Size(50,50)
 });
 var season = 0;
-
-
-
 var dummyValue = new Date().getTime();
-
+var nameArray = new Array('Amur_Corktree', 'Apple', 'Ash', 'Ash_Black', 'Ash_European', 'Ash_Green', 'Ash_White', 'Aspen_Columnar', 'Aspen_Largetooth', 'Aspen_Trembling', 'Basswood', 'Beech', 'Beech_American', 'Beech_Blue', 'Beech_European', 'Birch', 'Birch_Gray', 'Birch_Weeping', 'Birch_White', 'Birch_Yellow', 'Buckeye_Ohio', 'Butternut', 'Catalpa_northern', 'Cedar_Eastern_White', 'Cherry', 'Cherry_Black', 'Cherry_Choke', 'Cherry_Choke_Schubert', 'Cherry_Purple_Leaf', 'Coffeetree_Kentucky', 'Crabapple', 'Elm', 'Elm_American', 'Elm_Prospector', 'Elm_Rock', 'Elm_Siberian', 'Fir', 'Fir_Balsam', 'Fir_Colorado', 'Fir_Douglas', 'Ginkgo', 'Hackberry', 'Hawthorn', 'Hazel_Turkish', 'Hemlock', 'Hickory_Bitternut', 'Hickory_Shagbark', 'Horsechestnut_Common', 'Ironwood', 'Juniper', 'Katsura_Tree', 'Larch_Eastern', 'Larch_European', 'Lilac_Japanese', 'Linden_Littleleaf', 'Locust_Black', 'Locust_Honey', 'Magnolia', 'Maple', 'Maple_Amur', 'Maple_Black', 'Maple_Freeman', 'Maple_Manitoba', 'Maple_Norway', 'Maple_Red', 'Maple_Silver', 'Maple_Sugar', 'Mountain_Ash_Oakleaf', 'Mountain_Ash_Showy', 'Mulberry', 'Oak', 'Oak_Bur', 'Oak_English', 'Oak_Pin', 'Oak_Red', 'Oak_White', 'Olive_Russian', 'Pear', 'Pine', 'Pine_Austrian', 'Pine_Jack', 'Pine_Red', 'Pine_Scotch', 'Pine_White', 'Poplar', 'Poplar_Balsam', 'Poplar_Lombardy', 'Redbud_Eastern', 'Serviceberry', 'Spruce', 'Spruce_Black', 'Spruce_Colorado', 'Spruce_Norway', 'Spruce_Red', 'Spruce_White', 'Sycamore_American', 'Unknown', 'Walnut_Black', 'Willow', 'Willow_Black', 'Willow_Weeping', 'Yew_Canada');
 var treeLayerArray = new Array();
-var nameArray = new Array('Oak_Pin', 'Unknown', 'Mountain_Ash_Oakleaf', 'Pine_Jack', 'Buckeye_Ohio', 'Juniper', 'Crabapple', 'Birch', 'Hemlock', 'Oak_Bur', 'Fir_Douglas', 'Walnut_Black', 'Cherry_Choke_Schubert', 'Hackberry', 'Magnolia', 'Locust_Honey', 'Maple_Black', 'Apple', 'Willow_Weeping', 'Spruce', 'Aspen_Columnar', 'Yew_Canada', 'Sycamore_American', 'Hickory_Bitternut', 'Fir_Balsam', 'Poplar_Lombardy', 'Serviceberry', 'Beech_American', 'Maple_Sugar', 'Birch_White', 'Horsechestnut_Common', 'Mulberry', 'Aspen_Largetooth', 'Amur_Corktree', 'Cedar_Eastern_White', 'Maple_Amur', 'Maple_Norway', 'Birch_Gray', 'Hawthorn', 'Spruce_Colorado', 'Hickory_Shagbark', 'Pine_Red', 'Pine_White', 'Katsura_tree', 'Basswood', 'Spruce_Norway', 'Pine', 'Redbud_Eastern', 'Maple_Freeman', 'Ash', 'Catalpa_northern', 'Cherry_Choke', 'Beech_European', 'Cherry', 'Cherry_Black', 'Pine_Scotch', 'Oak_Red', 'Elm_Rock', 'Ash_European', 'Willow', 'Willow_Black', 'Oak', 'Ash_Black', 'Mountain_Ash_', 'Lilac_Japanese', 'Fir_Colorado', 'Linden_Littleleaf', 'Ash_Green', 'Larch_Eastern', 'Other', 'Maple', 'Elm_American', 'Beech_Blue', 'Maple_Silver', 'Mountain_Ash_Showy', 'Spruce_White', 'Poplar_Balsam', 'Elm', 'Olive_Russian', 'Oak_English', 'Elm_Prospector', 'Spruce_Black', 'Beech', 'Hazel_Turkish', 'Ash_White', 'Ginkgo', 'Maple_Red', 'Oak_White', 'See_Notes', 'Ironwod', 'Pear', 'Cherry_Purple_Leaf', 'Spruce_Red', 'Various', 'Elm_Siberian', 'Fir', 'Coffeetree_Kentucky', 'Pine_Austrian', 'Maple_Manitoba', 'Butternut', 'Birch_Yellow', 'Poplar', 'Larch_European', 'Locust_Black', 'Birch_Weeping', 'Aspen_Trembling');
+
+function initialize() { 
+	var myOptions = {
+			zoom: 12,
+			mapTypeId: google.maps.MapTypeId.ROADMAP, 
+			center: ottawa, 
+			disableDefaultUI: false
+	};
+
+	map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
+}
+
+function toggleDataOn(treeName) {
+	// Create a <script> tag and set the USGS URL as the source.
+	var script = document.createElement('script');
+	script.src = 'data/trees/json/' + treeName;
+	script.id = treeName + 'script';
+	document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function toggleDataOff(treeName) {
+	var script = document.getElementById(treeName + 'script');
+	document.getElementsByTagName('head')[0].removeChild(script);
+	
+	var markersArray = treeLayerArray[treeName];
+	
+	for (i in markersArray) {
+	      markersArray[i].setMap(null);
+	    }
+	
+	treeLayerArray[treeName] = null;
+}
+
+//Loop through the results array and place a marker for each
+//set of coordinates.
+window.tree_data = function(results) {
+	var markersArray = new Array();
+	
+	for (var i = 0; i < results.Placemark.length; i++) {
+		//alert(results.Placemark[i].description);
+		var coords = results.Placemark[i].Point.coordinates.split(',');
+		var latLng = new google.maps.LatLng(coords[1],coords[0]);
+		var marker = new google.maps.Marker({
+			position: latLng,
+			map: map,
+			icon: getCircle(5.1)
+		});
+		
+		markersArray.push(marker);
+	}
+	
+	treeLayerArray[results.filename] = markersArray;
+}
+
+function getCircle(magnitude) {
+	return {
+		path: google.maps.SymbolPath.CIRCLE,
+		fillColor: 'red',
+		fillOpacity: .2,
+		scale: Math.pow(2, magnitude) / Math.PI,
+		strokeColor: 'white',
+		strokeWeight: .5
+	};
+}
+
+function zoomIn() {
+	zoomLevel = map.getZoom();
+	zoomLevel++;
+	map.setZoom(zoomLevel);
+}
+
+function zoomOut() {
+	zoomLevel = map.getZoom();
+	zoomLevel--;
+	map.setZoom(zoomLevel);
+}
+
+function toTitleCase(str) {
+	return str.replace(/\w\S*/g, function(txt){
+		return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+	});
+}
+
+/* map loading function */
+/*
+var treeLayerArray = new Array();
 
 for (var i = 0; i < nameArray.length; i++) {
 	treeLayerArray[nameArray[i]] = new google.maps.KmlLayer('http://www.ottrees.com/data/trees/' + nameArray[i] + '.xml?dummy=' + dummyValue, {suppressInfoWindows: false, preserveViewport: true});
 }
 
-/* map loading function */
-function load() {
+ function load() {
 	var myOptions = {mapTypeId: google.maps.MapTypeId.ROADMAP, center: ottawa, disableDefaultUI: false};
 
-	/* instantiate the map */
+	 instantiate the map 
 	map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
 	geocoder = new google.maps.Geocoder();
 
-	/* geolocation section */
+	 geolocation section 
 	if(navigator.geolocation && useGeolocation) { // Try W3C Geolocation (Preferred)
 		browserSupportFlag = true;
 		navigator.geolocation.getCurrentPosition(
@@ -61,7 +142,7 @@ function load() {
 		handleNoGeolocation(browserSupportFlag);
 	}
 
-	/* default location assignment (if location not found) */
+	 default location assignment (if location not found) 
 	function handleNoGeolocation(errorFlag) {
 		if (errorFlag == true) {
 			initialLocation = ottawa;
@@ -73,7 +154,7 @@ function load() {
 		var marker = new google.maps.Marker({map: map, position: initialLocation});
 	}
 
-	/* default zoom level of map */
+	 default zoom level of map 
 	map.setZoom(zoomLevel);
 
 	//toggleKML(treeLayer, map);
@@ -102,7 +183,7 @@ function load() {
 		});
 	}
 
-/*
+
 	// Process for determining icon size and age of tree based on DBH and species
 	//examines and extracts DBH of tree from KML file and extracts growthFactor, maxSpan and maxAge for that species from CSV file
 
@@ -153,19 +234,19 @@ function load() {
 		});
 		newCircle.setMap(map);
 	}
-*/
+
 	//added for simple toggle
 	$("#accordion > li > div").click(function(){
-		 
+
 	    if(false == $(this).next().is(':visible')) {
 	        $('#accordion ul').slideUp(600);
 	    }
 	    $(this).next().slideToggle(600);
 	});
-	 
+
 	$('#accordion ul:eq(0)').show();
 	//end simple toggle
-		
+
 	var goldStar = {
 			  path: 'M 125,5 155,90 245,90 175,145 200,230 125,180 50,230 75,145 5,90 95,90 z',
 			  fillColor: "yellow",
@@ -180,26 +261,9 @@ function load() {
 			  icon: goldStar,
 			  map: map
 			});
-	
+
 
 } 
-
-
-function zoomIn() {
-	zoomLevel = map.getZoom();
-	zoomLevel++;
-	map.setZoom(zoomLevel);
-}
-
-function zoomOut() {
-	zoomLevel = map.getZoom();
-	zoomLevel--;
-	map.setZoom(zoomLevel);
-}
-
-function toTitleCase(str) {
-	return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
-}
 
 function toggleKML(kmlLayer, map) {
 	if (kmlLayer.getMap() == null && map != null) {
@@ -207,4 +271,4 @@ function toggleKML(kmlLayer, map) {
 	} else if (kmlLayer.getMap() != null && map == null) {
 		kmlLayer.setMap(null);
 	}
-}
+}*/
