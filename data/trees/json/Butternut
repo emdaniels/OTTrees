@@ -1,151 +1,105 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": [
-            {
-                "id": "ID_02280",
-                "description": "<p>20 BITTERN CRT<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66587397698915,45.44885662704081,0"}
-            },
-            {
-                "id": "ID_02357",
-                "description": "<p>149 MANOR AVE<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68003919365634,45.44668770277605,0"}
-            },
-            {
-                "id": "ID_03203",
-                "description": "<p>44 LOTTA AVE<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.74227268603886,45.35582769463528,0"}
-            },
-            {
-                "id": "ID_04028",
-                "description": "<p>1680 ABBEY RD<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66127369348851,45.40577957382985,0"}
-            },
-            {
-                "id": "ID_06183",
-                "description": "<p>488 ACACIA AVE<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67777071392179,45.45232998992186,0"}
-            },
-            {
-                "id": "ID_06386",
-                "description": "<p>216 MANOR AVE<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68022165146107,45.44807945831988,0"}
-            },
-            {
-                "id": "ID_07294",
-                "description": "<p>45 COTE DE NEIGES RD<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.74270027052724,45.3552186802426,0"}
-            },
-            {
-                "id": "ID_010478",
-                "description": "<p>216 MANOR AVE<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68018529113846,45.4480752883851,0"}
-            },
-            {
-                "id": "ID_010491",
-                "description": "<p>510 MARIPOSA AVE<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6728855982532,45.4491507751387,0"}
-            },
-            {
-                "id": "ID_011333",
-                "description": "<p>15 CORDOVA ST<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.74823869244692,45.35512917937405,0"}
-            },
-            {
-                "id": "ID_012621",
-                "description": "<p>2188 EMARD CRES<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.59341152977548,45.45483281223624,0"}
-            },
-            {
-                "id": "ID_014282",
-                "description": "<p>5768 ROCKDALE RD<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.35218550756561,45.35388936854982,0"}
-            },
-            {
-                "id": "ID_014586",
-                "description": "<p>216 MANOR AVE<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68015589904105,45.44807238235745,0"}
-            },
-            {
-                "id": "ID_016312",
-                "description": "<p>765 VINETTE CRES<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.51648012753765,45.48712206089152,0"}
-            },
-            {
-                "id": "ID_018632",
-                "description": "<p>127 STANLEY AVE<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6894361433416,45.44031101598362,0"}
-            },
-            {
-                "id": "ID_021010",
-                "description": "<p>2140 FILLMORE CRES<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60012518216794,45.46313854796432,0"}
-            },
-            {
-                "id": "ID_022605",
-                "description": "<p>11 LAMBTON AVE<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67343842012555,45.44475326384406,0"}
-            },
-            {
-                "id": "ID_026578",
-                "description": "<p>389 ROXBOROUGH AVE<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67449833883423,45.44818414927418,0"}
-            },
-            {
-                "id": "ID_026801",
-                "description": "<p>90 PARK RD<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68292973912254,45.44867016780706,0"}
-            },
-            {
-                "id": "ID_031766",
-                "description": "<p>11 MALCOLM PL<\/p>",
-                "name": "Butternut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.74165978631599,45.34519764984992,0"}
-            }
-        ]
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "name": "Butternut",
+    "Placemark": [
+        {
+            "id": "ID_02280",
+            "description": "20 BITTERN CRT",
+            "Point": {"coordinates": "-75.66587397698915,45.44885662704081,0"}
+        },
+        {
+            "id": "ID_02357",
+            "description": "149 MANOR AVE",
+            "Point": {"coordinates": "-75.68003919365634,45.44668770277605,0"}
+        },
+        {
+            "id": "ID_03203",
+            "description": "44 LOTTA AVE",
+            "Point": {"coordinates": "-75.74227268603886,45.35582769463528,0"}
+        },
+        {
+            "id": "ID_04028",
+            "description": "1680 ABBEY RD",
+            "Point": {"coordinates": "-75.66127369348851,45.40577957382985,0"}
+        },
+        {
+            "id": "ID_06183",
+            "description": "488 ACACIA AVE",
+            "Point": {"coordinates": "-75.67777071392179,45.45232998992186,0"}
+        },
+        {
+            "id": "ID_06386",
+            "description": "216 MANOR AVE",
+            "Point": {"coordinates": "-75.68022165146107,45.44807945831988,0"}
+        },
+        {
+            "id": "ID_07294",
+            "description": "45 COTE DE NEIGES RD",
+            "Point": {"coordinates": "-75.74270027052724,45.3552186802426,0"}
+        },
+        {
+            "id": "ID_010478",
+            "description": "216 MANOR AVE",
+            "Point": {"coordinates": "-75.68018529113846,45.4480752883851,0"}
+        },
+        {
+            "id": "ID_010491",
+            "description": "510 MARIPOSA AVE",
+            "Point": {"coordinates": "-75.6728855982532,45.4491507751387,0"}
+        },
+        {
+            "id": "ID_011333",
+            "description": "15 CORDOVA ST",
+            "Point": {"coordinates": "-75.74823869244692,45.35512917937405,0"}
+        },
+        {
+            "id": "ID_012621",
+            "description": "2188 EMARD CRES",
+            "Point": {"coordinates": "-75.59341152977548,45.45483281223624,0"}
+        },
+        {
+            "id": "ID_014282",
+            "description": "5768 ROCKDALE RD",
+            "Point": {"coordinates": "-75.35218550756561,45.35388936854982,0"}
+        },
+        {
+            "id": "ID_014586",
+            "description": "216 MANOR AVE",
+            "Point": {"coordinates": "-75.68015589904105,45.44807238235745,0"}
+        },
+        {
+            "id": "ID_016312",
+            "description": "765 VINETTE CRES",
+            "Point": {"coordinates": "-75.51648012753765,45.48712206089152,0"}
+        },
+        {
+            "id": "ID_018632",
+            "description": "127 STANLEY AVE",
+            "Point": {"coordinates": "-75.6894361433416,45.44031101598362,0"}
+        },
+        {
+            "id": "ID_021010",
+            "description": "2140 FILLMORE CRES",
+            "Point": {"coordinates": "-75.60012518216794,45.46313854796432,0"}
+        },
+        {
+            "id": "ID_022605",
+            "description": "11 LAMBTON AVE",
+            "Point": {"coordinates": "-75.67343842012555,45.44475326384406,0"}
+        },
+        {
+            "id": "ID_026578",
+            "description": "389 ROXBOROUGH AVE",
+            "Point": {"coordinates": "-75.67449833883423,45.44818414927418,0"}
+        },
+        {
+            "id": "ID_026801",
+            "description": "90 PARK RD",
+            "Point": {"coordinates": "-75.68292973912254,45.44867016780706,0"}
+        },
+        {
+            "id": "ID_031766",
+            "description": "11 MALCOLM PL",
+            "Point": {"coordinates": "-75.74165978631599,45.34519764984992,0"}
+        }
+    ]
+});

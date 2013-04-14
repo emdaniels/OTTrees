@@ -1,228 +1,160 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": [
-            {
-                "id": "ID_00342",
-                "description": "<p>42 DUNHAM ST<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60764691559464,45.43831310829566,0"}
-            },
-            {
-                "id": "ID_00446",
-                "description": "<p>639 CLANCY ST<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60598208684304,45.45362125826031,0"}
-            },
-            {
-                "id": "ID_00904",
-                "description": "<p>399 PLUM TREE CRES<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.64747812386105,45.44901010347889,0"}
-            },
-            {
-                "id": "ID_00917",
-                "description": "<p>2029 KINGS GROVE CRES<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60473862849153,45.46003454276762,0"}
-            },
-            {
-                "id": "ID_01681",
-                "description": "<p>170 GRANVILLE ST<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.65697561121952,45.44217242511351,0"}
-            },
-            {
-                "id": "ID_01959",
-                "description": "<p>23 CHANONHOUSE DR<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.82501186783286,45.19287973931371,0"}
-            },
-            {
-                "id": "ID_02468",
-                "description": "<p>174 RUSSELL AVE<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67574392103566,45.42286354997174,0"}
-            },
-            {
-                "id": "ID_03090",
-                "description": "<p>61 SULLIVAN AVE<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.74620277287478,45.33983334860067,0"}
-            },
-            {
-                "id": "ID_03180",
-                "description": "<p>105 STARWOOD RD<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.74906700763202,45.35496988519006,0"}
-            },
-            {
-                "id": "ID_05017",
-                "description": "<p>1972 OAKDEAN CRES<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6074132463489,45.45646969254894,0"}
-            },
-            {
-                "id": "ID_07101",
-                "description": "<p>2 SPRING GARDEN AVE<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.73480134083238,45.34424398489588,0"}
-            },
-            {
-                "id": "ID_07243",
-                "description": "<p>57 WITHROW AVE<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.74183736517092,45.35309102573905,0"}
-            },
-            {
-                "id": "ID_09384",
-                "description": "<p>13 KAYMAR DR<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6115470604293,45.45905117100629,0"}
-            },
-            {
-                "id": "ID_011297",
-                "description": "<p>84 ST. CLAIRE AVE<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.74616243221509,45.35521030354247,0"}
-            },
-            {
-                "id": "ID_013578",
-                "description": "<p>21 ROBIN CRES<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61425678401736,45.45210430831951,0"}
-            },
-            {
-                "id": "ID_014406",
-                "description": "<p>470 OAKHILL RD<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67132512019468,45.44504348370398,0"}
-            },
-            {
-                "id": "ID_014617",
-                "description": "<p>241 MANOR AVE<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68089088882272,45.44863885163351,0"}
-            },
-            {
-                "id": "ID_016837",
-                "description": "<p>1966 NASKAPI DR<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60181519491481,45.44912776613664,0"}
-            },
-            {
-                "id": "ID_016838",
-                "description": "<p>1966 NASKAPI DR<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60169601936092,45.44911106887179,0"}
-            },
-            {
-                "id": "ID_019048",
-                "description": "<p>327 WILBROD ST<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6800399612422,45.42793243928045,0"}
-            },
-            {
-                "id": "ID_019049",
-                "description": "<p>329 WILBROD ST<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67996746932064,45.42792112236796,0"}
-            },
-            {
-                "id": "ID_019549",
-                "description": "<p>4 PERRY ST<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.73889890638233,45.34866658438052,0"}
-            },
-            {
-                "id": "ID_019594",
-                "description": "<p>15 WITHROW AVE<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.73821842382962,45.35463067754996,0"}
-            },
-            {
-                "id": "ID_020937",
-                "description": "<p>361 BLAIR RD<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.62191031042947,45.45908212146752,0"}
-            },
-            {
-                "id": "ID_021988",
-                "description": "<p>22 WICK CRES<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61060602311015,45.45163303314901,0"}
-            },
-            {
-                "id": "ID_022498",
-                "description": "<p>30 MOORE ST<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.83709775279803,45.20173706572819,0"}
-            },
-            {
-                "id": "ID_022869",
-                "description": "<p>241 MANOR AVE<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68102070151332,45.44868858512157,0"}
-            },
-            {
-                "id": "ID_027621",
-                "description": "<p>53 NORICE ST<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.73888716760564,45.3458869788099,0"}
-            },
-            {
-                "id": "ID_029226",
-                "description": "<p>1945 MARQUIS AVE<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60331597318486,45.44701608347268,0"}
-            },
-            {
-                "id": "ID_031035",
-                "description": "<p>241 MANOR AVE<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68104903711411,45.44867944961807,0"}
-            },
-            {
-                "id": "ID_037279",
-                "description": "<p>24 CAMBIOR CRES<\/p>",
-                "name": "Common Horsechestnut",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.92932848270306,45.31614519699217,0"}
-            }
-        ]
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "name": "Common Horsechestnut",
+    "Placemark": [
+        {
+            "id": "ID_00342",
+            "description": "42 DUNHAM ST",
+            "Point": {"coordinates": "-75.60764691559464,45.43831310829566,0"}
+        },
+        {
+            "id": "ID_00446",
+            "description": "639 CLANCY ST",
+            "Point": {"coordinates": "-75.60598208684304,45.45362125826031,0"}
+        },
+        {
+            "id": "ID_00904",
+            "description": "399 PLUM TREE CRES",
+            "Point": {"coordinates": "-75.64747812386105,45.44901010347889,0"}
+        },
+        {
+            "id": "ID_00917",
+            "description": "2029 KINGS GROVE CRES",
+            "Point": {"coordinates": "-75.60473862849153,45.46003454276762,0"}
+        },
+        {
+            "id": "ID_01681",
+            "description": "170 GRANVILLE ST",
+            "Point": {"coordinates": "-75.65697561121952,45.44217242511351,0"}
+        },
+        {
+            "id": "ID_01959",
+            "description": "23 CHANONHOUSE DR",
+            "Point": {"coordinates": "-75.82501186783286,45.19287973931371,0"}
+        },
+        {
+            "id": "ID_02468",
+            "description": "174 RUSSELL AVE",
+            "Point": {"coordinates": "-75.67574392103566,45.42286354997174,0"}
+        },
+        {
+            "id": "ID_03090",
+            "description": "61 SULLIVAN AVE",
+            "Point": {"coordinates": "-75.74620277287478,45.33983334860067,0"}
+        },
+        {
+            "id": "ID_03180",
+            "description": "105 STARWOOD RD",
+            "Point": {"coordinates": "-75.74906700763202,45.35496988519006,0"}
+        },
+        {
+            "id": "ID_05017",
+            "description": "1972 OAKDEAN CRES",
+            "Point": {"coordinates": "-75.6074132463489,45.45646969254894,0"}
+        },
+        {
+            "id": "ID_07101",
+            "description": "2 SPRING GARDEN AVE",
+            "Point": {"coordinates": "-75.73480134083238,45.34424398489588,0"}
+        },
+        {
+            "id": "ID_07243",
+            "description": "57 WITHROW AVE",
+            "Point": {"coordinates": "-75.74183736517092,45.35309102573905,0"}
+        },
+        {
+            "id": "ID_09384",
+            "description": "13 KAYMAR DR",
+            "Point": {"coordinates": "-75.6115470604293,45.45905117100629,0"}
+        },
+        {
+            "id": "ID_011297",
+            "description": "84 ST. CLAIRE AVE",
+            "Point": {"coordinates": "-75.74616243221509,45.35521030354247,0"}
+        },
+        {
+            "id": "ID_013578",
+            "description": "21 ROBIN CRES",
+            "Point": {"coordinates": "-75.61425678401736,45.45210430831951,0"}
+        },
+        {
+            "id": "ID_014406",
+            "description": "470 OAKHILL RD",
+            "Point": {"coordinates": "-75.67132512019468,45.44504348370398,0"}
+        },
+        {
+            "id": "ID_014617",
+            "description": "241 MANOR AVE",
+            "Point": {"coordinates": "-75.68089088882272,45.44863885163351,0"}
+        },
+        {
+            "id": "ID_016837",
+            "description": "1966 NASKAPI DR",
+            "Point": {"coordinates": "-75.60181519491481,45.44912776613664,0"}
+        },
+        {
+            "id": "ID_016838",
+            "description": "1966 NASKAPI DR",
+            "Point": {"coordinates": "-75.60169601936092,45.44911106887179,0"}
+        },
+        {
+            "id": "ID_019048",
+            "description": "327 WILBROD ST",
+            "Point": {"coordinates": "-75.6800399612422,45.42793243928045,0"}
+        },
+        {
+            "id": "ID_019049",
+            "description": "329 WILBROD ST",
+            "Point": {"coordinates": "-75.67996746932064,45.42792112236796,0"}
+        },
+        {
+            "id": "ID_019549",
+            "description": "4 PERRY ST",
+            "Point": {"coordinates": "-75.73889890638233,45.34866658438052,0"}
+        },
+        {
+            "id": "ID_019594",
+            "description": "15 WITHROW AVE",
+            "Point": {"coordinates": "-75.73821842382962,45.35463067754996,0"}
+        },
+        {
+            "id": "ID_020937",
+            "description": "361 BLAIR RD",
+            "Point": {"coordinates": "-75.62191031042947,45.45908212146752,0"}
+        },
+        {
+            "id": "ID_021988",
+            "description": "22 WICK CRES",
+            "Point": {"coordinates": "-75.61060602311015,45.45163303314901,0"}
+        },
+        {
+            "id": "ID_022498",
+            "description": "30 MOORE ST",
+            "Point": {"coordinates": "-75.83709775279803,45.20173706572819,0"}
+        },
+        {
+            "id": "ID_022869",
+            "description": "241 MANOR AVE",
+            "Point": {"coordinates": "-75.68102070151332,45.44868858512157,0"}
+        },
+        {
+            "id": "ID_027621",
+            "description": "53 NORICE ST",
+            "Point": {"coordinates": "-75.73888716760564,45.3458869788099,0"}
+        },
+        {
+            "id": "ID_029226",
+            "description": "1945 MARQUIS AVE",
+            "Point": {"coordinates": "-75.60331597318486,45.44701608347268,0"}
+        },
+        {
+            "id": "ID_031035",
+            "description": "241 MANOR AVE",
+            "Point": {"coordinates": "-75.68104903711411,45.44867944961807,0"}
+        },
+        {
+            "id": "ID_037279",
+            "description": "24 CAMBIOR CRES",
+            "Point": {"coordinates": "-75.92932848270306,45.31614519699217,0"}
+        }
+    ]
+});

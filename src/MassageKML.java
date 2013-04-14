@@ -10,17 +10,39 @@ import java.util.Map;
 
 public class MassageKML { 
 
-	public static void massageData(String inputFile, String outputDir) {
+	public static void massageData(String inputFile1, String inputFile2, String outputDir) {
 		FileReader file1 = null;
+		FileReader csvFile = null;
 		BufferedReader reader = null;
 
 		Map<String, BufferedWriter> treeNames = new HashMap<String, BufferedWriter>();
+		Map<String, String[]> treeStats = new HashMap<String, String[]>();
+		String[] labels = null;
+		boolean firstLine = true;
 		
 		String line = "";
 		String speciesName = "";
 		
 		try {
-			file1 = new FileReader(inputFile);
+			csvFile = new FileReader(inputFile2);
+			reader = new BufferedReader(csvFile);
+			
+			while ((line = reader.readLine()) != null) {
+				String[] currentLine = line.split(",");
+				
+				if (firstLine) {
+					firstLine = false;
+					labels = currentLine;
+				} else {
+					treeStats.put(currentLine[0], currentLine);
+					//System.out.println(currentLine[0]);
+				}
+			}
+			
+			csvFile.close();
+			reader.close();
+			
+			file1 = new FileReader(inputFile1);
 			reader = new BufferedReader(file1);
 			
 			while ((line = reader.readLine()) != null) {
@@ -32,22 +54,12 @@ public class MassageKML {
 						
 						if (line.contains("<td>")) {
 							String speciesLine = line.replaceAll("<td>", "").replaceAll("</td>", "").replaceAll(" Species", "").replaceAll("( )+", "_");
+							
+							speciesLine = speciesLine.replaceAll("Ironwod", "Ironwood").replaceAll("Katsura_tree", "Katsura_Tree");
+							
 							speciesFound = true;
 
 							if (!"".equals(speciesLine) && !treeNames.containsKey(speciesLine)) {
-								FileWriter treeSpeciesFile = new FileWriter(outputDir + speciesLine + ".kml");
-								BufferedWriter treeSpeciesWriter = new BufferedWriter(treeSpeciesFile);
-								
-								/*treeSpeciesWriter.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
-								treeSpeciesWriter.write("<kml xmlns=\"http://www.opengis.net/kml/2.2\" "
-										+ "xmlns:gx=\"http://www.google.com/kml/ext/2.2\" "
-										+ "xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" "
-										+ "xsi:schemaLocation=\"http://www.opengis.net/kml/2.2 "
-										+ "http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd "
-										+ "http://www.google.com/kml/ext/2.2 "
-										+ "http://code.google.com/apis/kml/schema/kml22gx.xsd\">\n");
-								treeSpeciesWriter.write("<Document id=\"TreeInventory2011\">\n");*/
-								
 								String[] speciesArray = speciesLine.split("_");
 								
 								for (int j = speciesArray.length - 1; j >= 0; j--) {
@@ -58,11 +70,41 @@ public class MassageKML {
 									}
 								}
 								
-								treeSpeciesWriter.write("<name>" + speciesName + "</name>");
+								String backwardSpeciesName = speciesLine.replaceAll("_", " ");
+								
+								//System.out.print(speciesName + " -> ");
+								
+								String[] currentTree = treeStats.get(backwardSpeciesName);
+								
+								if (currentTree != null) {
+									//System.out.println("found!");
+									FileWriter treeSpeciesFile = new FileWriter(outputDir + speciesLine + ".kml");
+									BufferedWriter treeSpeciesWriter = new BufferedWriter(treeSpeciesFile);
+									
+									/*treeSpeciesWriter.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
+									treeSpeciesWriter.write("<kml xmlns=\"http://www.opengis.net/kml/2.2\" "
+											+ "xmlns:gx=\"http://www.google.com/kml/ext/2.2\" "
+											+ "xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" "
+											+ "xsi:schemaLocation=\"http://www.opengis.net/kml/2.2 "
+											+ "http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd "
+											+ "http://www.google.com/kml/ext/2.2 "
+											+ "http://code.google.com/apis/kml/schema/kml22gx.xsd\">\n");
+									treeSpeciesWriter.write("<Document id=\"TreeInventory2011\">\n");*/
+									
+									treeSpeciesWriter.write("<name>" + speciesName + "</name>");
+									treeSpeciesWriter.write("<filename>" + speciesLine + "</filename>");
+									
+									for (int j = 0; j < labels.length; j++) {
+										treeSpeciesWriter.write("<" + labels[j] + ">" + currentTree[j] + "</" + labels[j] + ">");
+									}
+									
+									treeNames.put(speciesLine, treeSpeciesWriter);
+								} else {
+									//System.out.print(backwardSpeciesName + " -> ");
+									//System.out.println("not found!");
+								}
 								
 								speciesName = "";
-								
-								treeNames.put(speciesLine, treeSpeciesWriter);
 							}
 						}
 					}
@@ -72,7 +114,7 @@ public class MassageKML {
 			reader.close();
 			file1.close();
 			
-			file1 = new FileReader(inputFile);
+			file1 = new FileReader(inputFile1);
 			reader = new BufferedReader(file1);
 
 			int i = 0;
@@ -171,11 +213,14 @@ public class MassageKML {
 			while (itr.hasNext()) {
 				String treeName = itr.next();
 				BufferedWriter treeSpeciesWriter = treeNames.get(treeName);
-				/*treeSpeciesWriter.write("</Document>");
-				treeSpeciesWriter.write("</kml>");*/
-				treeSpeciesWriter.close();
 				
-				//System.out.print("'" + treeName + "', ");
+				if (treeSpeciesWriter != null) {
+					/*treeSpeciesWriter.write("</Document>");
+					treeSpeciesWriter.write("</kml>");*/
+					treeSpeciesWriter.close();
+
+					//System.out.print("'" + treeName + "', ");
+				}
 			}
 
 		} catch (FileNotFoundException e) {
@@ -205,10 +250,11 @@ public class MassageKML {
 	}
 
 	public static void main(String[] args) {
-		String inputFile = "data/doc.kml";
+		String inputFile1 = "data/doc.kml";
+		String inputFile2 = "data/listOfSpecies.csv";
 		String outputDir = "data/trees/kml/";
 		
-		massageData(inputFile, outputDir);
+		massageData(inputFile1, inputFile2, outputDir);
 		
 		System.out.println("done");
 	}

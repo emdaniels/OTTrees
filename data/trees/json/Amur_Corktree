@@ -1,46 +1,30 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": [
-            {
-                "id": "ID_012581",
-                "description": "<p>1875 GREENACRE CRES<\/p>",
-                "name": "Corktree Amur",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.59999734129468,45.44256892532777,0"}
-            },
-            {
-                "id": "ID_031210",
-                "description": "<p>290 SANDRIDGE RD<\/p>",
-                "name": "Corktree Amur",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66667120452043,45.45532392674465,0"}
-            },
-            {
-                "id": "ID_033224",
-                "description": "<p>48 HARRINGTON CRT<\/p>",
-                "name": "Corktree Amur",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.92166246993155,45.32361471319079,0"}
-            },
-            {
-                "id": "ID_033225",
-                "description": "<p>59 HARRINGTON CRT<\/p>",
-                "name": "Corktree Amur",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.92151873018636,45.32355306303295,0"}
-            },
-            {
-                "id": "ID_034994",
-                "description": "<p>48 HARRINGTON CRT<\/p>",
-                "name": "Corktree Amur",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.92168053590383,45.32361651712457,0"}
-            }
-        ]
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "name": "Corktree Amur",
+    "Placemark": [
+        {
+            "id": "ID_012581",
+            "description": "1875 GREENACRE CRES",
+            "Point": {"coordinates": "-75.59999734129468,45.44256892532777,0"}
+        },
+        {
+            "id": "ID_031210",
+            "description": "290 SANDRIDGE RD",
+            "Point": {"coordinates": "-75.66667120452043,45.45532392674465,0"}
+        },
+        {
+            "id": "ID_033224",
+            "description": "48 HARRINGTON CRT",
+            "Point": {"coordinates": "-75.92166246993155,45.32361471319079,0"}
+        },
+        {
+            "id": "ID_033225",
+            "description": "59 HARRINGTON CRT",
+            "Point": {"coordinates": "-75.92151873018636,45.32355306303295,0"}
+        },
+        {
+            "id": "ID_034994",
+            "description": "48 HARRINGTON CRT",
+            "Point": {"coordinates": "-75.92168053590383,45.32361651712457,0"}
+        }
+    ]
+});

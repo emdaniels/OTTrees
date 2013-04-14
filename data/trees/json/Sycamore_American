@@ -1,16 +1,8 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": {
-            "id": "ID_019639",
-            "description": "<p>72 COTE DE NEIGES RD<\/p>",
-            "name": "American Sycamore",
-            "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-            "Point": {"coordinates": "-75.74510707999829,45.35403813444604,0"}
-        }
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "name": "American Sycamore",
+    "Placemark": {
+        "id": "ID_019639",
+        "description": "72 COTE DE NEIGES RD",
+        "Point": {"coordinates": "-75.74510707999829,45.35403813444604,0"}
+    }
+});

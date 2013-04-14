@@ -1,32 +1,20 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": [
-            {
-                "id": "ID_06562",
-                "description": "<p>48 RANGE RD<\/p>",
-                "name": "Lombardy Poplar",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67210382520797,45.42582297179541,0"}
-            },
-            {
-                "id": "ID_019745",
-                "description": "<p>1587 BOYER RD<\/p>",
-                "name": "Lombardy Poplar",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.52917892171055,45.46143428021646,0"}
-            },
-            {
-                "id": "ID_031369",
-                "description": "<p>48 BLACKBURN AVE<\/p>",
-                "name": "Lombardy Poplar",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67603584108615,45.4259674380049,0"}
-            }
-        ]
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "name": "Lombardy Poplar",
+    "Placemark": [
+        {
+            "id": "ID_06562",
+            "description": "48 RANGE RD",
+            "Point": {"coordinates": "-75.67210382520797,45.42582297179541,0"}
+        },
+        {
+            "id": "ID_019745",
+            "description": "1587 BOYER RD",
+            "Point": {"coordinates": "-75.52917892171055,45.46143428021646,0"}
+        },
+        {
+            "id": "ID_031369",
+            "description": "48 BLACKBURN AVE",
+            "Point": {"coordinates": "-75.67603584108615,45.4259674380049,0"}
+        }
+    ]
+});

@@ -1,32 +1,20 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": [
-            {
-                "id": "ID_00913",
-                "description": "<p>10 DAVIDSON CRES<\/p>",
-                "name": "Colorado Fir",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61243403307928,45.44883677742903,0"}
-            },
-            {
-                "id": "ID_027989",
-                "description": "<p>51 NEWCASTLE AVE<\/p>",
-                "name": "Colorado Fir",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.93971768640918,45.34701483847854,0"}
-            },
-            {
-                "id": "ID_034584",
-                "description": "<p>221 KNUDSON DR<\/p>",
-                "name": "Colorado Fir",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.91197172847031,45.32525055310458,0"}
-            }
-        ]
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "name": "Colorado Fir",
+    "Placemark": [
+        {
+            "id": "ID_00913",
+            "description": "10 DAVIDSON CRES",
+            "Point": {"coordinates": "-75.61243403307928,45.44883677742903,0"}
+        },
+        {
+            "id": "ID_027989",
+            "description": "51 NEWCASTLE AVE",
+            "Point": {"coordinates": "-75.93971768640918,45.34701483847854,0"}
+        },
+        {
+            "id": "ID_034584",
+            "description": "221 KNUDSON DR",
+            "Point": {"coordinates": "-75.91197172847031,45.32525055310458,0"}
+        }
+    ]
+});

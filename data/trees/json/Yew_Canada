@@ -1,137 +1,95 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": [
-            {
-                "id": "ID_04400",
-                "description": "<p>55 PLACEL RD<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66722294859846,45.45496027405564,0"}
-            },
-            {
-                "id": "ID_06272",
-                "description": "<p>38 DUFFERIN RD<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6828120683743,45.44022936087327,0"}
-            },
-            {
-                "id": "ID_06286",
-                "description": "<p>319 MACKAY ST<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68126996447229,45.44020344901153,0"}
-            },
-            {
-                "id": "ID_06440",
-                "description": "<p>151 MARIPOSA AVE<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68207670290822,45.44789768820093,0"}
-            },
-            {
-                "id": "ID_010708",
-                "description": "<p>198 COBOURG ST<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67711754463363,45.43114405896402,0"}
-            },
-            {
-                "id": "ID_011022",
-                "description": "<p>234 DALY AVE<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68184165151357,45.42863710206795,0"}
-            },
-            {
-                "id": "ID_014183",
-                "description": "<p>374 MACKAY ST<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67854285555586,45.43979696596856,0"}
-            },
-            {
-                "id": "ID_014867",
-                "description": "<p>365 FRIEL ST<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67982031185137,45.42716248940605,0"}
-            },
-            {
-                "id": "ID_016407",
-                "description": "<p>1705 ABBEY RD<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66144151393795,45.40507623124128,0"}
-            },
-            {
-                "id": "ID_018779",
-                "description": "<p> BERTRAND ST<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67980636061354,45.44122310049204,0"}
-            },
-            {
-                "id": "ID_018792",
-                "description": "<p>151 MARIPOSA AVE<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68235876627308,45.44815099706781,0"}
-            },
-            {
-                "id": "ID_022890",
-                "description": "<p>225 MINTO PL<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68258167947919,45.44783992155484,0"}
-            },
-            {
-                "id": "ID_022893",
-                "description": "<p>151 MARIPOSA AVE<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68214335567524,45.44791491534752,0"}
-            },
-            {
-                "id": "ID_023081",
-                "description": "<p>198 COBOURG ST<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67713468107328,45.43116837864111,0"}
-            },
-            {
-                "id": "ID_025210",
-                "description": "<p>95 LYTTLETON GDN<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66604264720782,45.45449398318096,0"}
-            },
-            {
-                "id": "ID_030375",
-                "description": "<p>29 CHARLEVOIX ST<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67512529221946,45.43829973023652,0"}
-            },
-            {
-                "id": "ID_035583",
-                "description": "<p>22 MACARA CRES<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.91879459481005,45.31337205505945,0"}
-            },
-            {
-                "id": "ID_036147",
-                "description": "<p>55 SHERRING CRES<\/p>",
-                "name": "Canada Yew",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.91784053165686,45.32008236115573,0"}
-            }
-        ]
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "name": "Canada Yew",
+    "Placemark": [
+        {
+            "id": "ID_04400",
+            "description": "55 PLACEL RD",
+            "Point": {"coordinates": "-75.66722294859846,45.45496027405564,0"}
+        },
+        {
+            "id": "ID_06272",
+            "description": "38 DUFFERIN RD",
+            "Point": {"coordinates": "-75.6828120683743,45.44022936087327,0"}
+        },
+        {
+            "id": "ID_06286",
+            "description": "319 MACKAY ST",
+            "Point": {"coordinates": "-75.68126996447229,45.44020344901153,0"}
+        },
+        {
+            "id": "ID_06440",
+            "description": "151 MARIPOSA AVE",
+            "Point": {"coordinates": "-75.68207670290822,45.44789768820093,0"}
+        },
+        {
+            "id": "ID_010708",
+            "description": "198 COBOURG ST",
+            "Point": {"coordinates": "-75.67711754463363,45.43114405896402,0"}
+        },
+        {
+            "id": "ID_011022",
+            "description": "234 DALY AVE",
+            "Point": {"coordinates": "-75.68184165151357,45.42863710206795,0"}
+        },
+        {
+            "id": "ID_014183",
+            "description": "374 MACKAY ST",
+            "Point": {"coordinates": "-75.67854285555586,45.43979696596856,0"}
+        },
+        {
+            "id": "ID_014867",
+            "description": "365 FRIEL ST",
+            "Point": {"coordinates": "-75.67982031185137,45.42716248940605,0"}
+        },
+        {
+            "id": "ID_016407",
+            "description": "1705 ABBEY RD",
+            "Point": {"coordinates": "-75.66144151393795,45.40507623124128,0"}
+        },
+        {
+            "id": "ID_018779",
+            "description": " BERTRAND ST",
+            "Point": {"coordinates": "-75.67980636061354,45.44122310049204,0"}
+        },
+        {
+            "id": "ID_018792",
+            "description": "151 MARIPOSA AVE",
+            "Point": {"coordinates": "-75.68235876627308,45.44815099706781,0"}
+        },
+        {
+            "id": "ID_022890",
+            "description": "225 MINTO PL",
+            "Point": {"coordinates": "-75.68258167947919,45.44783992155484,0"}
+        },
+        {
+            "id": "ID_022893",
+            "description": "151 MARIPOSA AVE",
+            "Point": {"coordinates": "-75.68214335567524,45.44791491534752,0"}
+        },
+        {
+            "id": "ID_023081",
+            "description": "198 COBOURG ST",
+            "Point": {"coordinates": "-75.67713468107328,45.43116837864111,0"}
+        },
+        {
+            "id": "ID_025210",
+            "description": "95 LYTTLETON GDN",
+            "Point": {"coordinates": "-75.66604264720782,45.45449398318096,0"}
+        },
+        {
+            "id": "ID_030375",
+            "description": "29 CHARLEVOIX ST",
+            "Point": {"coordinates": "-75.67512529221946,45.43829973023652,0"}
+        },
+        {
+            "id": "ID_035583",
+            "description": "22 MACARA CRES",
+            "Point": {"coordinates": "-75.91879459481005,45.31337205505945,0"}
+        },
+        {
+            "id": "ID_036147",
+            "description": "55 SHERRING CRES",
+            "Point": {"coordinates": "-75.91784053165686,45.32008236115573,0"}
+        }
+    ]
+});

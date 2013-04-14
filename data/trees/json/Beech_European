@@ -1,16 +1,8 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": {
-            "id": "ID_014155",
-            "description": "<p>88 MAITLAND ST<\/p>",
-            "name": "European Beech",
-            "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-            "Point": {"coordinates": "-75.83436087353272,45.18473039726874,0"}
-        }
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "name": "European Beech",
+    "Placemark": {
+        "id": "ID_014155",
+        "description": "88 MAITLAND ST",
+        "Point": {"coordinates": "-75.83436087353272,45.18473039726874,0"}
+    }
+});
