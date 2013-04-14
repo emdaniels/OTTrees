@@ -1,3 +1,40 @@
+#accordion {
+    list-style: none;
+    padding: 0 0 0 0;
+    width: 220px;
+}
+#accordion div {
+    display: block;
+    background-color: #F8F8F8;
+    font-weight: normal;
+    margin: 1px;
+    cursor: pointer;
+    padding: 5 5 5 7px;
+    list-style: circle;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#accordion ul {
+    list-style: none;
+    padding: 0 0 0 0;
+}
+#accordion ul{
+    display: none;
+}
+#accordion ul li {
+    font-weight: normal;
+    cursor: auto;
+    background-color: #fff;
+    padding: 0 0 0 7px;
+}
+#accordion a {
+    text-decoration: none;
+}
+#accordion a:hover {
+    text-decoration: underline;
+}
+
 /*added for collapsible menu*/
 #sidebar {
 	float: right;
