@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "green",
     "commonName": "Fir Douglas",
     "foodBearing": "no",
@@ -116,6 +117,89 @@ tree_data({
             "description": "705 EDISON AVE",
             "Point": {"coordinates": "-75.74859769291277,45.38183897723486,0"},
             "dbh": 17
+=======
+    "name": "Douglas Fir",
+    "Placemark": [
+        {
+            "id": "ID_00054",
+            "description": "598 DUFF CRES",
+            "Point": {"coordinates": "-75.6081096459304,45.45762373504545,0"}
+        },
+        {
+            "id": "ID_03013",
+            "description": "11 PARKSIDE CRES",
+            "Point": {"coordinates": "-75.73942964952319,45.34051404817564,0"}
+        },
+        {
+            "id": "ID_04174",
+            "description": "125 LANSDOWNE RD",
+            "Point": {"coordinates": "-75.66907298566481,45.44823482254432,0"}
+        },
+        {
+            "id": "ID_07107",
+            "description": "12 MEADOWLANDS DR",
+            "Point": {"coordinates": "-75.73547199771674,45.34990058470697,0"}
+        },
+        {
+            "id": "ID_08289",
+            "description": "600 DUFF CRES",
+            "Point": {"coordinates": "-75.60821219895306,45.45778389325029,0"}
+        },
+        {
+            "id": "ID_010779",
+            "description": "745 MANOR AVE",
+            "Point": {"coordinates": "-75.68425249637582,45.45484687368224,0"}
+        },
+        {
+            "id": "ID_012801",
+            "description": "175 ROTHWELL DR",
+            "Point": {"coordinates": "-75.60583247414978,45.44715790862427,0"}
+        },
+        {
+            "id": "ID_018004",
+            "description": "5 NICOL ST",
+            "Point": {"coordinates": "-75.6156321952209,45.44860576039632,0"}
+        },
+        {
+            "id": "ID_018686",
+            "description": "118 LISGAR RD",
+            "Point": {"coordinates": "-75.68243160013117,45.44570407343044,0"}
+        },
+        {
+            "id": "ID_020732",
+            "description": "597 MARIPOSA AVE",
+            "Point": {"coordinates": "-75.67021568005212,45.44969653892025,0"}
+        },
+        {
+            "id": "ID_020782",
+            "description": "5 NICOL ST",
+            "Point": {"coordinates": "-75.61576667505992,45.44862754588662,0"}
+        },
+        {
+            "id": "ID_024759",
+            "description": "125 LANSDOWNE RD",
+            "Point": {"coordinates": "-75.66914398741267,45.44822012613617,0"}
+        },
+        {
+            "id": "ID_026865",
+            "description": "597 MARIPOSA AVE",
+            "Point": {"coordinates": "-75.67023955345714,45.44971060158282,0"}
+        },
+        {
+            "id": "ID_027501",
+            "description": "174 WILBROD ST",
+            "Point": {"coordinates": "-75.68474782381419,45.42471378613762,0"}
+        },
+        {
+            "id": "ID_030956",
+            "description": "118 LISGAR RD",
+            "Point": {"coordinates": "-75.68241593556792,45.4456747511631,0"}
+        },
+        {
+            "id": "ID_036594",
+            "description": "705 EDISON AVE",
+            "Point": {"coordinates": "-75.74859769291277,45.38183897723486,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
         }
     ]
 });

@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "black",
     "commonName": "Elm Rock",
     "foodBearing": "no",
@@ -44,6 +45,29 @@ tree_data({
             "description": "1535 ALTA VISTA DR",
             "Point": {"coordinates": "-75.65448699465634,45.40998226828302,0"},
             "dbh": 33
+=======
+    "name": "Rock Elm",
+    "Placemark": [
+        {
+            "id": "ID_08013",
+            "description": "1125 TRIM RD",
+            "Point": {"coordinates": "-75.48116048999965,45.49799585745631,0"}
+        },
+        {
+            "id": "ID_09164",
+            "description": "228 CANTIN ST",
+            "Point": {"coordinates": "-75.65426764949274,45.4402914859724,0"}
+        },
+        {
+            "id": "ID_028678",
+            "description": "1535 ALTA VISTA DR",
+            "Point": {"coordinates": "-75.65440376024124,45.40992536950525,0"}
+        },
+        {
+            "id": "ID_028679",
+            "description": "1535 ALTA VISTA DR",
+            "Point": {"coordinates": "-75.65448699465634,45.40998226828302,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
         }
     ]
 });

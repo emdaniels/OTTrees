@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "black",
     "commonName": "Aspen Columnar",
     "foodBearing": "no",
@@ -25,5 +26,12 @@ tree_data({
         "description": "1307 MAXIME ST",
         "Point": {"coordinates": "-75.61084356970164,45.42837067084915,0"},
         "dbh": 32
+=======
+    "name": "Columnar Aspen",
+    "Placemark": {
+        "id": "ID_012943",
+        "description": "1307 MAXIME ST",
+        "Point": {"coordinates": "-75.61084356970164,45.42837067084915,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
     }
 });

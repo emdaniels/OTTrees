@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "green",
     "commonName": "Juniper",
     "foodBearing": "no",
@@ -134,6 +135,104 @@ tree_data({
             "description": "566 EDISON AVE",
             "Point": {"coordinates": "-75.75143482097253,45.38629570936057,0"},
             "dbh": 31
+=======
+    "name": "Juniper",
+    "Placemark": [
+        {
+            "id": "ID_00109",
+            "description": "1508 MAXIME ST",
+            "Point": {"coordinates": "-75.6073634561776,45.42134494296895,0"}
+        },
+        {
+            "id": "ID_00684",
+            "description": "1900-43 MARQUIS AVE",
+            "Point": {"coordinates": "-75.59948723913489,45.44725333003817,0"}
+        },
+        {
+            "id": "ID_01001",
+            "description": "1418 MICHAEL ST",
+            "Point": {"coordinates": "-75.62927378212758,45.41671223736387,0"}
+        },
+        {
+            "id": "ID_04279",
+            "description": "1418 MICHAEL ST",
+            "Point": {"coordinates": "-75.62916283686816,45.41653515881565,0"}
+        },
+        {
+            "id": "ID_05024",
+            "description": "290 COLTRIN PL",
+            "Point": {"coordinates": "-75.680691808265,45.45445035020637,0"}
+        },
+        {
+            "id": "ID_05661",
+            "description": "229 GREENSWAY AVE",
+            "Point": {"coordinates": "-75.66974401807549,45.43615046032324,0"}
+        },
+        {
+            "id": "ID_08381",
+            "description": "3 DAVIDSON DR",
+            "Point": {"coordinates": "-75.61587541654801,45.45038693711432,0"}
+        },
+        {
+            "id": "ID_015600",
+            "description": "6035 VALLEY FIELD CRES",
+            "Point": {"coordinates": "-75.5428163857431,45.45545358628364,0"}
+        },
+        {
+            "id": "ID_016825",
+            "description": "616 LA VERENDRYE DR",
+            "Point": {"coordinates": "-75.6060908103557,45.4556428039389,0"}
+        },
+        {
+            "id": "ID_019457",
+            "description": "35b GLENRIDGE RD",
+            "Point": {"coordinates": "-75.73543050959805,45.34567058068356,0"}
+        },
+        {
+            "id": "ID_020784",
+            "description": "3 DAVIDSON DR",
+            "Point": {"coordinates": "-75.6159126187637,45.45041262252665,0"}
+        },
+        {
+            "id": "ID_022243",
+            "description": "43 STE. CECILE ST",
+            "Point": {"coordinates": "-75.66933454897976,45.44209679067276,0"}
+        },
+        {
+            "id": "ID_024547",
+            "description": "509 BEVAN AVE",
+            "Point": {"coordinates": "-75.74516440669886,45.39023953098833,0"}
+        },
+        {
+            "id": "ID_027153",
+            "description": "202 CLOVERDALE RD",
+            "Point": {"coordinates": "-75.67305041563002,45.44929259394945,0"}
+        },
+        {
+            "id": "ID_027564",
+            "description": "7 PARKGLEN CRT",
+            "Point": {"coordinates": "-75.75443784767201,45.34715911858218,0"}
+        },
+        {
+            "id": "ID_028357",
+            "description": "6118 WILLOWBARK DR",
+            "Point": {"coordinates": "-75.53727332319517,45.44878553718922,0"}
+        },
+        {
+            "id": "ID_029135",
+            "description": "634 GAINES DR",
+            "Point": {"coordinates": "-75.60727083921378,45.45371930622175,0"}
+        },
+        {
+            "id": "ID_030835",
+            "description": "290 COLTRIN RD",
+            "Point": {"coordinates": "-75.68018320693589,45.45446490752543,0"}
+        },
+        {
+            "id": "ID_035384",
+            "description": "566 EDISON AVE",
+            "Point": {"coordinates": "-75.75143482097253,45.38629570936057,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
         }
     ]
 });

@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "black",
     "commonName": "Maple Black",
     "foodBearing": "no",
@@ -25,5 +26,12 @@ tree_data({
         "description": "301 BLAIR RD",
         "Point": {"coordinates": "-75.62307422991866,45.461155679744,0"},
         "dbh": 36
+=======
+    "name": "Black Maple",
+    "Placemark": {
+        "id": "ID_029700",
+        "description": "301 BLAIR RD",
+        "Point": {"coordinates": "-75.62307422991866,45.461155679744,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
     }
 });

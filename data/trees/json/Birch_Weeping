@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "black",
     "commonName": "Birch Weeping",
     "foodBearing": "no",
@@ -25,5 +26,12 @@ tree_data({
         "description": "742 LUDGATE CRT",
         "Point": {"coordinates": "-75.60453874521225,45.45067762705303,0"},
         "dbh": 50
+=======
+    "name": "Weeping Birch",
+    "Placemark": {
+        "id": "ID_021045",
+        "description": "742 LUDGATE CRT",
+        "Point": {"coordinates": "-75.60453874521225,45.45067762705303,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
     }
 });

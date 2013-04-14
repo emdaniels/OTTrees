@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "black",
     "commonName": "Larch European",
     "foodBearing": "no",
@@ -44,6 +45,29 @@ tree_data({
             "description": "21 DELONG DR",
             "Point": {"coordinates": "-75.60999033646186,45.45629372327315,0"},
             "dbh": 30
+=======
+    "name": "European Larch",
+    "Placemark": [
+        {
+            "id": "ID_021169",
+            "description": "4 GROUSE NEST",
+            "Point": {"coordinates": "-75.61661954685107,45.45545488868014,0"}
+        },
+        {
+            "id": "ID_024932",
+            "description": "1076 CLOVERLAWN CRT",
+            "Point": {"coordinates": "-75.60042671010474,45.43951328081811,0"}
+        },
+        {
+            "id": "ID_028976",
+            "description": "1076 CLOVERLAWN CRT",
+            "Point": {"coordinates": "-75.60045775634748,45.43950510539546,0"}
+        },
+        {
+            "id": "ID_030119",
+            "description": "21 DELONG DR",
+            "Point": {"coordinates": "-75.60999033646186,45.45629372327315,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
         }
     ]
 });

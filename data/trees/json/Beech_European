@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "brown",
     "commonName": "Beech European",
     "foodBearing": "no",
@@ -25,5 +26,12 @@ tree_data({
         "description": "88 MAITLAND ST",
         "Point": {"coordinates": "-75.83436087353272,45.18473039726874,0"},
         "dbh": 28
+=======
+    "name": "European Beech",
+    "Placemark": {
+        "id": "ID_014155",
+        "description": "88 MAITLAND ST",
+        "Point": {"coordinates": "-75.83436087353272,45.18473039726874,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
     }
 });

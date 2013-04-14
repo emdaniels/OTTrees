@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "green",
     "commonName": "Fir",
     "foodBearing": "no",
@@ -224,6 +225,179 @@ tree_data({
             "description": "171 LANARK AVE",
             "Point": {"coordinates": "-75.74998755744696,45.3996640328233,0"},
             "dbh": 10
+=======
+    "name": "Fir",
+    "Placemark": [
+        {
+            "id": "ID_00872",
+            "description": "1018 STITTSVILLE MAIN ST",
+            "Point": {"coordinates": "-75.93248685565754,45.2764923215054,0"}
+        },
+        {
+            "id": "ID_00874",
+            "description": "1018 STITTSVILLE MAIN ST",
+            "Point": {"coordinates": "-75.93330946164777,45.27653214923022,0"}
+        },
+        {
+            "id": "ID_00875",
+            "description": "1018 STITTSVILLE MAIN ST",
+            "Point": {"coordinates": "-75.93273564442148,45.2771545906965,0"}
+        },
+        {
+            "id": "ID_02648",
+            "description": "563 FAIRVIEW AVE",
+            "Point": {"coordinates": "-75.67158174026356,45.45029392926176,0"}
+        },
+        {
+            "id": "ID_02649",
+            "description": "570 FAIRVIEW AVE",
+            "Point": {"coordinates": "-75.67169455525742,45.45014662448695,0"}
+        },
+        {
+            "id": "ID_03826",
+            "description": "1881 MONTEREAU AVE",
+            "Point": {"coordinates": "-75.54067997002339,45.44123096335626,0"}
+        },
+        {
+            "id": "ID_09048",
+            "description": "1018 STITTSVILLE MAIN ST",
+            "Point": {"coordinates": "-75.93371125387584,45.27659606190199,0"}
+        },
+        {
+            "id": "ID_09053",
+            "description": "1018 STITTSVILLE MAIN ST",
+            "Point": {"coordinates": "-75.93352020795949,45.27655444355274,0"}
+        },
+        {
+            "id": "ID_09152",
+            "description": "1018 STITTSVILLE MAIN ST",
+            "Point": {"coordinates": "-75.93322965016333,45.27654739849836,0"}
+        },
+        {
+            "id": "ID_09153",
+            "description": "1018 STITTSVILLE MAIN ST",
+            "Point": {"coordinates": "-75.93275728965845,45.27710797557716,0"}
+        },
+        {
+            "id": "ID_010083",
+            "description": "11 REGAL CRES",
+            "Point": {"coordinates": "-75.83431220034764,45.20035255545638,0"}
+        },
+        {
+            "id": "ID_010566",
+            "description": "454 CLOVERDALE RD",
+            "Point": {"coordinates": "-75.67429620689747,45.45217643250941,0"}
+        },
+        {
+            "id": "ID_010776",
+            "description": "161 MARIPOSA AVE",
+            "Point": {"coordinates": "-75.68156645928889,45.44791940635389,0"}
+        },
+        {
+            "id": "ID_015588",
+            "description": "1865 HUNTER'S RUN DR",
+            "Point": {"coordinates": "-75.52952206099813,45.45485039671478,0"}
+        },
+        {
+            "id": "ID_015598",
+            "description": "1664 DES RAVINS PL",
+            "Point": {"coordinates": "-75.53810835032577,45.45253720421884,0"}
+        },
+        {
+            "id": "ID_017335",
+            "description": "1018 STITTSVILLE MAIN ST",
+            "Point": {"coordinates": "-75.93344425151415,45.27656923245571,0"}
+        },
+        {
+            "id": "ID_017407",
+            "description": "1018 STITTSVILLE MAIN ST",
+            "Point": {"coordinates": "-75.93355419136395,45.2765749466725,0"}
+        },
+        {
+            "id": "ID_017408",
+            "description": "1018 STITTSVILLE MAIN ST",
+            "Point": {"coordinates": "-75.93275828815965,45.27713657869496,0"}
+        },
+        {
+            "id": "ID_019086",
+            "description": "563 FAIRVIEW AVE",
+            "Point": {"coordinates": "-75.67185865383627,45.45022529801609,0"}
+        },
+        {
+            "id": "ID_020247",
+            "description": "6027 BELCASTLE CRT",
+            "Point": {"coordinates": "-75.54761718061273,45.45375674366669,0"}
+        },
+        {
+            "id": "ID_020256",
+            "description": "1600 FOREST RIDGE PL",
+            "Point": {"coordinates": "-75.54625534763157,45.45253461833853,0"}
+        },
+        {
+            "id": "ID_020316",
+            "description": "1881 MONTEREAU AVE",
+            "Point": {"coordinates": "-75.5407997306061,45.44118749117742,0"}
+        },
+        {
+            "id": "ID_020724",
+            "description": "125 LANSDOWNE RD",
+            "Point": {"coordinates": "-75.66893172596892,45.44820093847579,0"}
+        },
+        {
+            "id": "ID_021567",
+            "description": "1018 STITTSVILLE MAIN ST",
+            "Point": {"coordinates": "-75.93320098651539,45.27652270754798,0"}
+        },
+        {
+            "id": "ID_024282",
+            "description": "1607 FOREST RIDGE PL",
+            "Point": {"coordinates": "-75.54643323519757,45.45171068929285,0"}
+        },
+        {
+            "id": "ID_024667",
+            "description": "26 PORTADOWN CRES",
+            "Point": {"coordinates": "-75.9438151139415,45.35032200478275,0"}
+        },
+        {
+            "id": "ID_024763",
+            "description": "175 LANSDOWNE RD",
+            "Point": {"coordinates": "-75.6693705153868,45.44833003235208,0"}
+        },
+        {
+            "id": "ID_025587",
+            "description": "1018 STITTSVILLE MAIN ST",
+            "Point": {"coordinates": "-75.93358644320648,45.27655478465189,0"}
+        },
+        {
+            "id": "ID_029271",
+            "description": "5 TAUNTON PL",
+            "Point": {"coordinates": "-75.61350038271841,45.44937431916525,0"}
+        },
+        {
+            "id": "ID_029549",
+            "description": "1018 STITTSVILLE MAIN ST",
+            "Point": {"coordinates": "-75.93340825361869,45.27654624194211,0"}
+        },
+        {
+            "id": "ID_031701",
+            "description": "11 ELMBANK CRES",
+            "Point": {"coordinates": "-75.74997732207535,45.34883506560314,0"}
+        },
+        {
+            "id": "ID_031939",
+            "description": "1681 DES SAPINS GDN",
+            "Point": {"coordinates": "-75.53742962071894,45.45759816919387,0"}
+        },
+        {
+            "id": "ID_034142",
+            "description": "178 CLEARVIEW AVE",
+            "Point": {"coordinates": "-75.75024186568572,45.40011406416858,0"}
+        },
+        {
+            "id": "ID_034778",
+            "description": "171 LANARK AVE",
+            "Point": {"coordinates": "-75.74998755744696,45.3996640328233,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
         }
     ]
 });

@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "black",
     "commonName": "Willow Black",
     "foodBearing": "no",
@@ -44,6 +45,29 @@ tree_data({
             "description": "2029 KILBORN AVE",
             "Point": {"coordinates": "-75.63556160236631,45.38961585099742,0"},
             "dbh": 150
+=======
+    "name": "Black Willow",
+    "Placemark": [
+        {
+            "id": "ID_01000",
+            "description": "1128 CUMMINGS AVE",
+            "Point": {"coordinates": "-75.63392358633605,45.42843874117634,0"}
+        },
+        {
+            "id": "ID_05087",
+            "description": "2029 KILBORN AVE",
+            "Point": {"coordinates": "-75.63557626677493,45.3896444498231,0"}
+        },
+        {
+            "id": "ID_09585",
+            "description": "2029 KILBORN AVE",
+            "Point": {"coordinates": "-75.63556064044293,45.38966429049812,0"}
+        },
+        {
+            "id": "ID_021993",
+            "description": "2029 KILBORN AVE",
+            "Point": {"coordinates": "-75.63556160236631,45.38961585099742,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
         }
     ]
 });

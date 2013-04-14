@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "black",
     "commonName": "Ash Green",
     "foodBearing": "no",
@@ -170,6 +171,134 @@ tree_data({
             "description": "1189 HUNT CLUB RD",
             "Point": {"coordinates": "-75.65042351496612,45.35213981644378,0"},
             "dbh": 30
+=======
+    "name": "Green Ash",
+    "Placemark": [
+        {
+            "id": "ID_00049",
+            "description": "548 RIVERSHORE CRES",
+            "Point": {"coordinates": "-75.60683617413015,45.46274081942727,0"}
+        },
+        {
+            "id": "ID_00784",
+            "description": "1412 ALBORO CRES",
+            "Point": {"coordinates": "-75.62166684193929,45.43543895977501,0"}
+        },
+        {
+            "id": "ID_02771",
+            "description": "626 KING EDWARD AVE",
+            "Point": {"coordinates": "-75.68109468830477,45.42304046567973,0"}
+        },
+        {
+            "id": "ID_03691",
+            "description": "21 RIALTO WAY",
+            "Point": {"coordinates": "-75.63204377865975,45.36797177850265,0"}
+        },
+        {
+            "id": "ID_03692",
+            "description": "21 RIALTO WAY",
+            "Point": {"coordinates": "-75.6319777505241,45.36803241626821,0"}
+        },
+        {
+            "id": "ID_03693",
+            "description": "21 RIALTO WAY",
+            "Point": {"coordinates": "-75.63194986375173,45.36805506720716,0"}
+        },
+        {
+            "id": "ID_04329",
+            "description": "1336 MATHESON RD",
+            "Point": {"coordinates": "-75.62540852984529,45.4347500350439,0"}
+        },
+        {
+            "id": "ID_04459",
+            "description": "1900-10 MARQUIS AVE",
+            "Point": {"coordinates": "-75.59968860146211,45.44842058563901,0"}
+        },
+        {
+            "id": "ID_05641",
+            "description": "303 BLAIR RD",
+            "Point": {"coordinates": "-75.62294795104516,45.46092212561502,0"}
+        },
+        {
+            "id": "ID_07183",
+            "description": "109 NORICE ST",
+            "Point": {"coordinates": "-75.74525991866761,45.34343415111386,0"}
+        },
+        {
+            "id": "ID_011228",
+            "description": "7 PALSEN ST",
+            "Point": {"coordinates": "-75.73560653886473,45.34808395653777,0"}
+        },
+        {
+            "id": "ID_011455",
+            "description": "116 INVERARY DR",
+            "Point": {"coordinates": "-75.9263456205811,45.35188228985033,0"}
+        },
+        {
+            "id": "ID_012342",
+            "description": "548 RIVERSHORE CRES",
+            "Point": {"coordinates": "-75.60678809260428,45.46277503370231,0"}
+        },
+        {
+            "id": "ID_012620",
+            "description": "1639 SAXONY CRES",
+            "Point": {"coordinates": "-75.60411806496234,45.4180807310457,0"}
+        },
+        {
+            "id": "ID_016002",
+            "description": "52 GREENBORO CRES",
+            "Point": {"coordinates": "-75.64622699027682,45.36091571229518,0"}
+        },
+        {
+            "id": "ID_016839",
+            "description": "1900-16 MARQUIS AVE",
+            "Point": {"coordinates": "-75.59921675793268,45.44797234506689,0"}
+        },
+        {
+            "id": "ID_020975",
+            "description": "1900-16 MARQUIS AVE",
+            "Point": {"coordinates": "-75.59919449624736,45.44806868146171,0"}
+        },
+        {
+            "id": "ID_023280",
+            "description": "626 KING EDWARD AVE",
+            "Point": {"coordinates": "-75.68106281944468,45.42301213735275,0"}
+        },
+        {
+            "id": "ID_025001",
+            "description": "643 CLANCY ST",
+            "Point": {"coordinates": "-75.60594845610787,45.45301330305794,0"}
+        },
+        {
+            "id": "ID_028236",
+            "description": "21 RIALTO WAY",
+            "Point": {"coordinates": "-75.63201029486591,45.36801766014474,0"}
+        },
+        {
+            "id": "ID_028499",
+            "description": "276 TULIP CRES",
+            "Point": {"coordinates": "-75.50661951807902,45.48541555833983,0"}
+        },
+        {
+            "id": "ID_028543",
+            "description": "111 LARCH CRES",
+            "Point": {"coordinates": "-75.52091465611723,45.48748688286219,0"}
+        },
+        {
+            "id": "ID_031419",
+            "description": "630 KING EDWARD AVE",
+            "Point": {"coordinates": "-75.68100645517102,45.42290111919571,0"}
+        },
+        {
+            "id": "ID_032329",
+            "description": "129 CELTIC CRT",
+            "Point": {"coordinates": "-75.64569614021116,45.36258768022344,0"}
+        },
+        {
+            "id": "ID_032353",
+            "description": "1189 HUNT CLUB RD",
+            "Point": {"coordinates": "-75.65042351496612,45.35213981644378,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
         }
     ]
 });

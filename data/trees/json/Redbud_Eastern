@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "black",
     "commonName": "Redbud Eastern",
     "foodBearing": "no",
@@ -25,5 +26,12 @@ tree_data({
         "description": "95 DOSSETTER WAY",
         "Point": {"coordinates": "-75.61031577399571,45.36902444264614,0"},
         "dbh": 5
+=======
+    "name": "Eastern Redbud",
+    "Placemark": {
+        "id": "ID_035131",
+        "description": "95 DOSSETTER WAY",
+        "Point": {"coordinates": "-75.61031577399571,45.36902444264614,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
     }
 });

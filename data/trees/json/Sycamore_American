@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "black",
     "commonName": "Sycamore American",
     "foodBearing": "no",
@@ -25,5 +26,12 @@ tree_data({
         "description": "72 COTE DE NEIGES RD",
         "Point": {"coordinates": "-75.74510707999829,45.35403813444604,0"},
         "dbh": 76
+=======
+    "name": "American Sycamore",
+    "Placemark": {
+        "id": "ID_019639",
+        "description": "72 COTE DE NEIGES RD",
+        "Point": {"coordinates": "-75.74510707999829,45.35403813444604,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
     }
 });

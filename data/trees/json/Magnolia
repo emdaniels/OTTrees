@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "black",
     "commonName": "Magnolia",
     "foodBearing": "no",
@@ -194,6 +195,154 @@ tree_data({
             "description": "381 ROOSEVELT AVE",
             "Point": {"coordinates": "-75.75753835633535,45.39170799450749,0"},
             "dbh": 7
+=======
+    "name": "Magnolia",
+    "Placemark": [
+        {
+            "id": "ID_00480",
+            "description": "2012 GLENFERN AVE",
+            "Point": {"coordinates": "-75.60409210117417,45.45792165559197,0"}
+        },
+        {
+            "id": "ID_00637",
+            "description": "754 BEN ST",
+            "Point": {"coordinates": "-75.64693376459046,45.43511888390722,0"}
+        },
+        {
+            "id": "ID_01121",
+            "description": "103 GENEST ST",
+            "Point": {"coordinates": "-75.67231336102458,45.43937298658727,0"}
+        },
+        {
+            "id": "ID_03514",
+            "description": "16 BRENDA CRES",
+            "Point": {"coordinates": "-75.64830103575308,45.36117784926268,0"}
+        },
+        {
+            "id": "ID_06709",
+            "description": "202 CLOVERDALE RD",
+            "Point": {"coordinates": "-75.67325336748621,45.44926682820374,0"}
+        },
+        {
+            "id": "ID_07304",
+            "description": "68 STARWOOD RD",
+            "Point": {"coordinates": "-75.7452362651057,45.3563989602958,0"}
+        },
+        {
+            "id": "ID_07856",
+            "description": "1612 FOREST RIDGE PL",
+            "Point": {"coordinates": "-75.54613048187245,45.45120152875882,0"}
+        },
+        {
+            "id": "ID_08624",
+            "description": "129 MILLGREEN CRES",
+            "Point": {"coordinates": "-75.60380835589211,45.43974181905078,0"}
+        },
+        {
+            "id": "ID_010424",
+            "description": "749 HEMLOCK RD",
+            "Point": {"coordinates": "-75.66026217942397,45.44936231505228,0"}
+        },
+        {
+            "id": "ID_015385",
+            "description": "105 PALSEN ST",
+            "Point": {"coordinates": "-75.74576828314136,45.34419278112582,0"}
+        },
+        {
+            "id": "ID_015764",
+            "description": "1 NEWCASTLE AVE",
+            "Point": {"coordinates": "-75.93811282903309,45.34581093613313,0"}
+        },
+        {
+            "id": "ID_019123",
+            "description": "224 RUSSELL AVE",
+            "Point": {"coordinates": "-75.67458180808806,45.42150364427239,0"}
+        },
+        {
+            "id": "ID_019987",
+            "description": "1368 PEBBLE RD",
+            "Point": {"coordinates": "-75.64870372063601,45.3619797304266,0"}
+        },
+        {
+            "id": "ID_022608",
+            "description": "45 LAMBTON AVE",
+            "Point": {"coordinates": "-75.67379671848038,45.44646490547753,0"}
+        },
+        {
+            "id": "ID_022999",
+            "description": "208 GOULBURN AVE",
+            "Point": {"coordinates": "-75.67214241984988,45.42306304818028,0"}
+        },
+        {
+            "id": "ID_023015",
+            "description": "36 MARLBOROUGH AVE",
+            "Point": {"coordinates": "-75.67465196688379,45.42743224699535,0"}
+        },
+        {
+            "id": "ID_024550",
+            "description": "560 HIGHCROFT AVE",
+            "Point": {"coordinates": "-75.74965585324533,45.38702837627201,0"}
+        },
+        {
+            "id": "ID_027206",
+            "description": "173 RUSSELL AVE",
+            "Point": {"coordinates": "-75.6753394857431,45.42264264746437,0"}
+        },
+        {
+            "id": "ID_028743",
+            "description": "80 MACNABB PL",
+            "Point": {"coordinates": "-75.66338582031976,45.4495455777036,0"}
+        },
+        {
+            "id": "ID_030356",
+            "description": "244 DES PERES BLANCS AVE",
+            "Point": {"coordinates": "-75.66294745853809,45.44185713799689,0"}
+        },
+        {
+            "id": "ID_030606",
+            "description": "16 ORMSBY DR",
+            "Point": {"coordinates": "-75.82460234784661,45.19128183482795,0"}
+        },
+        {
+            "id": "ID_031372",
+            "description": "121 GOULBURN AVE",
+            "Point": {"coordinates": "-75.67379567272752,45.42527765882793,0"}
+        },
+        {
+            "id": "ID_032440",
+            "description": "1601 FOREST RIDGE PL",
+            "Point": {"coordinates": "-75.54650274790622,45.4525726321632,0"}
+        },
+        {
+            "id": "ID_032461",
+            "description": "1648 SANSONNET ST",
+            "Point": {"coordinates": "-75.54134466938146,45.44735662832625,0"}
+        },
+        {
+            "id": "ID_032702",
+            "description": "280 WESLEY AVE",
+            "Point": {"coordinates": "-75.75063668747769,45.39087542129687,0"}
+        },
+        {
+            "id": "ID_033004",
+            "description": "405 EDEN AVE",
+            "Point": {"coordinates": "-75.75208901787924,45.39228413188113,0"}
+        },
+        {
+            "id": "ID_033553",
+            "description": "418 LEIGHTON TER",
+            "Point": {"coordinates": "-75.74208057713176,45.39514014415866,0"}
+        },
+        {
+            "id": "ID_033659",
+            "description": "180 INSMILL CRES",
+            "Point": {"coordinates": "-75.92732401341463,45.31345479894659,0"}
+        },
+        {
+            "id": "ID_034171",
+            "description": "381 ROOSEVELT AVE",
+            "Point": {"coordinates": "-75.75753835633535,45.39170799450749,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
         }
     ]
 });

@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "green",
     "commonName": "Spruce Black",
     "foodBearing": "no",
@@ -50,6 +51,34 @@ tree_data({
             "description": "1219 KLONDIKE RD",
             "Point": {"coordinates": "-75.94106237264695,45.35005771892092,0"},
             "dbh": 8
+=======
+    "name": "Black Spruce",
+    "Placemark": [
+        {
+            "id": "ID_03424",
+            "description": "14 PEIKOFF CRES",
+            "Point": {"coordinates": "-75.94004348128367,45.34842366604777,0"}
+        },
+        {
+            "id": "ID_09474",
+            "description": "79 JARDIN PRIV",
+            "Point": {"coordinates": "-75.65241780879254,45.4522406271474,0"}
+        },
+        {
+            "id": "ID_012086",
+            "description": "753 HARLEQUIN CRES",
+            "Point": {"coordinates": "-75.50747220343206,45.4884541448854,0"}
+        },
+        {
+            "id": "ID_015709",
+            "description": "1184 KLONDIKE RD",
+            "Point": {"coordinates": "-75.93773562753803,45.35144573550208,0"}
+        },
+        {
+            "id": "ID_032041",
+            "description": "1219 KLONDIKE RD",
+            "Point": {"coordinates": "-75.94106237264695,45.35005771892092,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
         }
     ]
 });

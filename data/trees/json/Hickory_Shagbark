@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "black",
     "commonName": "Hickory Shagbark",
     "foodBearing": "yes",
@@ -56,6 +57,39 @@ tree_data({
             "description": "99 COBOURG ST",
             "Point": {"coordinates": "-75.67772933145309,45.43453405656658,0"},
             "dbh": 5
+=======
+    "name": "Shagbark Hickory",
+    "Placemark": [
+        {
+            "id": "ID_015071",
+            "description": "27 ST. ANDREW ST",
+            "Point": {"coordinates": "-75.69687802635325,45.43087271437018,0"}
+        },
+        {
+            "id": "ID_016055",
+            "description": "69 PIGEON TER",
+            "Point": {"coordinates": "-75.66493046395496,45.35193192571192,0"}
+        },
+        {
+            "id": "ID_020210",
+            "description": "99 COBOURG ST",
+            "Point": {"coordinates": "-75.67761561849913,45.43457143132447,0"}
+        },
+        {
+            "id": "ID_024233",
+            "description": "64 PIGEON TER",
+            "Point": {"coordinates": "-75.66484060207071,45.35170780442987,0"}
+        },
+        {
+            "id": "ID_032397",
+            "description": "707 FIELDING DR",
+            "Point": {"coordinates": "-75.67985857318473,45.36090428236417,0"}
+        },
+        {
+            "id": "ID_032405",
+            "description": "99 COBOURG ST",
+            "Point": {"coordinates": "-75.67772933145309,45.43453405656658,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
         }
     ]
 });

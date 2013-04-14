@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "black",
     "commonName": "Locust Black",
     "foodBearing": "no",
@@ -398,6 +399,324 @@ tree_data({
             "description": "507 MELBOURNE AVE",
             "Point": {"coordinates": "-75.75331595686389,45.38779666943749,0"},
             "dbh": 5
+=======
+    "name": "Black Locust",
+    "Placemark": [
+        {
+            "id": "ID_00016",
+            "description": "65 WHITEMARL DR",
+            "Point": {"coordinates": "-75.6649825929115,45.45102254835867,0"}
+        },
+        {
+            "id": "ID_01881",
+            "description": "73 FORTUNE ST",
+            "Point": {"coordinates": "-75.83730629626862,45.18485973589035,0"}
+        },
+        {
+            "id": "ID_02049",
+            "description": "488 ACACIA AVE",
+            "Point": {"coordinates": "-75.67719565810198,45.45244014896598,0"}
+        },
+        {
+            "id": "ID_02103",
+            "description": "641 ACACIA AVE",
+            "Point": {"coordinates": "-75.67885161406539,45.45370326198607,0"}
+        },
+        {
+            "id": "ID_02385",
+            "description": "580 MINTO PL",
+            "Point": {"coordinates": "-75.68358932972549,45.45303532513719,0"}
+        },
+        {
+            "id": "ID_04157",
+            "description": "65 WHITEMARL DR",
+            "Point": {"coordinates": "-75.66491929791914,45.45097360245244,0"}
+        },
+        {
+            "id": "ID_04522",
+            "description": "595 LA VERENDRYE DR",
+            "Point": {"coordinates": "-75.60595136971074,45.45768587469622,0"}
+        },
+        {
+            "id": "ID_05947",
+            "description": "40 KING ST",
+            "Point": {"coordinates": "-75.83072319532326,45.19394897939333,0"}
+        },
+        {
+            "id": "ID_06134",
+            "description": "285 ACACIA AVE",
+            "Point": {"coordinates": "-75.67466121020202,45.449736856257,0"}
+        },
+        {
+            "id": "ID_06156",
+            "description": "111 PUTMAN AVE",
+            "Point": {"coordinates": "-75.67319338989324,45.44276273449314,0"}
+        },
+        {
+            "id": "ID_06171",
+            "description": "641 ACACIA AVE",
+            "Point": {"coordinates": "-75.67888004671026,45.45369812126955,0"}
+        },
+        {
+            "id": "ID_06212",
+            "description": "111 PUTMAN AVE",
+            "Point": {"coordinates": "-75.67317433980583,45.4426775693991,0"}
+        },
+        {
+            "id": "ID_06220",
+            "description": "119 PUTMAN AVE",
+            "Point": {"coordinates": "-75.67274318823539,45.44250660853339,0"}
+        },
+        {
+            "id": "ID_06280",
+            "description": "209 MACKAY ST",
+            "Point": {"coordinates": "-75.68514040290123,45.44137365307424,0"}
+        },
+        {
+            "id": "ID_06402",
+            "description": "252 BUENA VISTA RD",
+            "Point": {"coordinates": "-75.68059671284306,45.4509087978163,0"}
+        },
+        {
+            "id": "ID_06471",
+            "description": "480 CLOVERDALE RD",
+            "Point": {"coordinates": "-75.67433576660837,45.45248193131388,0"}
+        },
+        {
+            "id": "ID_06721",
+            "description": "563 FAIRVIEW AVE",
+            "Point": {"coordinates": "-75.67164149670661,45.45026250606839,0"}
+        },
+        {
+            "id": "ID_06722",
+            "description": "563 FAIRVIEW AVE",
+            "Point": {"coordinates": "-75.67160157977475,45.45026089828446,0"}
+        },
+        {
+            "id": "ID_07303",
+            "description": "30-A LOTTA AVE",
+            "Point": {"coordinates": "-75.74101102258071,45.35654014066908,0"}
+        },
+        {
+            "id": "ID_09627",
+            "description": "801 BLAIR RD",
+            "Point": {"coordinates": "-75.61404739470162,45.44470422822882,0"}
+        },
+        {
+            "id": "ID_010221",
+            "description": "488 ACACIA AVE",
+            "Point": {"coordinates": "-75.67783157315887,45.45237383419147,0"}
+        },
+        {
+            "id": "ID_010277",
+            "description": "641 ACACIA AVE",
+            "Point": {"coordinates": "-75.67881653301883,45.45364180543083,0"}
+        },
+        {
+            "id": "ID_010460",
+            "description": "261 BUENA VISTA RD",
+            "Point": {"coordinates": "-75.6792834945136,45.45121469022193,0"}
+        },
+        {
+            "id": "ID_010713",
+            "description": "275 CHAPEL ST",
+            "Point": {"coordinates": "-75.6784911267857,45.42803476274245,0"}
+        },
+        {
+            "id": "ID_010772",
+            "description": "563 FAIRVIEW AVE",
+            "Point": {"coordinates": "-75.67150736501877,45.45029772529144,0"}
+        },
+        {
+            "id": "ID_013447",
+            "description": "565 BLAIR RD",
+            "Point": {"coordinates": "-75.61836019527647,45.4526490070214,0"}
+        },
+        {
+            "id": "ID_014318",
+            "description": "12 ELMDALE AVE",
+            "Point": {"coordinates": "-75.675689009507,45.44575734438897,0"}
+        },
+        {
+            "id": "ID_014322",
+            "description": "138 ACACIA AVE",
+            "Point": {"coordinates": "-75.67250803942351,45.44678116952092,0"}
+        },
+        {
+            "id": "ID_014370",
+            "description": "641 ACACIA AVE",
+            "Point": {"coordinates": "-75.67918258120598,45.45365988882234,0"}
+        },
+        {
+            "id": "ID_014464",
+            "description": "209 MACKAY ST",
+            "Point": {"coordinates": "-75.68522553248907,45.44140607471535,0"}
+        },
+        {
+            "id": "ID_014564",
+            "description": "408 BUENA VISTA RD",
+            "Point": {"coordinates": "-75.67628794275305,45.45121983324277,0"}
+        },
+        {
+            "id": "ID_014570",
+            "description": "390 LISGAR RD",
+            "Point": {"coordinates": "-75.68502444386769,45.45057330500742,0"}
+        },
+        {
+            "id": "ID_014915",
+            "description": "563 FAIRVIEW AVE",
+            "Point": {"coordinates": "-75.67149921073396,45.45027259444757,0"}
+        },
+        {
+            "id": "ID_015335",
+            "description": "46 CANTER BLVD",
+            "Point": {"coordinates": "-75.74133995417628,45.35030405818325,0"}
+        },
+        {
+            "id": "ID_016373",
+            "description": "242 BELFORD CRES",
+            "Point": {"coordinates": "-75.7474353557209,45.39067511396058,0"}
+        },
+        {
+            "id": "ID_018460",
+            "description": "441 ACACIA AVE",
+            "Point": {"coordinates": "-75.67732214948151,45.45180243035888,0"}
+        },
+        {
+            "id": "ID_018701",
+            "description": "6 CRESCENT RD",
+            "Point": {"coordinates": "-75.67714628237226,45.45242508697861,0"}
+        },
+        {
+            "id": "ID_018920",
+            "description": "85 RANGE RD",
+            "Point": {"coordinates": "-75.67008569117603,45.42367054424453,0"}
+        },
+        {
+            "id": "ID_018985",
+            "description": "228 COBOURG ST",
+            "Point": {"coordinates": "-75.67627909541726,45.4301229716953,0"}
+        },
+        {
+            "id": "ID_020528",
+            "description": "242 BELFORD CRES",
+            "Point": {"coordinates": "-75.74747186780969,45.39076293357467,0"}
+        },
+        {
+            "id": "ID_020529",
+            "description": "242 BELFORD CRES",
+            "Point": {"coordinates": "-75.74746067427569,45.390709877765,0"}
+        },
+        {
+            "id": "ID_022389",
+            "description": "40 KING ST",
+            "Point": {"coordinates": "-75.83072489363049,45.19397271410502,0"}
+        },
+        {
+            "id": "ID_022590",
+            "description": "488 ACACIA AVE",
+            "Point": {"coordinates": "-75.67720373326095,45.45241983447976,0"}
+        },
+        {
+            "id": "ID_022596",
+            "description": "142 ACACIA AVE",
+            "Point": {"coordinates": "-75.6725758158863,45.44690014600329,0"}
+        },
+        {
+            "id": "ID_022614",
+            "description": "115 PUTMAN AVE",
+            "Point": {"coordinates": "-75.67293848986701,45.44253339967111,0"}
+        },
+        {
+            "id": "ID_022826",
+            "description": "50 BUENA VISTA RD",
+            "Point": {"coordinates": "-75.68484595558304,45.45060763488804,0"}
+        },
+        {
+            "id": "ID_022903",
+            "description": "580 MINTO PL",
+            "Point": {"coordinates": "-75.68360830191104,45.45305126484885,0"}
+        },
+        {
+            "id": "ID_022908",
+            "description": "299 SOPER PL",
+            "Point": {"coordinates": "-75.68372227736612,45.45295927947877,0"}
+        },
+        {
+            "id": "ID_023138",
+            "description": "563 FAIRVIEW AVE",
+            "Point": {"coordinates": "-75.67172247180069,45.45026636336657,0"}
+        },
+        {
+            "id": "ID_023569",
+            "description": "46 CANTER BLVD",
+            "Point": {"coordinates": "-75.74135539200999,45.35032520504158,0"}
+        },
+        {
+            "id": "ID_025027",
+            "description": "1 ARUNDEL AVE",
+            "Point": {"coordinates": "-75.65502684374204,45.45519850393482,0"}
+        },
+        {
+            "id": "ID_026640",
+            "description": "641 ACACIA AVE",
+            "Point": {"coordinates": "-75.67892183123219,45.45365914400336,0"}
+        },
+        {
+            "id": "ID_026642",
+            "description": "641 ACACIA AVE",
+            "Point": {"coordinates": "-75.67901741042095,45.45364967081461,0"}
+        },
+        {
+            "id": "ID_026745",
+            "description": "61 MACKAY ST",
+            "Point": {"coordinates": "-75.69089335990931,45.44282593229996,0"}
+        },
+        {
+            "id": "ID_027166",
+            "description": "563 FAIRVIEW AVE",
+            "Point": {"coordinates": "-75.67182243776358,45.45024939263963,0"}
+        },
+        {
+            "id": "ID_027535",
+            "description": "22 GLENRIDGE RD",
+            "Point": {"coordinates": "-75.7358147317202,45.34621946151753,0"}
+        },
+        {
+            "id": "ID_027681",
+            "description": "21 WITHROW AVE",
+            "Point": {"coordinates": "-75.73856784588242,45.35526517698023,0"}
+        },
+        {
+            "id": "ID_029072",
+            "description": "1 ARUNDEL AVE",
+            "Point": {"coordinates": "-75.65496503943759,45.45515822284965,0"}
+        },
+        {
+            "id": "ID_030734",
+            "description": "142 ACACIA AVE",
+            "Point": {"coordinates": "-75.67248119550952,45.44689895929551,0"}
+        },
+        {
+            "id": "ID_030764",
+            "description": "115 PUTMAN AVE",
+            "Point": {"coordinates": "-75.67299686854652,45.44254045070355,0"}
+        },
+        {
+            "id": "ID_030786",
+            "description": "641 ACACIA AVE",
+            "Point": {"coordinates": "-75.67885476913058,45.45368716651678,0"}
+        },
+        {
+            "id": "ID_031168",
+            "description": "85 RANGE RD",
+            "Point": {"coordinates": "-75.67013915715121,45.4237363775099,0"}
+        },
+        {
+            "id": "ID_035382",
+            "description": "507 MELBOURNE AVE",
+            "Point": {"coordinates": "-75.75331595686389,45.38779666943749,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
         }
     ]
 });

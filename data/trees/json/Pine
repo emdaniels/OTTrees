@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "green",
     "commonName": "Pine",
     "foodBearing": "no",
@@ -92,6 +93,69 @@ tree_data({
             "description": "198 LATCHFORD RD",
             "Point": {"coordinates": "-75.75078233667591,45.40112762549957,0"},
             "dbh": 4
+=======
+    "name": "Pine",
+    "Placemark": [
+        {
+            "id": "ID_05538",
+            "description": "497 BUCHANAN CRES",
+            "Point": {"coordinates": "-75.61091194913152,45.46047165667003,0"}
+        },
+        {
+            "id": "ID_05539",
+            "description": "495 BUCHANAN CRES",
+            "Point": {"coordinates": "-75.61091485060696,45.46038256877693,0"}
+        },
+        {
+            "id": "ID_08991",
+            "description": "38 AMBERLY PL",
+            "Point": {"coordinates": "-75.61447819696384,45.44790734462391,0"}
+        },
+        {
+            "id": "ID_011988",
+            "description": "836 OAKSIDE CRES",
+            "Point": {"coordinates": "-75.94826510087584,45.35057517305836,0"}
+        },
+        {
+            "id": "ID_015448",
+            "description": "4 TOWER RD",
+            "Point": {"coordinates": "-75.73817288626296,45.35612925569575,0"}
+        },
+        {
+            "id": "ID_018620",
+            "description": "77 MACKAY ST",
+            "Point": {"coordinates": "-75.68999530100797,45.44286963402916,0"}
+        },
+        {
+            "id": "ID_022404",
+            "description": "118 COCKBURN ST",
+            "Point": {"coordinates": "-75.82508007641272,45.18746781159844,0"}
+        },
+        {
+            "id": "ID_025609",
+            "description": "512 BUCHANAN CRES",
+            "Point": {"coordinates": "-75.6101525453915,45.45997437002598,0"}
+        },
+        {
+            "id": "ID_029059",
+            "description": "10 CLAVER ST",
+            "Point": {"coordinates": "-75.60892059111865,45.43763351053126,0"}
+        },
+        {
+            "id": "ID_029474",
+            "description": "1377 LEIGH CRES",
+            "Point": {"coordinates": "-75.61906579973012,45.43389662839793,0"}
+        },
+        {
+            "id": "ID_032562",
+            "description": "350 BRECKENRIDGE CRES",
+            "Point": {"coordinates": "-75.93525166155322,45.35655435310135,0"}
+        },
+        {
+            "id": "ID_034758",
+            "description": "198 LATCHFORD RD",
+            "Point": {"coordinates": "-75.75078233667591,45.40112762549957,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
         }
     ]
 });

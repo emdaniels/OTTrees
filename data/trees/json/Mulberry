@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "black",
     "commonName": "Mulberry",
     "foodBearing": "yes",
@@ -68,6 +69,49 @@ tree_data({
             "description": "307 GOLDRIDGE DR",
             "Point": {"coordinates": "-75.92397344871363,45.3179244507587,0"},
             "dbh": 8
+=======
+    "name": "Mulberry",
+    "Placemark": [
+        {
+            "id": "ID_03016",
+            "description": "77 VIEWMOUNT DR",
+            "Point": {"coordinates": "-75.7377933111112,45.34140066949645,0"}
+        },
+        {
+            "id": "ID_03097",
+            "description": "4 PARKER AVE",
+            "Point": {"coordinates": "-75.74545466107917,45.34059097884386,0"}
+        },
+        {
+            "id": "ID_05482",
+            "description": "1941 OAKDEAN CRES",
+            "Point": {"coordinates": "-75.60970246872209,45.45856980827849,0"}
+        },
+        {
+            "id": "ID_022500",
+            "description": "12 TEMPLE ST",
+            "Point": {"coordinates": "-75.82483317814962,45.19159272676059,0"}
+        },
+        {
+            "id": "ID_029496",
+            "description": "42 AMBERLY PL",
+            "Point": {"coordinates": "-75.61402304345879,45.44772679310236,0"}
+        },
+        {
+            "id": "ID_033991",
+            "description": "15 KNUDSON DR",
+            "Point": {"coordinates": "-75.90154048114925,45.31804298356047,0"}
+        },
+        {
+            "id": "ID_037462",
+            "description": "81 WINDEYER CRES",
+            "Point": {"coordinates": "-75.91307197990901,45.31860648936787,0"}
+        },
+        {
+            "id": "ID_037587",
+            "description": "307 GOLDRIDGE DR",
+            "Point": {"coordinates": "-75.92397344871363,45.3179244507587,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
         }
     ]
 });

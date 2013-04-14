@@ -1,4 +1,5 @@
 tree_data({
+<<<<<<< HEAD
     "winterColor": "black",
     "commonName": "Ash Black",
     "foodBearing": "no",
@@ -38,6 +39,24 @@ tree_data({
             "description": "35 LAXFORD DR",
             "Point": {"coordinates": "-75.93630920476201,45.35033508272067,0"},
             "dbh": 7
+=======
+    "name": "Black Ash",
+    "Placemark": [
+        {
+            "id": "ID_02089",
+            "description": "211 SPRINGFIELD RD",
+            "Point": {"coordinates": "-75.67839385206358,45.44635006306915,0"}
+        },
+        {
+            "id": "ID_020851",
+            "description": "1377 MATHESON RD",
+            "Point": {"coordinates": "-75.62361501203392,45.43576416054911,0"}
+        },
+        {
+            "id": "ID_028403",
+            "description": "35 LAXFORD DR",
+            "Point": {"coordinates": "-75.93630920476201,45.35033508272067,0"}
+>>>>>>> branch 'master' of https://github.com/emdaniels/OTTrees.git
         }
     ]
 });
