@@ -8,16 +8,33 @@
 	src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="javascript/data_load.js"></script>
 <script type="text/javascript">
-
 function toggle(type) {
 	var currentLayer = treeLayerArray[type];
-	
 	if ($('#' + type).is(':checked')) {
 		toggleKML(currentLayer, map);
 	} else {
 		toggleKML(currentLayer, null);
 	} 
 }
+</script>
+<script>
+jQuery( document ).ready(function( $ ) {
+ 
+	if ( jQuery( '#accordion' )[0] ){
+		jQuery( '#accordion' ).find( 'h4' ).click( function( e ){ //Click function to toggle extending lists
+			e.preventDefault();		
+			jQuery( this ).next().slideToggle( 'fast' ).css( 'zoom', '1' ); //Find the next element after the clicked element				
+			jQuery( this ).parent( 'li' ).toggleClass( 'collapse' ); //Add a class for styling
+		} );
+ 
+		jQuery( '#accordion > li' ).each( function( $ ){ //Function initially hide lists with the override class of "extended"
+			if ( !jQuery( this ).hasClass( 'extended' ) ){
+				jQuery( this ).find( 'ul' ).slideUp( 'fast' ).css( 'zoom', '1' ); //hide all lists without a parent of "extended"
+				jQuery( this ).toggleClass( 'collapse' ); 
+			}
+		} );
+	}
+} );
 </script>
 
 </head>
@@ -31,26 +48,29 @@ function toggle(type) {
 	<div id="sidebar_menu">
 		<img src="images/OTTrees_logo.png" alt="OTTrees" height="98"
 			width="200">
-		<ul id="accordion">
-			<li><div>Allergens</div>
+		 <ul id="accordion">
+		 <li>
+			<h4>Allergen</h4>
 				<ul>
 					<li><input type="checkbox" /> Mild</li>
 					<li><input type="checkbox" /> Moderate</li>
 					<li><input type="checkbox" /> Severe</li>
-				</ul></li>
-			<li><div>Leaf Persistence</div>
+				</ul>
+			</li>
+			<li>
+			<h4>Leaf Persistence</h4>
 				<ul>
 					<li><input type="checkbox" /> Deciduous</li>
 					<li><input type="checkbox" /> Coniferous</li>
 					<li><input type="checkbox" /> Marcescent</li>
 				</ul></li>
-			<li><div>Growth Rate</div>
+			<li><h4>Growth Rate</h4>
 				<ul>
 					<li><input type="checkbox" /> Slow (12" or less per year)</li>
 					<li><input type="checkbox" /> Moderate (13" to 24" per year)</li>
 					<li><input type="checkbox" /> Fast (25"+ per year)</li>
 				</ul></li>
-			<li><div>Estimated Age</div>
+			<li><h4>Estimated Age</h4>
 				<ul>
 					<li><input type="checkbox" /> 0-9 years</li>
 					<li><input type="checkbox" /> 10-19 years</li>
@@ -59,17 +79,17 @@ function toggle(type) {
 					<li><input type="checkbox" /> 40-49 years</li>
 					<li><input type="checkbox" /> 50+ years</li>
 				</ul></li>
-			<li><div>Native Species</div>
+			<li><h4>Native Species</h4>
 				<ul>
 					<li><input type="radio" /> Native</li>
 					<li><input type="radio" /> Non-Native</li>
 				</ul></li>
-			<li><div>Food Bearing</div>
+			<li><h4>Food Bearing</h4>
 				<ul>
 					<li><input type="radio" /> Food Bearing</li>
 					<li><input type="radio" /> Non-Food Bearing</li>
 				</ul></li>
-			<li><div>Seasonal Foliage</div>
+			<li><h4>Seasonal Foliage</h4>
 				<ul>
 					<li><input type="radio" /> Early Spring</li>
 					<li><input type="radio" /> Late Spring</li>
@@ -78,8 +98,9 @@ function toggle(type) {
 					<li><input type="radio" /> Late Fall</li>
 					<li><input type="radio" /> Winter</li>
 				</ul></li>
-			<li><div>Individual Species</div>
+			<li><h4>Individual Species</h4>
 				<ul id="treeList"></ul></li>
+				</li>
 		</ul>
 	</div>
 

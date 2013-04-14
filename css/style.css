@@ -1,3 +1,5 @@
+
+/*below added for collapsible menu
 #accordion {
     list-style: none;
     padding: 0 0 0 0;
@@ -35,7 +37,10 @@
     text-decoration: underline;
 }
 
-/*added for collapsible menu*/
+above added for collapsible menu*/
+
+h4 	{ cursor: pointer; }
+
 #sidebar {
 	float: right;
 	width: 20%;
