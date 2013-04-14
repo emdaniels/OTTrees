@@ -8,33 +8,33 @@
 	src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="javascript/data_load.js"></script>
 <script type="text/javascript">
-function toggle(type) {
-	var currentLayer = treeLayerArray[type];
-	if ($('#' + type).is(':checked')) {
-		toggleKML(currentLayer, map);
-	} else {
-		toggleKML(currentLayer, null);
-	} 
-}
+	function toggle(type) {
+		var currentLayer = treeLayerArray[type];
+		if ($('#' + type).is(':checked')) {
+			toggleKML(currentLayer, map);
+		} else {
+			toggleKML(currentLayer, null);
+		}
+	}
 </script>
 <script>
-jQuery( document ).ready(function( $ ) {
- 
-	if ( jQuery( '#accordion' )[0] ){
-		jQuery( '#accordion' ).find( 'h5' ).click( function( e ){ //Click function to toggle extending lists
-			e.preventDefault();		
-			jQuery( this ).next().slideToggle( 'fast' ).css( 'zoom', '1' ); //Find the next element after the clicked element				
-			jQuery( this ).parent( 'li' ).toggleClass( 'collapse' ); //Add a class for styling
-		} );
- 
-		jQuery( '#accordion > li' ).each( function( $ ){ //Function initially hide lists with the override class of "extended"
-			if ( !jQuery( this ).hasClass( 'extended' ) ){
-				jQuery( this ).find( 'ul' ).slideUp( 'fast' ).css( 'zoom', '1' ); //hide all lists without a parent of "extended"
-				jQuery( this ).toggleClass( 'collapse' ); 
-			}
-		} );
-	}
-} );
+	jQuery(document).ready(function($) {
+
+		if (jQuery('#accordion')[0]) {
+			jQuery('#accordion').find('h5').click(function(e) { //Click function to toggle extending lists
+				e.preventDefault();
+				jQuery(this).next().slideToggle('fast').css('zoom', '1'); //Find the next element after the clicked element				
+				jQuery(this).parent('li').toggleClass('collapse'); //Add a class for styling
+			});
+
+			jQuery('#accordion > li').each(function($) { //Function initially hide lists with the override class of "extended"
+				if (!jQuery(this).hasClass('extended')) {
+					jQuery(this).find('ul').slideUp('fast').css('zoom', '1'); //hide all lists without a parent of "extended"
+					jQuery(this).toggleClass('collapse');
+				}
+			});
+		}
+	});
 </script>
 
 </head>
@@ -48,72 +48,81 @@ jQuery( document ).ready(function( $ ) {
 	<div id="sidebar_menu">
 		<img src="images/OTTrees_logo.png" alt="OTTrees" height="98"
 			width="200">
-		 <ul id="accordion">
-		 <li>
-			<h5>Allergen</h5>
-				<ul>
-					<li><input type="checkbox" /> Mild</li>
-					<li><input type="checkbox" /> Moderate</li>
-					<li><input type="checkbox" /> Severe</li>
-				</ul>
-			</li>
-			<li>
-			<h5>Leaf Persistence</h5>
-				<ul>
-					<li><input type="checkbox" /> Deciduous</li>
-					<li><input type="checkbox" /> Coniferous</li>
-					<li><input type="checkbox" /> Marcescent</li>
-				</ul></li>
-			<li><h5>Growth Rate</h5>
-				<ul>
-					<li><input type="checkbox" /> Slow (12" or less per year)</li>
-					<li><input type="checkbox" /> Moderate (13" to 24" per year)</li>
-					<li><input type="checkbox" /> Fast (25"+ per year)</li>
-				</ul></li>
-			<li><h5>Estimated Age</h5>
-				<ul>
-					<li><input type="checkbox" /> 0-9 years</li>
-					<li><input type="checkbox" /> 10-19 years</li>
-					<li><input type="checkbox" /> 20-29 years</li>
-					<li><input type="checkbox" /> 30-39 years</li>
-					<li><input type="checkbox" /> 40-49 years</li>
-					<li><input type="checkbox" /> 50+ years</li>
-				</ul></li>
-			<li><h5>Native Species</h5>
-				<ul>
-					<li><input type="radio" /> Native</li>
-					<li><input type="radio" /> Non-Native</li>
-				</ul></li>
-			<li><h5>Food Bearing</h5>
-				<ul>
-					<li><input type="radio" /> Food Bearing</li>
-					<li><input type="radio" /> Non-Food Bearing</li>
-				</ul></li>
-			<li><h5>Seasonal Foliage</h5>
-				<ul>
-					<li><input type="radio" /> Early Spring</li>
-					<li><input type="radio" /> Late Spring</li>
-					<li><input type="radio" /> Summer</li>
-					<li><input type="radio" /> Early Fall</li>
-					<li><input type="radio" /> Late Fall</li>
-					<li><input type="radio" /> Winter</li>
-				</ul></li>
-			<li><h5>Individual Species</h5>
-				<ul id="treeList"></ul></li>
+		<div class="submenublock" id="submenu1">
+			<ul id="accordion" class="second_level">
+				<li><h5>About</h5>
+					<ul>
+						<br />This application was made by James DeMond and Emily Daniels using the city of Ottawa's open
+						data tree inventory to depict the estimated size, seasonal coloring and location of each tree overlayed onto Google Maps. Source code is here.<br/>
+					</ul></li>
+				<li>
+					<h5>Allergen</h5>
+					<ul>
+						<li><input type="checkbox" /> Mild</li>
+						<li><input type="checkbox" /> Moderate</li>
+						<li><input type="checkbox" /> Severe</li>
+					</ul>
 				</li>
-		</ul>
+				<li>
+					<h5>Leaf Persistence</h5>
+					<ul>
+						<li><input type="checkbox" /> Deciduous</li>
+						<li><input type="checkbox" /> Coniferous</li>
+						<li><input type="checkbox" /> Marcescent</li>
+					</ul>
+				</li>
+				<li><h5>Growth Rate</h5>
+					<ul>
+						<li><input type="checkbox" /> Slow (12" or less per year)</li>
+						<li><input type="checkbox" /> Moderate (13" to 24" per year)</li>
+						<li><input type="checkbox" /> Fast (25"+ per year)</li>
+					</ul></li>
+				<li><h5>Estimated Age</h5>
+					<ul>
+						<li><input type="checkbox" /> 0-9 years</li>
+						<li><input type="checkbox" /> 10-19 years</li>
+						<li><input type="checkbox" /> 20-29 years</li>
+						<li><input type="checkbox" /> 30-39 years</li>
+						<li><input type="checkbox" /> 40-49 years</li>
+						<li><input type="checkbox" /> 50+ years</li>
+					</ul></li>
+				<li><h5>Native Species</h5>
+					<ul>
+						<li><input type="radio" /> Native</li>
+						<li><input type="radio" /> Non-Native</li>
+					</ul></li>
+				<li><h5>Food Bearing</h5>
+					<ul>
+						<li><input type="radio" /> Food Bearing</li>
+						<li><input type="radio" /> Non-Food Bearing</li>
+					</ul></li>
+				<li><h5>Seasonal Foliage</h5>
+					<ul>
+						<li><input type="radio" /> Early Spring</li>
+						<li><input type="radio" /> Late Spring</li>
+						<li><input type="radio" /> Summer</li>
+						<li><input type="radio" /> Early Fall</li>
+						<li><input type="radio" /> Late Fall</li>
+						<li><input type="radio" /> Winter</li>
+					</ul></li>
+				<li><h5>Individual Species</h5>
+					<ul id="treeList"></ul></li>
+			</ul>
+		</div>
 	</div>
 
 	<script type="text/javascript">
-var items = [];
+		var items = [];
 
-$.each(nameArray.sort(), function(i, item) {
+		$.each(nameArray.sort(), function(i, item) {
 
-   items.push('<li><input type="checkbox" id="' + item + '" onclick="toggle(\'' + item + '\');" /> ' + item + '</li>');
+			items.push('<li><input type="checkbox" id="' + item
+					+ '" onclick="toggle(\'' + item + '\');" /> ' + item
+					+ '</li>');
 
-});  // close each()
+		}); // close each()
 
-$('#treeList').append( items.join('') );
-</script>
+		$('#treeList').append(items.join(''));
+	</script>
 </body>
 </html>
