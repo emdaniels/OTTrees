@@ -69,7 +69,7 @@ window.tree_data = function(results) {
 function getCircle(magnitude) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
-		fillColor: 'red',
+		fillColor: 'green',
 		fillOpacity: .2,
 		scale: Math.pow(2, magnitude) / Math.PI,
 		strokeColor: 'white',
