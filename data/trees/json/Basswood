@@ -1,1229 +1,1069 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": [
-            {
-                "id": "ID_00011",
-                "description": "<p>50 MACNABB PL<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66348272479227,45.45026340443894,0"}
-            },
-            {
-                "id": "ID_00014",
-                "description": "<p>65 MACNABB PL<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66367309984358,45.44968590346516,0"}
-            },
-            {
-                "id": "ID_00078",
-                "description": "<p>60 BITTERN CRT<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66682827345261,45.44911904062195,0"}
-            },
-            {
-                "id": "ID_00096",
-                "description": "<p>193 LANSDOWNE RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67014123717043,45.44938131234719,0"}
-            },
-            {
-                "id": "ID_00187",
-                "description": "<p>13 AMBERLY CRT<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61509862190675,45.44775767434608,0"}
-            },
-            {
-                "id": "ID_00206",
-                "description": "<p>95 LAKEVIEW AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66709329030832,45.45344778405755,0"}
-            },
-            {
-                "id": "ID_00413",
-                "description": "<p>1818 ELMRIDGE DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.603397281344,45.44126125364846,0"}
-            },
-            {
-                "id": "ID_00538",
-                "description": "<p>43 DAVIDSON DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6093854840483,45.4491726876555,0"}
-            },
-            {
-                "id": "ID_00668",
-                "description": "<p>1937 OAKDEAN CRES<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60987187861019,45.45889264383168,0"}
-            },
-            {
-                "id": "ID_00984",
-                "description": "<p>525 BUCHANAN CRES<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61011166777502,45.46242533356834,0"}
-            },
-            {
-                "id": "ID_01008",
-                "description": "<p>13 MASSEY LANE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61606203646187,45.46051139629676,0"}
-            },
-            {
-                "id": "ID_01073",
-                "description": "<p>340 STONE QUARRY PRIV<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.62410221220476,45.44400322010573,0"}
-            },
-            {
-                "id": "ID_01405",
-                "description": "<p>1178 RAINBOW ST<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.5871960066918,45.45337841716226,0"}
-            },
-            {
-                "id": "ID_01417",
-                "description": "<p>4 SWANS WAY<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61777160569629,45.45406618493806,0"}
-            },
-            {
-                "id": "ID_02059",
-                "description": "<p>46 ROCKCLIFFE WAY<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67753953504293,45.44606098355839,0"}
-            },
-            {
-                "id": "ID_02070",
-                "description": "<p>25 LAMBTON AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67338145704515,45.44553819784339,0"}
-            },
-            {
-                "id": "ID_02127",
-                "description": "<p>5 MIDDLETON DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67651373310643,45.44434889468253,0"}
-            },
-            {
-                "id": "ID_02138",
-                "description": "<p>197 SPRINGFIELD RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67771690158874,45.44586200902815,0"}
-            },
-            {
-                "id": "ID_02162",
-                "description": "<p>190 COLTRIN RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68307031384697,45.4542503649113,0"}
-            },
-            {
-                "id": "ID_02164",
-                "description": "<p>280 THOROLD RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67993879098039,45.45348580108542,0"}
-            },
-            {
-                "id": "ID_02172",
-                "description": "<p>171 COLTRIN RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68371551732021,45.45432404411269,0"}
-            },
-            {
-                "id": "ID_02195",
-                "description": "<p>160 DUFFERIN RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68157205968373,45.44244607070399,0"}
-            },
-            {
-                "id": "ID_02310",
-                "description": "<p>149 BUENA VISTA RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68268601071556,45.45088079118961,0"}
-            },
-            {
-                "id": "ID_02541",
-                "description": "<p>300 SANDRIDGE RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66808190488354,45.4554118585507,0"}
-            },
-            {
-                "id": "ID_03073",
-                "description": "<p>840 BLACKTHORNE AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.63295038186485,45.44658027978062,0"}
-            },
-            {
-                "id": "ID_04119",
-                "description": "<p>95 MACNABB PL<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66350252417499,45.44945393658703,0"}
-            },
-            {
-                "id": "ID_04166",
-                "description": "<p>20 BLUE HERON CRT<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66496952197109,45.4493610582881,0"}
-            },
-            {
-                "id": "ID_04169",
-                "description": "<p>5 BITTERN CRT<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66621379251028,45.44942931255652,0"}
-            },
-            {
-                "id": "ID_04170",
-                "description": "<p>5 BITTERN CRT<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6663646850225,45.44940785914695,0"}
-            },
-            {
-                "id": "ID_04177",
-                "description": "<p>187 LANSDOWNE RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66932604306356,45.44896100347512,0"}
-            },
-            {
-                "id": "ID_04306",
-                "description": "<p>145 LAKEVIEW AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66598231098502,45.45331178208176,0"}
-            },
-            {
-                "id": "ID_04361",
-                "description": "<p>90 PLACEL RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6668652228671,45.45404000966141,0"}
-            },
-            {
-                "id": "ID_04624",
-                "description": "<p>21 DAVIDSON DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61323852353836,45.45019457299465,0"}
-            },
-            {
-                "id": "ID_04685",
-                "description": "<p>45 WESTWARD WAY<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.664475545901,45.45404143281319,0"}
-            },
-            {
-                "id": "ID_05052",
-                "description": "<p>10 CEDAR RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60695529410337,45.44825570205499,0"}
-            },
-            {
-                "id": "ID_05105",
-                "description": "<p>18 WREN RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61355064754623,45.45270273200583,0"}
-            },
-            {
-                "id": "ID_05554",
-                "description": "<p>536 BRUNEL ST<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.63179977079628,45.44853005748745,0"}
-            },
-            {
-                "id": "ID_05737",
-                "description": "<p>5 ROTHWELL DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61569610506244,45.45546516764389,0"}
-            },
-            {
-                "id": "ID_06176",
-                "description": "<p>585 ACACIA AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6794372206285,45.45349245896854,0"}
-            },
-            {
-                "id": "ID_06244",
-                "description": "<p>118 WILLINGDON RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68241469344531,45.4481905275189,0"}
-            },
-            {
-                "id": "ID_06938",
-                "description": "<p>35 COPERNICUS ST<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68323753731681,45.42436004995493,0"}
-            },
-            {
-                "id": "ID_07191",
-                "description": "<p>102 PALSEN ST<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.74570197929621,45.34403100214394,0"}
-            },
-            {
-                "id": "ID_08308",
-                "description": "<p>5 BITTERN CRT<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66588798127563,45.44945981972109,0"}
-            },
-            {
-                "id": "ID_08319",
-                "description": "<p>170 LANSDOWNE RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66915721686422,45.44897110828219,0"}
-            },
-            {
-                "id": "ID_08320",
-                "description": "<p>187 LANSDOWNE RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66930658772708,45.44896066401376,0"}
-            },
-            {
-                "id": "ID_08322",
-                "description": "<p>193 LANSDOWNE RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67020554757711,45.44937567317626,0"}
-            },
-            {
-                "id": "ID_09555",
-                "description": "<p>1178 RAINBOW ST<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.58720828790294,45.45341957108146,0"}
-            },
-            {
-                "id": "ID_09998",
-                "description": "<p>73 KING ST<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.8277864241564,45.19125881420492,0"}
-            },
-            {
-                "id": "ID_010213",
-                "description": "<p>42 ACACIA AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67197594631946,45.44382396817107,0"}
-            },
-            {
-                "id": "ID_010215",
-                "description": "<p>12 ACACIA AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67179775842527,45.44282235110681,0"}
-            },
-            {
-                "id": "ID_010268",
-                "description": "<p>118 WILLINGDON RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68249035982612,45.44830569509067,0"}
-            },
-            {
-                "id": "ID_010278",
-                "description": "<p>641 ACACIA AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67899041928477,45.45368138196317,0"}
-            },
-            {
-                "id": "ID_010321",
-                "description": "<p>290 COLTRIN RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68021887667392,45.45354240750736,0"}
-            },
-            {
-                "id": "ID_010344",
-                "description": "<p>137 WILLINGDON RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68162400292843,45.44870017116914,0"}
-            },
-            {
-                "id": "ID_010512",
-                "description": "<p>311 MANOR AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68155029415929,45.44957222133304,0"}
-            },
-            {
-                "id": "ID_010615",
-                "description": "<p>450 NELSON ST<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67807848518372,45.42232931928007,0"}
-            },
-            {
-                "id": "ID_012141",
-                "description": "<p>1058 DEAUVILLE CRES<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.52193605278086,45.48664291297673,0"}
-            },
-            {
-                "id": "ID_012430",
-                "description": "<p>18 ORIOLE DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61177644308863,45.45643600257938,0"}
-            },
-            {
-                "id": "ID_012488",
-                "description": "<p>110 LAKEVIEW AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66682912664827,45.4535946272879,0"}
-            },
-            {
-                "id": "ID_012489",
-                "description": "<p>105 LAKEVIEW AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66694093253632,45.4534131264429,0"}
-            },
-            {
-                "id": "ID_013309",
-                "description": "<p>530 BUCHANAN CRES<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.610789109639,45.46218143452266,0"}
-            },
-            {
-                "id": "ID_013707",
-                "description": "<p>33 WREN RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61300189867944,45.45214194360738,0"}
-            },
-            {
-                "id": "ID_013722",
-                "description": "<p>21 CEDAR RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60672565321799,45.44826185110872,0"}
-            },
-            {
-                "id": "ID_013776",
-                "description": "<p>41 DAVIDSON DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61009017449339,45.44932806345242,0"}
-            },
-            {
-                "id": "ID_013819",
-                "description": "<p>247 GREENSWAY AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66829882644784,45.43533072261599,0"}
-            },
-            {
-                "id": "ID_013865",
-                "description": "<p>528 BUCHANAN CRES<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61105607105961,45.46216579088385,0"}
-            },
-            {
-                "id": "ID_014328",
-                "description": "<p>20 CORONA AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67179361530789,45.44442791928442,0"}
-            },
-            {
-                "id": "ID_014369",
-                "description": "<p>641 ACACIA AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67914298160746,45.45367006862033,0"}
-            },
-            {
-                "id": "ID_014382",
-                "description": "<p>142 ACACIA AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67217680380229,45.44688130847789,0"}
-            },
-            {
-                "id": "ID_014384",
-                "description": "<p>400 WOOD AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67154918830616,45.44586701998251,0"}
-            },
-            {
-                "id": "ID_014405",
-                "description": "<p>197 SPRINGFIELD RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67774844019405,45.44597691428861,0"}
-            },
-            {
-                "id": "ID_014544",
-                "description": "<p>20 BLUE HERON CRT<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66492477333756,45.4490208099003,0"}
-            },
-            {
-                "id": "ID_014608",
-                "description": "<p>420 LISGAR RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68634837808283,45.45139151693134,0"}
-            },
-            {
-                "id": "ID_015046",
-                "description": "<p>119 MANN AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67193171646667,45.42144422481233,0"}
-            },
-            {
-                "id": "ID_015372",
-                "description": "<p>35 NORICE ST<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.73731088505107,45.34650584976445,0"}
-            },
-            {
-                "id": "ID_015470",
-                "description": "<p>121 COTE DE NEIGES RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.74898726993077,45.35254867419444,0"}
-            },
-            {
-                "id": "ID_016272",
-                "description": "<p>1125 TRIM RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.48121457433395,45.49792800106986,0"}
-            },
-            {
-                "id": "ID_016348",
-                "description": "<p>1058 DEAUVILLE CRES<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.52192463594052,45.48672639126156,0"}
-            },
-            {
-                "id": "ID_016554",
-                "description": "<p>115 LANSDOWNE RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66878453608422,45.44766667296742,0"}
-            },
-            {
-                "id": "ID_016682",
-                "description": "<p>145 LAKEVIEW AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66593574982859,45.45329484071223,0"}
-            },
-            {
-                "id": "ID_016811",
-                "description": "<p>2003 HOLLYBROOK CRES<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60943790660414,45.46105736296683,0"}
-            },
-            {
-                "id": "ID_016861",
-                "description": "<p>211 LAKEWAY DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66435338128812,45.45207486124946,0"}
-            },
-            {
-                "id": "ID_017949",
-                "description": "<p>263 GREENSWAY AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66766759310119,45.43477424328847,0"}
-            },
-            {
-                "id": "ID_018472",
-                "description": "<p>34 ACACIA AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67173534928952,45.44322846961455,0"}
-            },
-            {
-                "id": "ID_018474",
-                "description": "<p>23 ROCKCLIFFE WAY<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6757760694436,45.44491250455052,0"}
-            },
-            {
-                "id": "ID_018486",
-                "description": "<p>25 LAMBTON AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67346488876341,45.44552140655545,0"}
-            },
-            {
-                "id": "ID_018519",
-                "description": "<p>118 WILLINGDON RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68247427961101,45.4482979258477,0"}
-            },
-            {
-                "id": "ID_018520",
-                "description": "<p>118 WILLINGDON RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68247623414739,45.44828076974267,0"}
-            },
-            {
-                "id": "ID_018547",
-                "description": "<p>108 ACACIA AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67212781987755,45.44515762897478,0"}
-            },
-            {
-                "id": "ID_018598",
-                "description": "<p>118 WILLINGDON RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68221939835416,45.44856334407233,0"}
-            },
-            {
-                "id": "ID_018683",
-                "description": "<p>90 PARK RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68299589525766,45.44876030418237,0"}
-            },
-            {
-                "id": "ID_018700",
-                "description": "<p>90 PARK RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68303294522353,45.44862146723052,0"}
-            },
-            {
-                "id": "ID_018737",
-                "description": "<p>375 MANOR AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68185719498756,45.45021334158949,0"}
-            },
-            {
-                "id": "ID_018768",
-                "description": "<p>160 MANOR AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68010352229473,45.44743469985593,0"}
-            },
-            {
-                "id": "ID_018807",
-                "description": "<p>321 CLOVERDALE RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6733918568717,45.45012005862337,0"}
-            },
-            {
-                "id": "ID_019078",
-                "description": "<p>400 LANSDOWNE RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67175651897669,45.45116850646119,0"}
-            },
-            {
-                "id": "ID_020723",
-                "description": "<p>115 LANSDOWNE RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6687685295377,45.4476972846643,0"}
-            },
-            {
-                "id": "ID_021138",
-                "description": "<p>21 DAVIDSON DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61324298309775,45.45018027835983,0"}
-            },
-            {
-                "id": "ID_021220",
-                "description": "<p>140 BLENHEIM DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66336403173493,45.45400150208051,0"}
-            },
-            {
-                "id": "ID_021520",
-                "description": "<p>530 BUCHANAN CRES<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61080661519573,45.462197721332,0"}
-            },
-            {
-                "id": "ID_021864",
-                "description": "<p>24 BURROWS RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6181390328004,45.45643573962077,0"}
-            },
-            {
-                "id": "ID_022029",
-                "description": "<p>21 CEDAR RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60678433174671,45.4483053994801,0"}
-            },
-            {
-                "id": "ID_022599",
-                "description": "<p>74 ACACIA AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6720323884479,45.44448462965253,0"}
-            },
-            {
-                "id": "ID_022678",
-                "description": "<p>29 SPRINGFIELD RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67641338943605,45.4407364096413,0"}
-            },
-            {
-                "id": "ID_022684",
-                "description": "<p>218 COLTRIN RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68231746343184,45.45388728932471,0"}
-            },
-            {
-                "id": "ID_022698",
-                "description": "<p>280 THOROLD RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6798032673136,45.45345582304888,0"}
-            },
-            {
-                "id": "ID_022707",
-                "description": "<p>177 COLTRIN RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68315733148795,45.45437173659902,0"}
-            },
-            {
-                "id": "ID_022709",
-                "description": "<p>118 WILLINGDON RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68222976639791,45.44856758912297,0"}
-            },
-            {
-                "id": "ID_022927",
-                "description": "<p>711 MANOR AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68255396667306,45.45440369306264,0"}
-            },
-            {
-                "id": "ID_023150",
-                "description": "<p>710 HILLSDALE RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66933783093532,45.4539372565969,0"}
-            },
-            {
-                "id": "ID_023385",
-                "description": "<p>232 ST. PATRICK ST<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.69326556248169,45.43061358800839,0"}
-            },
-            {
-                "id": "ID_023749",
-                "description": "<p>1337 BOYER RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.53237060316452,45.46660759372588,0"}
-            },
-            {
-                "id": "ID_024351",
-                "description": "<p>800 OAKSIDE CRES<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.94703822520762,45.35130369469848,0"}
-            },
-            {
-                "id": "ID_024749",
-                "description": "<p>5 BITTERN CRT<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6659184929801,45.44946803682946,0"}
-            },
-            {
-                "id": "ID_024752",
-                "description": "<p>60 BITTERN CRT<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66676091245324,45.44907034231541,0"}
-            },
-            {
-                "id": "ID_024756",
-                "description": "<p>115 LANSDOWNE RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66881041064765,45.44765303142168,0"}
-            },
-            {
-                "id": "ID_024909",
-                "description": "<p>571 DUFF CRES<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60802450812896,45.45946175685621,0"}
-            },
-            {
-                "id": "ID_024953",
-                "description": "<p>729 STILES CRES<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.59430449498362,45.4591504437435,0"}
-            },
-            {
-                "id": "ID_025269",
-                "description": "<p>120 BLENHEIM DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66333826497505,45.45410396937285,0"}
-            },
-            {
-                "id": "ID_025770",
-                "description": "<p>44 DAVIDSON DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60893190149487,45.4486129903064,0"}
-            },
-            {
-                "id": "ID_025887",
-                "description": "<p>510 FOXVIEW PL<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.63138365414046,45.44901793364,0"}
-            },
-            {
-                "id": "ID_025926",
-                "description": "<p>4 SWANS WAY<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61783249390599,45.45419944282931,0"}
-            },
-            {
-                "id": "ID_026519",
-                "description": "<p>5931 PERTH ST<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.82995290577405,45.20014675256108,0"}
-            },
-            {
-                "id": "ID_026655",
-                "description": "<p>142 ACACIA AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6721913867345,45.44694726632856,0"}
-            },
-            {
-                "id": "ID_026709",
-                "description": "<p>137 WILLINGDON RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68183461213569,45.44869223242939,0"}
-            },
-            {
-                "id": "ID_026710",
-                "description": "<p>137 WILLINGDON RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68157541953387,45.44873928161015,0"}
-            },
-            {
-                "id": "ID_026852",
-                "description": "<p>375 MANOR AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68190850162226,45.45022744353517,0"}
-            },
-            {
-                "id": "ID_026902",
-                "description": "<p>580 MARIPOSA AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67144087552174,45.44920609499626,0"}
-            },
-            {
-                "id": "ID_028726",
-                "description": "<p>39 BIRCH AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66310185510176,45.45225843468475,0"}
-            },
-            {
-                "id": "ID_028769",
-                "description": "<p>549 RIVERSHORE CRES<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60614320611991,45.46269957989697,0"}
-            },
-            {
-                "id": "ID_028796",
-                "description": "<p>5 BITTERN CRT<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66617338963054,45.4494266366013,0"}
-            },
-            {
-                "id": "ID_028916",
-                "description": "<p>195 LAKEWAY DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66482789447956,45.45292212796928,0"}
-            },
-            {
-                "id": "ID_029036",
-                "description": "<p>1953 CARDINAL CRT<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60226259277522,45.44653479817131,0"}
-            },
-            {
-                "id": "ID_029043",
-                "description": "<p>125 LAKEVIEW AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66614949061602,45.45332175555435,0"}
-            },
-            {
-                "id": "ID_029196",
-                "description": "<p>5567 CARP RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-76.14810625159402,45.41579146597236,0"}
-            },
-            {
-                "id": "ID_029424",
-                "description": "<p>358 MILLCRAFT CRES<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6520799706001,45.43145827997788,0"}
-            },
-            {
-                "id": "ID_030719",
-                "description": "<p>14 ACACIA AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67212983263509,45.44308208971166,0"}
-            },
-            {
-                "id": "ID_030776",
-                "description": "<p>55 WILLINGDON RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68358561371309,45.44854722531228,0"}
-            },
-            {
-                "id": "ID_030778",
-                "description": "<p>137 WILLINGDON RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68164529448595,45.44870826132328,0"}
-            },
-            {
-                "id": "ID_030798",
-                "description": "<p>142 ACACIA AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67222314119978,45.44689679783681,0"}
-            },
-            {
-                "id": "ID_030799",
-                "description": "<p>142 ACACIA AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67219085667171,45.44692660905576,0"}
-            },
-            {
-                "id": "ID_030800",
-                "description": "<p>142 ACACIA AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67218727848456,45.44695238911314,0"}
-            },
-            {
-                "id": "ID_030856",
-                "description": "<p>118 WILLINGDON RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68228404168633,45.44856158964746,0"}
-            },
-            {
-                "id": "ID_031012",
-                "description": "<p>375 MANOR AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68192223503353,45.45021611287073,0"}
-            },
-            {
-                "id": "ID_031058",
-                "description": "<p>250 MINTO PL<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68284414094418,45.44881676328139,0"}
-            },
-            {
-                "id": "ID_031096",
-                "description": "<p>599 FAIRVIEW AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67124079433344,45.45045463339221,0"}
-            },
-            {
-                "id": "ID_031143",
-                "description": "<p>521 CHAPEL ST<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67320106256175,45.42180197744719,0"}
-            },
-            {
-                "id": "ID_031672",
-                "description": "<p>12 GLENRIDGE RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.73472822752161,45.346656072081,0"}
-            },
-            {
-                "id": "ID_033317",
-                "description": "<p>2850 SANDALWOOD DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.64832755019441,45.37872287826905,0"}
-            },
-            {
-                "id": "ID_033320",
-                "description": "<p>2027 SANDALWOOD DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.64836629604079,45.37785876780193,0"}
-            },
-            {
-                "id": "ID_033321",
-                "description": "<p>2027 SANDALWOOD DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.64848058170004,45.37791420206802,0"}
-            },
-            {
-                "id": "ID_033445",
-                "description": "<p>1070 BARNETT DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.40054199752991,45.51549361880743,0"}
-            },
-            {
-                "id": "ID_033923",
-                "description": "<p>1265 WALKLEY RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6602529088857,45.37296539221365,0"}
-            },
-            {
-                "id": "ID_034058",
-                "description": "<p>1705 ORLEANS BLVD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.52222515679404,45.45671565480511,0"}
-            },
-            {
-                "id": "ID_034068",
-                "description": "<p>33 QUILL ST<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6551480316303,45.42536915821274,0"}
-            },
-            {
-                "id": "ID_034509",
-                "description": "<p>2850 SANDALWOOD DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.64847270402271,45.37871163243352,0"}
-            },
-            {
-                "id": "ID_034510",
-                "description": "<p>2850 SANDALWOOD DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.64840373514707,45.37871536466676,0"}
-            },
-            {
-                "id": "ID_034516",
-                "description": "<p>1265 WALKLEY RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66024332748998,45.37288315781861,0"}
-            },
-            {
-                "id": "ID_034542",
-                "description": "<p>310 VERDON PRIV<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6437742562638,45.36023214252109,0"}
-            },
-            {
-                "id": "ID_035114",
-                "description": "<p>2027 SANDALWOOD DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.64724705733909,45.37884550150212,0"}
-            },
-            {
-                "id": "ID_035118",
-                "description": "<p>1265 WALKLEY RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6602965735113,45.37330238592153,0"}
-            },
-            {
-                "id": "ID_035143",
-                "description": "<p>2549 DONNELLY DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66222776593924,45.06590220657659,0"}
-            },
-            {
-                "id": "ID_035150",
-                "description": "<p>3169 CARLING AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.82018250990062,45.3494284939043,0"}
-            },
-            {
-                "id": "ID_035265",
-                "description": "<p>1705 ORLEANS BLVD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.5227845236272,45.45635596136653,0"}
-            },
-            {
-                "id": "ID_035728",
-                "description": "<p>2027 SANDALWOOD DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.64714535650732,45.3788544723536,0"}
-            },
-            {
-                "id": "ID_035765",
-                "description": "<p>2549 DONNELLY DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66208842332334,45.0659546390585,0"}
-            },
-            {
-                "id": "ID_035772",
-                "description": "<p>3169 CARLING AVE<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.82017401374654,45.34942630164804,0"}
-            },
-            {
-                "id": "ID_035839",
-                "description": "<p>1070 BARNETT DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.40051139830941,45.5155470305326,0"}
-            },
-            {
-                "id": "ID_035877",
-                "description": "<p>33 QUILL ST<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.65516738560545,45.42584364906721,0"}
-            },
-            {
-                "id": "ID_036930",
-                "description": "<p>1265 WALKLEY RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66033025641231,45.37347758344043,0"}
-            },
-            {
-                "id": "ID_036940",
-                "description": "<p>1801 PLAYFAIR DR<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.64457094439294,45.39150500355345,0"}
-            },
-            {
-                "id": "ID_037073",
-                "description": "<p>1705 ORLEANS BLVD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.52248493487943,45.45648898298295,0"}
-            },
-            {
-                "id": "ID_037538",
-                "description": "<p>1265 WALKLEY RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66030877073891,45.37338472862427,0"}
-            },
-            {
-                "id": "ID_037539",
-                "description": "<p>1265 WALKLEY RD<\/p>",
-                "name": "Basswood",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66022438938313,45.37280003934739,0"}
-            }
-        ]
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "winterColor": "black",
+    "commonName": "Basswood",
+    "foodBearing": "no",
+    "allergen": "moderate",
+    "frenchName": "Tilleul d'Am?rique",
+    "scientificName": "Tilia americana",
+    "enWiki": "http://en.wikipedia.org/wiki/Tilia_americana",
+    "matDBH": 25,
+    "frWiki": "http://fr.wikipedia.org/wiki/Tilleul_d%27Am%C3%A9rique",
+    "lateFallColor": "gold",
+    "maxSpan": 50,
+    "native": "yes",
+    "leafPersistence": "deciduous",
+    "summerColor": "green",
+    "earlyFallColor": "yellow",
+    "earlySpringColor": "chartreuse",
+    "lateSpringColor": "yellow",
+    "name": "Basswood",
+    "growthRate": "slow",
+    "filename": "Basswood",
+    "growthFactor": 7,
+    "Placemark": [
+        {
+            "id": "ID_00011",
+            "description": "50 MACNABB PL",
+            "Point": {"coordinates": "-75.66348272479227,45.45026340443894,0"},
+            "dbh": 51
+        },
+        {
+            "id": "ID_00014",
+            "description": "65 MACNABB PL",
+            "Point": {"coordinates": "-75.66367309984358,45.44968590346516,0"},
+            "dbh": 23
+        },
+        {
+            "id": "ID_00078",
+            "description": "60 BITTERN CRT",
+            "Point": {"coordinates": "-75.66682827345261,45.44911904062195,0"},
+            "dbh": 32
+        },
+        {
+            "id": "ID_00096",
+            "description": "193 LANSDOWNE RD",
+            "Point": {"coordinates": "-75.67014123717043,45.44938131234719,0"},
+            "dbh": 8
+        },
+        {
+            "id": "ID_00187",
+            "description": "13 AMBERLY CRT",
+            "Point": {"coordinates": "-75.61509862190675,45.44775767434608,0"},
+            "dbh": 72
+        },
+        {
+            "id": "ID_00206",
+            "description": "95 LAKEVIEW AVE",
+            "Point": {"coordinates": "-75.66709329030832,45.45344778405755,0"},
+            "dbh": 61
+        },
+        {
+            "id": "ID_00413",
+            "description": "1818 ELMRIDGE DR",
+            "Point": {"coordinates": "-75.603397281344,45.44126125364846,0"},
+            "dbh": 60
+        },
+        {
+            "id": "ID_00538",
+            "description": "43 DAVIDSON DR",
+            "Point": {"coordinates": "-75.6093854840483,45.4491726876555,0"},
+            "dbh": 65
+        },
+        {
+            "id": "ID_00668",
+            "description": "1937 OAKDEAN CRES",
+            "Point": {"coordinates": "-75.60987187861019,45.45889264383168,0"},
+            "dbh": 45
+        },
+        {
+            "id": "ID_00984",
+            "description": "525 BUCHANAN CRES",
+            "Point": {"coordinates": "-75.61011166777502,45.46242533356834,0"},
+            "dbh": 92
+        },
+        {
+            "id": "ID_01008",
+            "description": "13 MASSEY LANE",
+            "Point": {"coordinates": "-75.61606203646187,45.46051139629676,0"},
+            "dbh": 30
+        },
+        {
+            "id": "ID_01073",
+            "description": "340 STONE QUARRY PRIV",
+            "Point": {"coordinates": "-75.62410221220476,45.44400322010573,0"},
+            "dbh": 63
+        },
+        {
+            "id": "ID_01405",
+            "description": "1178 RAINBOW ST",
+            "Point": {"coordinates": "-75.5871960066918,45.45337841716226,0"},
+            "dbh": 15
+        },
+        {
+            "id": "ID_01417",
+            "description": "4 SWANS WAY",
+            "Point": {"coordinates": "-75.61777160569629,45.45406618493806,0"},
+            "dbh": 110
+        },
+        {
+            "id": "ID_02059",
+            "description": "46 ROCKCLIFFE WAY",
+            "Point": {"coordinates": "-75.67753953504293,45.44606098355839,0"},
+            "dbh": 107
+        },
+        {
+            "id": "ID_02070",
+            "description": "25 LAMBTON AVE",
+            "Point": {"coordinates": "-75.67338145704515,45.44553819784339,0"},
+            "dbh": 38
+        },
+        {
+            "id": "ID_02127",
+            "description": "5 MIDDLETON DR",
+            "Point": {"coordinates": "-75.67651373310643,45.44434889468253,0"},
+            "dbh": 29
+        },
+        {
+            "id": "ID_02138",
+            "description": "197 SPRINGFIELD RD",
+            "Point": {"coordinates": "-75.67771690158874,45.44586200902815,0"},
+            "dbh": 70
+        },
+        {
+            "id": "ID_02162",
+            "description": "190 COLTRIN RD",
+            "Point": {"coordinates": "-75.68307031384697,45.4542503649113,0"},
+            "dbh": 55
+        },
+        {
+            "id": "ID_02164",
+            "description": "280 THOROLD RD",
+            "Point": {"coordinates": "-75.67993879098039,45.45348580108542,0"},
+            "dbh": 71
+        },
+        {
+            "id": "ID_02172",
+            "description": "171 COLTRIN RD",
+            "Point": {"coordinates": "-75.68371551732021,45.45432404411269,0"},
+            "dbh": 46
+        },
+        {
+            "id": "ID_02195",
+            "description": "160 DUFFERIN RD",
+            "Point": {"coordinates": "-75.68157205968373,45.44244607070399,0"},
+            "dbh": 80
+        },
+        {
+            "id": "ID_02310",
+            "description": "149 BUENA VISTA RD",
+            "Point": {"coordinates": "-75.68268601071556,45.45088079118961,0"},
+            "dbh": 140
+        },
+        {
+            "id": "ID_02541",
+            "description": "300 SANDRIDGE RD",
+            "Point": {"coordinates": "-75.66808190488354,45.4554118585507,0"},
+            "dbh": 117
+        },
+        {
+            "id": "ID_03073",
+            "description": "840 BLACKTHORNE AVE",
+            "Point": {"coordinates": "-75.63295038186485,45.44658027978062,0"},
+            "dbh": 33
+        },
+        {
+            "id": "ID_04119",
+            "description": "95 MACNABB PL",
+            "Point": {"coordinates": "-75.66350252417499,45.44945393658703,0"},
+            "dbh": 61
+        },
+        {
+            "id": "ID_04166",
+            "description": "20 BLUE HERON CRT",
+            "Point": {"coordinates": "-75.66496952197109,45.4493610582881,0"},
+            "dbh": 38
+        },
+        {
+            "id": "ID_04169",
+            "description": "5 BITTERN CRT",
+            "Point": {"coordinates": "-75.66621379251028,45.44942931255652,0"},
+            "dbh": 56
+        },
+        {
+            "id": "ID_04170",
+            "description": "5 BITTERN CRT",
+            "Point": {"coordinates": "-75.6663646850225,45.44940785914695,0"},
+            "dbh": 40
+        },
+        {
+            "id": "ID_04177",
+            "description": "187 LANSDOWNE RD",
+            "Point": {"coordinates": "-75.66932604306356,45.44896100347512,0"},
+            "dbh": 40
+        },
+        {
+            "id": "ID_04306",
+            "description": "145 LAKEVIEW AVE",
+            "Point": {"coordinates": "-75.66598231098502,45.45331178208176,0"},
+            "dbh": 59
+        },
+        {
+            "id": "ID_04361",
+            "description": "90 PLACEL RD",
+            "Point": {"coordinates": "-75.6668652228671,45.45404000966141,0"},
+            "dbh": 92
+        },
+        {
+            "id": "ID_04624",
+            "description": "21 DAVIDSON DR",
+            "Point": {"coordinates": "-75.61323852353836,45.45019457299465,0"},
+            "dbh": 16
+        },
+        {
+            "id": "ID_04685",
+            "description": "45 WESTWARD WAY",
+            "Point": {"coordinates": "-75.664475545901,45.45404143281319,0"},
+            "dbh": 55
+        },
+        {
+            "id": "ID_05052",
+            "description": "10 CEDAR RD",
+            "Point": {"coordinates": "-75.60695529410337,45.44825570205499,0"},
+            "dbh": 22
+        },
+        {
+            "id": "ID_05105",
+            "description": "18 WREN RD",
+            "Point": {"coordinates": "-75.61355064754623,45.45270273200583,0"},
+            "dbh": 90
+        },
+        {
+            "id": "ID_05554",
+            "description": "536 BRUNEL ST",
+            "Point": {"coordinates": "-75.63179977079628,45.44853005748745,0"},
+            "dbh": 86
+        },
+        {
+            "id": "ID_05737",
+            "description": "5 ROTHWELL DR",
+            "Point": {"coordinates": "-75.61569610506244,45.45546516764389,0"},
+            "dbh": 110
+        },
+        {
+            "id": "ID_06176",
+            "description": "585 ACACIA AVE",
+            "Point": {"coordinates": "-75.6794372206285,45.45349245896854,0"},
+            "dbh": 57
+        },
+        {
+            "id": "ID_06244",
+            "description": "118 WILLINGDON RD",
+            "Point": {"coordinates": "-75.68241469344531,45.4481905275189,0"},
+            "dbh": 143
+        },
+        {
+            "id": "ID_06938",
+            "description": "35 COPERNICUS ST",
+            "Point": {"coordinates": "-75.68323753731681,45.42436004995493,0"},
+            "dbh": 75
+        },
+        {
+            "id": "ID_07191",
+            "description": "102 PALSEN ST",
+            "Point": {"coordinates": "-75.74570197929621,45.34403100214394,0"},
+            "dbh": 200
+        },
+        {
+            "id": "ID_08308",
+            "description": "5 BITTERN CRT",
+            "Point": {"coordinates": "-75.66588798127563,45.44945981972109,0"},
+            "dbh": 42
+        },
+        {
+            "id": "ID_08319",
+            "description": "170 LANSDOWNE RD",
+            "Point": {"coordinates": "-75.66915721686422,45.44897110828219,0"},
+            "dbh": 44
+        },
+        {
+            "id": "ID_08320",
+            "description": "187 LANSDOWNE RD",
+            "Point": {"coordinates": "-75.66930658772708,45.44896066401376,0"},
+            "dbh": 51
+        },
+        {
+            "id": "ID_08322",
+            "description": "193 LANSDOWNE RD",
+            "Point": {"coordinates": "-75.67020554757711,45.44937567317626,0"},
+            "dbh": 77
+        },
+        {
+            "id": "ID_09555",
+            "description": "1178 RAINBOW ST",
+            "Point": {"coordinates": "-75.58720828790294,45.45341957108146,0"},
+            "dbh": 17
+        },
+        {
+            "id": "ID_09998",
+            "description": "73 KING ST",
+            "Point": {"coordinates": "-75.8277864241564,45.19125881420492,0"},
+            "dbh": 100
+        },
+        {
+            "id": "ID_010213",
+            "description": "42 ACACIA AVE",
+            "Point": {"coordinates": "-75.67197594631946,45.44382396817107,0"},
+            "dbh": 80
+        },
+        {
+            "id": "ID_010215",
+            "description": "12 ACACIA AVE",
+            "Point": {"coordinates": "-75.67179775842527,45.44282235110681,0"},
+            "dbh": 28
+        },
+        {
+            "id": "ID_010268",
+            "description": "118 WILLINGDON RD",
+            "Point": {"coordinates": "-75.68249035982612,45.44830569509067,0"},
+            "dbh": 34
+        },
+        {
+            "id": "ID_010278",
+            "description": "641 ACACIA AVE",
+            "Point": {"coordinates": "-75.67899041928477,45.45368138196317,0"},
+            "dbh": 22
+        },
+        {
+            "id": "ID_010321",
+            "description": "290 COLTRIN RD",
+            "Point": {"coordinates": "-75.68021887667392,45.45354240750736,0"},
+            "dbh": 70
+        },
+        {
+            "id": "ID_010344",
+            "description": "137 WILLINGDON RD",
+            "Point": {"coordinates": "-75.68162400292843,45.44870017116914,0"},
+            "dbh": 63
+        },
+        {
+            "id": "ID_010512",
+            "description": "311 MANOR AVE",
+            "Point": {"coordinates": "-75.68155029415929,45.44957222133304,0"},
+            "dbh": 60
+        },
+        {
+            "id": "ID_010615",
+            "description": "450 NELSON ST",
+            "Point": {"coordinates": "-75.67807848518372,45.42232931928007,0"},
+            "dbh": 20
+        },
+        {
+            "id": "ID_012141",
+            "description": "1058 DEAUVILLE CRES",
+            "Point": {"coordinates": "-75.52193605278086,45.48664291297673,0"},
+            "dbh": 46
+        },
+        {
+            "id": "ID_012430",
+            "description": "18 ORIOLE DR",
+            "Point": {"coordinates": "-75.61177644308863,45.45643600257938,0"},
+            "dbh": 56
+        },
+        {
+            "id": "ID_012488",
+            "description": "110 LAKEVIEW AVE",
+            "Point": {"coordinates": "-75.66682912664827,45.4535946272879,0"},
+            "dbh": 63
+        },
+        {
+            "id": "ID_012489",
+            "description": "105 LAKEVIEW AVE",
+            "Point": {"coordinates": "-75.66694093253632,45.4534131264429,0"},
+            "dbh": 65
+        },
+        {
+            "id": "ID_013309",
+            "description": "530 BUCHANAN CRES",
+            "Point": {"coordinates": "-75.610789109639,45.46218143452266,0"},
+            "dbh": 38
+        },
+        {
+            "id": "ID_013707",
+            "description": "33 WREN RD",
+            "Point": {"coordinates": "-75.61300189867944,45.45214194360738,0"},
+            "dbh": 140
+        },
+        {
+            "id": "ID_013722",
+            "description": "21 CEDAR RD",
+            "Point": {"coordinates": "-75.60672565321799,45.44826185110872,0"},
+            "dbh": 80
+        },
+        {
+            "id": "ID_013776",
+            "description": "41 DAVIDSON DR",
+            "Point": {"coordinates": "-75.61009017449339,45.44932806345242,0"},
+            "dbh": 40
+        },
+        {
+            "id": "ID_013819",
+            "description": "247 GREENSWAY AVE",
+            "Point": {"coordinates": "-75.66829882644784,45.43533072261599,0"},
+            "dbh": 20
+        },
+        {
+            "id": "ID_013865",
+            "description": "528 BUCHANAN CRES",
+            "Point": {"coordinates": "-75.61105607105961,45.46216579088385,0"},
+            "dbh": 84
+        },
+        {
+            "id": "ID_014328",
+            "description": "20 CORONA AVE",
+            "Point": {"coordinates": "-75.67179361530789,45.44442791928442,0"},
+            "dbh": 120
+        },
+        {
+            "id": "ID_014369",
+            "description": "641 ACACIA AVE",
+            "Point": {"coordinates": "-75.67914298160746,45.45367006862033,0"},
+            "dbh": 20
+        },
+        {
+            "id": "ID_014382",
+            "description": "142 ACACIA AVE",
+            "Point": {"coordinates": "-75.67217680380229,45.44688130847789,0"},
+            "dbh": 42
+        },
+        {
+            "id": "ID_014384",
+            "description": "400 WOOD AVE",
+            "Point": {"coordinates": "-75.67154918830616,45.44586701998251,0"},
+            "dbh": 75
+        },
+        {
+            "id": "ID_014405",
+            "description": "197 SPRINGFIELD RD",
+            "Point": {"coordinates": "-75.67774844019405,45.44597691428861,0"},
+            "dbh": 78
+        },
+        {
+            "id": "ID_014544",
+            "description": "20 BLUE HERON CRT",
+            "Point": {"coordinates": "-75.66492477333756,45.4490208099003,0"},
+            "dbh": 90
+        },
+        {
+            "id": "ID_014608",
+            "description": "420 LISGAR RD",
+            "Point": {"coordinates": "-75.68634837808283,45.45139151693134,0"},
+            "dbh": 58
+        },
+        {
+            "id": "ID_015046",
+            "description": "119 MANN AVE",
+            "Point": {"coordinates": "-75.67193171646667,45.42144422481233,0"},
+            "dbh": 96
+        },
+        {
+            "id": "ID_015372",
+            "description": "35 NORICE ST",
+            "Point": {"coordinates": "-75.73731088505107,45.34650584976445,0"},
+            "dbh": 118
+        },
+        {
+            "id": "ID_015470",
+            "description": "121 COTE DE NEIGES RD",
+            "Point": {"coordinates": "-75.74898726993077,45.35254867419444,0"},
+            "dbh": 92
+        },
+        {
+            "id": "ID_016272",
+            "description": "1125 TRIM RD",
+            "Point": {"coordinates": "-75.48121457433395,45.49792800106986,0"},
+            "dbh": 28
+        },
+        {
+            "id": "ID_016348",
+            "description": "1058 DEAUVILLE CRES",
+            "Point": {"coordinates": "-75.52192463594052,45.48672639126156,0"},
+            "dbh": 77
+        },
+        {
+            "id": "ID_016554",
+            "description": "115 LANSDOWNE RD",
+            "Point": {"coordinates": "-75.66878453608422,45.44766667296742,0"},
+            "dbh": 55
+        },
+        {
+            "id": "ID_016682",
+            "description": "145 LAKEVIEW AVE",
+            "Point": {"coordinates": "-75.66593574982859,45.45329484071223,0"},
+            "dbh": 63
+        },
+        {
+            "id": "ID_016811",
+            "description": "2003 HOLLYBROOK CRES",
+            "Point": {"coordinates": "-75.60943790660414,45.46105736296683,0"},
+            "dbh": 71
+        },
+        {
+            "id": "ID_016861",
+            "description": "211 LAKEWAY DR",
+            "Point": {"coordinates": "-75.66435338128812,45.45207486124946,0"},
+            "dbh": 77
+        },
+        {
+            "id": "ID_017949",
+            "description": "263 GREENSWAY AVE",
+            "Point": {"coordinates": "-75.66766759310119,45.43477424328847,0"},
+            "dbh": 24
+        },
+        {
+            "id": "ID_018472",
+            "description": "34 ACACIA AVE",
+            "Point": {"coordinates": "-75.67173534928952,45.44322846961455,0"},
+            "dbh": 85
+        },
+        {
+            "id": "ID_018474",
+            "description": "23 ROCKCLIFFE WAY",
+            "Point": {"coordinates": "-75.6757760694436,45.44491250455052,0"},
+            "dbh": 150
+        },
+        {
+            "id": "ID_018486",
+            "description": "25 LAMBTON AVE",
+            "Point": {"coordinates": "-75.67346488876341,45.44552140655545,0"},
+            "dbh": 77
+        },
+        {
+            "id": "ID_018519",
+            "description": "118 WILLINGDON RD",
+            "Point": {"coordinates": "-75.68247427961101,45.4482979258477,0"},
+            "dbh": 53
+        },
+        {
+            "id": "ID_018520",
+            "description": "118 WILLINGDON RD",
+            "Point": {"coordinates": "-75.68247623414739,45.44828076974267,0"},
+            "dbh": 27
+        },
+        {
+            "id": "ID_018547",
+            "description": "108 ACACIA AVE",
+            "Point": {"coordinates": "-75.67212781987755,45.44515762897478,0"},
+            "dbh": 19
+        },
+        {
+            "id": "ID_018598",
+            "description": "118 WILLINGDON RD",
+            "Point": {"coordinates": "-75.68221939835416,45.44856334407233,0"},
+            "dbh": 29
+        },
+        {
+            "id": "ID_018683",
+            "description": "90 PARK RD",
+            "Point": {"coordinates": "-75.68299589525766,45.44876030418237,0"},
+            "dbh": 43
+        },
+        {
+            "id": "ID_018700",
+            "description": "90 PARK RD",
+            "Point": {"coordinates": "-75.68303294522353,45.44862146723052,0"},
+            "dbh": 95
+        },
+        {
+            "id": "ID_018737",
+            "description": "375 MANOR AVE",
+            "Point": {"coordinates": "-75.68185719498756,45.45021334158949,0"},
+            "dbh": 40
+        },
+        {
+            "id": "ID_018768",
+            "description": "160 MANOR AVE",
+            "Point": {"coordinates": "-75.68010352229473,45.44743469985593,0"},
+            "dbh": 51
+        },
+        {
+            "id": "ID_018807",
+            "description": "321 CLOVERDALE RD",
+            "Point": {"coordinates": "-75.6733918568717,45.45012005862337,0"},
+            "dbh": 95
+        },
+        {
+            "id": "ID_019078",
+            "description": "400 LANSDOWNE RD",
+            "Point": {"coordinates": "-75.67175651897669,45.45116850646119,0"},
+            "dbh": 26
+        },
+        {
+            "id": "ID_020723",
+            "description": "115 LANSDOWNE RD",
+            "Point": {"coordinates": "-75.6687685295377,45.4476972846643,0"},
+            "dbh": 52
+        },
+        {
+            "id": "ID_021138",
+            "description": "21 DAVIDSON DR",
+            "Point": {"coordinates": "-75.61324298309775,45.45018027835983,0"},
+            "dbh": 23
+        },
+        {
+            "id": "ID_021220",
+            "description": "140 BLENHEIM DR",
+            "Point": {"coordinates": "-75.66336403173493,45.45400150208051,0"},
+            "dbh": 28
+        },
+        {
+            "id": "ID_021520",
+            "description": "530 BUCHANAN CRES",
+            "Point": {"coordinates": "-75.61080661519573,45.462197721332,0"},
+            "dbh": 57
+        },
+        {
+            "id": "ID_021864",
+            "description": "24 BURROWS RD",
+            "Point": {"coordinates": "-75.6181390328004,45.45643573962077,0"},
+            "dbh": 33
+        },
+        {
+            "id": "ID_022029",
+            "description": "21 CEDAR RD",
+            "Point": {"coordinates": "-75.60678433174671,45.4483053994801,0"},
+            "dbh": 28
+        },
+        {
+            "id": "ID_022599",
+            "description": "74 ACACIA AVE",
+            "Point": {"coordinates": "-75.6720323884479,45.44448462965253,0"},
+            "dbh": 17
+        },
+        {
+            "id": "ID_022678",
+            "description": "29 SPRINGFIELD RD",
+            "Point": {"coordinates": "-75.67641338943605,45.4407364096413,0"},
+            "dbh": 44
+        },
+        {
+            "id": "ID_022684",
+            "description": "218 COLTRIN RD",
+            "Point": {"coordinates": "-75.68231746343184,45.45388728932471,0"},
+            "dbh": 38
+        },
+        {
+            "id": "ID_022698",
+            "description": "280 THOROLD RD",
+            "Point": {"coordinates": "-75.6798032673136,45.45345582304888,0"},
+            "dbh": 143
+        },
+        {
+            "id": "ID_022707",
+            "description": "177 COLTRIN RD",
+            "Point": {"coordinates": "-75.68315733148795,45.45437173659902,0"},
+            "dbh": 55
+        },
+        {
+            "id": "ID_022709",
+            "description": "118 WILLINGDON RD",
+            "Point": {"coordinates": "-75.68222976639791,45.44856758912297,0"},
+            "dbh": 94
+        },
+        {
+            "id": "ID_022927",
+            "description": "711 MANOR AVE",
+            "Point": {"coordinates": "-75.68255396667306,45.45440369306264,0"},
+            "dbh": 52
+        },
+        {
+            "id": "ID_023150",
+            "description": "710 HILLSDALE RD",
+            "Point": {"coordinates": "-75.66933783093532,45.4539372565969,0"},
+            "dbh": 46
+        },
+        {
+            "id": "ID_023385",
+            "description": "232 ST. PATRICK ST",
+            "Point": {"coordinates": "-75.69326556248169,45.43061358800839,0"},
+            "dbh": 65
+        },
+        {
+            "id": "ID_023749",
+            "description": "1337 BOYER RD",
+            "Point": {"coordinates": "-75.53237060316452,45.46660759372588,0"},
+            "dbh": 25
+        },
+        {
+            "id": "ID_024351",
+            "description": "800 OAKSIDE CRES",
+            "Point": {"coordinates": "-75.94703822520762,45.35130369469848,0"},
+            "dbh": 7
+        },
+        {
+            "id": "ID_024749",
+            "description": "5 BITTERN CRT",
+            "Point": {"coordinates": "-75.6659184929801,45.44946803682946,0"},
+            "dbh": 25
+        },
+        {
+            "id": "ID_024752",
+            "description": "60 BITTERN CRT",
+            "Point": {"coordinates": "-75.66676091245324,45.44907034231541,0"},
+            "dbh": 43
+        },
+        {
+            "id": "ID_024756",
+            "description": "115 LANSDOWNE RD",
+            "Point": {"coordinates": "-75.66881041064765,45.44765303142168,0"},
+            "dbh": 32
+        },
+        {
+            "id": "ID_024909",
+            "description": "571 DUFF CRES",
+            "Point": {"coordinates": "-75.60802450812896,45.45946175685621,0"},
+            "dbh": 61
+        },
+        {
+            "id": "ID_024953",
+            "description": "729 STILES CRES",
+            "Point": {"coordinates": "-75.59430449498362,45.4591504437435,0"},
+            "dbh": 50
+        },
+        {
+            "id": "ID_025269",
+            "description": "120 BLENHEIM DR",
+            "Point": {"coordinates": "-75.66333826497505,45.45410396937285,0"},
+            "dbh": 25
+        },
+        {
+            "id": "ID_025770",
+            "description": "44 DAVIDSON DR",
+            "Point": {"coordinates": "-75.60893190149487,45.4486129903064,0"},
+            "dbh": 44
+        },
+        {
+            "id": "ID_025887",
+            "description": "510 FOXVIEW PL",
+            "Point": {"coordinates": "-75.63138365414046,45.44901793364,0"},
+            "dbh": 40
+        },
+        {
+            "id": "ID_025926",
+            "description": "4 SWANS WAY",
+            "Point": {"coordinates": "-75.61783249390599,45.45419944282931,0"},
+            "dbh": 100
+        },
+        {
+            "id": "ID_026519",
+            "description": "5931 PERTH ST",
+            "Point": {"coordinates": "-75.82995290577405,45.20014675256108,0"},
+            "dbh": 6
+        },
+        {
+            "id": "ID_026655",
+            "description": "142 ACACIA AVE",
+            "Point": {"coordinates": "-75.6721913867345,45.44694726632856,0"},
+            "dbh": 50
+        },
+        {
+            "id": "ID_026709",
+            "description": "137 WILLINGDON RD",
+            "Point": {"coordinates": "-75.68183461213569,45.44869223242939,0"},
+            "dbh": 70
+        },
+        {
+            "id": "ID_026710",
+            "description": "137 WILLINGDON RD",
+            "Point": {"coordinates": "-75.68157541953387,45.44873928161015,0"},
+            "dbh": 143
+        },
+        {
+            "id": "ID_026852",
+            "description": "375 MANOR AVE",
+            "Point": {"coordinates": "-75.68190850162226,45.45022744353517,0"},
+            "dbh": 38
+        },
+        {
+            "id": "ID_026902",
+            "description": "580 MARIPOSA AVE",
+            "Point": {"coordinates": "-75.67144087552174,45.44920609499626,0"},
+            "dbh": 56
+        },
+        {
+            "id": "ID_028726",
+            "description": "39 BIRCH AVE",
+            "Point": {"coordinates": "-75.66310185510176,45.45225843468475,0"},
+            "dbh": 64
+        },
+        {
+            "id": "ID_028769",
+            "description": "549 RIVERSHORE CRES",
+            "Point": {"coordinates": "-75.60614320611991,45.46269957989697,0"},
+            "dbh": 120
+        },
+        {
+            "id": "ID_028796",
+            "description": "5 BITTERN CRT",
+            "Point": {"coordinates": "-75.66617338963054,45.4494266366013,0"},
+            "dbh": 41
+        },
+        {
+            "id": "ID_028916",
+            "description": "195 LAKEWAY DR",
+            "Point": {"coordinates": "-75.66482789447956,45.45292212796928,0"},
+            "dbh": 74
+        },
+        {
+            "id": "ID_029036",
+            "description": "1953 CARDINAL CRT",
+            "Point": {"coordinates": "-75.60226259277522,45.44653479817131,0"},
+            "dbh": 32
+        },
+        {
+            "id": "ID_029043",
+            "description": "125 LAKEVIEW AVE",
+            "Point": {"coordinates": "-75.66614949061602,45.45332175555435,0"},
+            "dbh": 123
+        },
+        {
+            "id": "ID_029196",
+            "description": "5567 CARP RD",
+            "Point": {"coordinates": "-76.14810625159402,45.41579146597236,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_029424",
+            "description": "358 MILLCRAFT CRES",
+            "Point": {"coordinates": "-75.6520799706001,45.43145827997788,0"},
+            "dbh": 7
+        },
+        {
+            "id": "ID_030719",
+            "description": "14 ACACIA AVE",
+            "Point": {"coordinates": "-75.67212983263509,45.44308208971166,0"},
+            "dbh": 94
+        },
+        {
+            "id": "ID_030776",
+            "description": "55 WILLINGDON RD",
+            "Point": {"coordinates": "-75.68358561371309,45.44854722531228,0"},
+            "dbh": 78
+        },
+        {
+            "id": "ID_030778",
+            "description": "137 WILLINGDON RD",
+            "Point": {"coordinates": "-75.68164529448595,45.44870826132328,0"},
+            "dbh": 64
+        },
+        {
+            "id": "ID_030798",
+            "description": "142 ACACIA AVE",
+            "Point": {"coordinates": "-75.67222314119978,45.44689679783681,0"},
+            "dbh": 47
+        },
+        {
+            "id": "ID_030799",
+            "description": "142 ACACIA AVE",
+            "Point": {"coordinates": "-75.67219085667171,45.44692660905576,0"},
+            "dbh": 27
+        },
+        {
+            "id": "ID_030800",
+            "description": "142 ACACIA AVE",
+            "Point": {"coordinates": "-75.67218727848456,45.44695238911314,0"},
+            "dbh": 55
+        },
+        {
+            "id": "ID_030856",
+            "description": "118 WILLINGDON RD",
+            "Point": {"coordinates": "-75.68228404168633,45.44856158964746,0"},
+            "dbh": 37
+        },
+        {
+            "id": "ID_031012",
+            "description": "375 MANOR AVE",
+            "Point": {"coordinates": "-75.68192223503353,45.45021611287073,0"},
+            "dbh": 48
+        },
+        {
+            "id": "ID_031058",
+            "description": "250 MINTO PL",
+            "Point": {"coordinates": "-75.68284414094418,45.44881676328139,0"},
+            "dbh": 59
+        },
+        {
+            "id": "ID_031096",
+            "description": "599 FAIRVIEW AVE",
+            "Point": {"coordinates": "-75.67124079433344,45.45045463339221,0"},
+            "dbh": 175
+        },
+        {
+            "id": "ID_031143",
+            "description": "521 CHAPEL ST",
+            "Point": {"coordinates": "-75.67320106256175,45.42180197744719,0"},
+            "dbh": 88
+        },
+        {
+            "id": "ID_031672",
+            "description": "12 GLENRIDGE RD",
+            "Point": {"coordinates": "-75.73472822752161,45.346656072081,0"},
+            "dbh": 160
+        },
+        {
+            "id": "ID_033317",
+            "description": "2850 SANDALWOOD DR",
+            "Point": {"coordinates": "-75.64832755019441,45.37872287826905,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_033320",
+            "description": "2027 SANDALWOOD DR",
+            "Point": {"coordinates": "-75.64836629604079,45.37785876780193,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_033321",
+            "description": "2027 SANDALWOOD DR",
+            "Point": {"coordinates": "-75.64848058170004,45.37791420206802,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_033445",
+            "description": "1070 BARNETT DR",
+            "Point": {"coordinates": "-75.40054199752991,45.51549361880743,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_033923",
+            "description": "1265 WALKLEY RD",
+            "Point": {"coordinates": "-75.6602529088857,45.37296539221365,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_034058",
+            "description": "1705 ORLEANS BLVD",
+            "Point": {"coordinates": "-75.52222515679404,45.45671565480511,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_034068",
+            "description": "33 QUILL ST",
+            "Point": {"coordinates": "-75.6551480316303,45.42536915821274,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_034509",
+            "description": "2850 SANDALWOOD DR",
+            "Point": {"coordinates": "-75.64847270402271,45.37871163243352,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_034510",
+            "description": "2850 SANDALWOOD DR",
+            "Point": {"coordinates": "-75.64840373514707,45.37871536466676,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_034516",
+            "description": "1265 WALKLEY RD",
+            "Point": {"coordinates": "-75.66024332748998,45.37288315781861,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_034542",
+            "description": "310 VERDON PRIV",
+            "Point": {"coordinates": "-75.6437742562638,45.36023214252109,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_035114",
+            "description": "2027 SANDALWOOD DR",
+            "Point": {"coordinates": "-75.64724705733909,45.37884550150212,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_035118",
+            "description": "1265 WALKLEY RD",
+            "Point": {"coordinates": "-75.6602965735113,45.37330238592153,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_035143",
+            "description": "2549 DONNELLY DR",
+            "Point": {"coordinates": "-75.66222776593924,45.06590220657659,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_035150",
+            "description": "3169 CARLING AVE",
+            "Point": {"coordinates": "-75.82018250990062,45.3494284939043,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_035265",
+            "description": "1705 ORLEANS BLVD",
+            "Point": {"coordinates": "-75.5227845236272,45.45635596136653,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_035728",
+            "description": "2027 SANDALWOOD DR",
+            "Point": {"coordinates": "-75.64714535650732,45.3788544723536,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_035765",
+            "description": "2549 DONNELLY DR",
+            "Point": {"coordinates": "-75.66208842332334,45.0659546390585,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_035772",
+            "description": "3169 CARLING AVE",
+            "Point": {"coordinates": "-75.82017401374654,45.34942630164804,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_035839",
+            "description": "1070 BARNETT DR",
+            "Point": {"coordinates": "-75.40051139830941,45.5155470305326,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_035877",
+            "description": "33 QUILL ST",
+            "Point": {"coordinates": "-75.65516738560545,45.42584364906721,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_036930",
+            "description": "1265 WALKLEY RD",
+            "Point": {"coordinates": "-75.66033025641231,45.37347758344043,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_036940",
+            "description": "1801 PLAYFAIR DR",
+            "Point": {"coordinates": "-75.64457094439294,45.39150500355345,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_037073",
+            "description": "1705 ORLEANS BLVD",
+            "Point": {"coordinates": "-75.52248493487943,45.45648898298295,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_037538",
+            "description": "1265 WALKLEY RD",
+            "Point": {"coordinates": "-75.66030877073891,45.37338472862427,0"},
+            "dbh": 5
+        },
+        {
+            "id": "ID_037539",
+            "description": "1265 WALKLEY RD",
+            "Point": {"coordinates": "-75.66022438938313,45.37280003934739,0"},
+            "dbh": 5
+        }
+    ]
+});

@@ -1,32 +1,43 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": [
-            {
-                "id": "ID_02089",
-                "description": "<p>211 SPRINGFIELD RD<\/p>",
-                "name": "Black Ash",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67839385206358,45.44635006306915,0"}
-            },
-            {
-                "id": "ID_020851",
-                "description": "<p>1377 MATHESON RD<\/p>",
-                "name": "Black Ash",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.62361501203392,45.43576416054911,0"}
-            },
-            {
-                "id": "ID_028403",
-                "description": "<p>35 LAXFORD DR<\/p>",
-                "name": "Black Ash",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.93630920476201,45.35033508272067,0"}
-            }
-        ]
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "winterColor": "black",
+    "commonName": "Ash Black",
+    "foodBearing": "no",
+    "allergen": "severe",
+    "frenchName": "Fr?ne noir",
+    "scientificName": "Fraxinus nigra",
+    "enWiki": "http://en.wikipedia.org/wiki/Fraxinus_nigra",
+    "matDBH": 20,
+    "frWiki": "http://fr.wikipedia.org/wiki/Fr%C3%AAne_noir",
+    "lateFallColor": "gold",
+    "maxSpan": 50,
+    "native": "yes",
+    "leafPersistence": "deciduous",
+    "summerColor": "green",
+    "earlyFallColor": "yellow",
+    "earlySpringColor": "chartreuse",
+    "lateSpringColor": "chartreuse",
+    "name": "Black Ash",
+    "growthRate": "moderate",
+    "filename": "Ash_Black",
+    "growthFactor": 5,
+    "Placemark": [
+        {
+            "id": "ID_02089",
+            "description": "211 SPRINGFIELD RD",
+            "Point": {"coordinates": "-75.67839385206358,45.44635006306915,0"},
+            "dbh": 14
+        },
+        {
+            "id": "ID_020851",
+            "description": "1377 MATHESON RD",
+            "Point": {"coordinates": "-75.62361501203392,45.43576416054911,0"},
+            "dbh": 62
+        },
+        {
+            "id": "ID_028403",
+            "description": "35 LAXFORD DR",
+            "Point": {"coordinates": "-75.93630920476201,45.35033508272067,0"},
+            "dbh": 7
+        }
+    ]
+});

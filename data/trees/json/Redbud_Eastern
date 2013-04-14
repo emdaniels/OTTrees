@@ -1,16 +1,29 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": {
-            "id": "ID_035131",
-            "description": "<p>95 DOSSETTER WAY<\/p>",
-            "name": "Eastern Redbud",
-            "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-            "Point": {"coordinates": "-75.61031577399571,45.36902444264614,0"}
-        }
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "winterColor": "black",
+    "commonName": "Redbud Eastern",
+    "foodBearing": "no",
+    "allergen": "mild",
+    "frenchName": "Cercis",
+    "scientificName": "Cercis canadensis",
+    "enWiki": "http://en.wikipedia.org/wiki/Cercis_canadensis",
+    "matDBH": 10,
+    "frWiki": "http://fr.wikipedia.org/wiki/Cercis",
+    "lateFallColor": "gold",
+    "maxSpan": 25,
+    "native": "yes",
+    "leafPersistence": "deciduous",
+    "summerColor": "green",
+    "earlyFallColor": "yellow",
+    "earlySpringColor": "burgundy",
+    "lateSpringColor": "pink",
+    "name": "Eastern Redbud",
+    "growthRate": "fast",
+    "filename": "Redbud_Eastern",
+    "growthFactor": 3,
+    "Placemark": {
+        "id": "ID_035131",
+        "description": "95 DOSSETTER WAY",
+        "Point": {"coordinates": "-75.61031577399571,45.36902444264614,0"},
+        "dbh": 5
+    }
+});

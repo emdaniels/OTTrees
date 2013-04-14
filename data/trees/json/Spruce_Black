@@ -1,46 +1,55 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": [
-            {
-                "id": "ID_03424",
-                "description": "<p>14 PEIKOFF CRES<\/p>",
-                "name": "Black Spruce",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.94004348128367,45.34842366604777,0"}
-            },
-            {
-                "id": "ID_09474",
-                "description": "<p>79 JARDIN PRIV<\/p>",
-                "name": "Black Spruce",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.65241780879254,45.4522406271474,0"}
-            },
-            {
-                "id": "ID_012086",
-                "description": "<p>753 HARLEQUIN CRES<\/p>",
-                "name": "Black Spruce",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.50747220343206,45.4884541448854,0"}
-            },
-            {
-                "id": "ID_015709",
-                "description": "<p>1184 KLONDIKE RD<\/p>",
-                "name": "Black Spruce",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.93773562753803,45.35144573550208,0"}
-            },
-            {
-                "id": "ID_032041",
-                "description": "<p>1219 KLONDIKE RD<\/p>",
-                "name": "Black Spruce",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.94106237264695,45.35005771892092,0"}
-            }
-        ]
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "winterColor": "green",
+    "commonName": "Spruce Black",
+    "foodBearing": "no",
+    "allergen": "none",
+    "frenchName": "?pinette noire",
+    "scientificName": "Picea mariana",
+    "enWiki": "http://en.wikipedia.org/wiki/Picea_mariana",
+    "matDBH": 20,
+    "frWiki": "http://fr.wikipedia.org/wiki/%C3%89pinette_noire",
+    "lateFallColor": "green",
+    "maxSpan": 25,
+    "native": "yes",
+    "leafPersistence": "evergreen",
+    "summerColor": "green",
+    "earlyFallColor": "green",
+    "earlySpringColor": "green",
+    "lateSpringColor": "green",
+    "name": "Black Spruce",
+    "growthRate": "moderate",
+    "filename": "Spruce_Black",
+    "growthFactor": 5,
+    "Placemark": [
+        {
+            "id": "ID_03424",
+            "description": "14 PEIKOFF CRES",
+            "Point": {"coordinates": "-75.94004348128367,45.34842366604777,0"},
+            "dbh": 9
+        },
+        {
+            "id": "ID_09474",
+            "description": "79 JARDIN PRIV",
+            "Point": {"coordinates": "-75.65241780879254,45.4522406271474,0"},
+            "dbh": 6
+        },
+        {
+            "id": "ID_012086",
+            "description": "753 HARLEQUIN CRES",
+            "Point": {"coordinates": "-75.50747220343206,45.4884541448854,0"},
+            "dbh": 17
+        },
+        {
+            "id": "ID_015709",
+            "description": "1184 KLONDIKE RD",
+            "Point": {"coordinates": "-75.93773562753803,45.35144573550208,0"},
+            "dbh": 8
+        },
+        {
+            "id": "ID_032041",
+            "description": "1219 KLONDIKE RD",
+            "Point": {"coordinates": "-75.94106237264695,45.35005771892092,0"},
+            "dbh": 8
+        }
+    ]
+});

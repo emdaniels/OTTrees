@@ -1,39 +1,49 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": [
-            {
-                "id": "ID_01000",
-                "description": "<p>1128 CUMMINGS AVE<\/p>",
-                "name": "Black Willow",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.63392358633605,45.42843874117634,0"}
-            },
-            {
-                "id": "ID_05087",
-                "description": "<p>2029 KILBORN AVE<\/p>",
-                "name": "Black Willow",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.63557626677493,45.3896444498231,0"}
-            },
-            {
-                "id": "ID_09585",
-                "description": "<p>2029 KILBORN AVE<\/p>",
-                "name": "Black Willow",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.63556064044293,45.38966429049812,0"}
-            },
-            {
-                "id": "ID_021993",
-                "description": "<p>2029 KILBORN AVE<\/p>",
-                "name": "Black Willow",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.63556160236631,45.38961585099742,0"}
-            }
-        ]
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "winterColor": "black",
+    "commonName": "Willow Black",
+    "foodBearing": "no",
+    "allergen": "severe",
+    "frenchName": "Saule noir",
+    "scientificName": "Salix nigra",
+    "enWiki": "http://en.wikipedia.org/wiki/Salix_nigra",
+    "matDBH": 10,
+    "frWiki": "http://fr.wikipedia.org/wiki/Saule_noir",
+    "lateFallColor": "gold",
+    "maxSpan": 20,
+    "native": "yes",
+    "leafPersistence": "deciduous",
+    "summerColor": "green",
+    "earlyFallColor": "yellow",
+    "earlySpringColor": "chartreuse",
+    "lateSpringColor": "yellow",
+    "name": "Black Willow",
+    "growthRate": "fast",
+    "filename": "Willow_Black",
+    "growthFactor": 3,
+    "Placemark": [
+        {
+            "id": "ID_01000",
+            "description": "1128 CUMMINGS AVE",
+            "Point": {"coordinates": "-75.63392358633605,45.42843874117634,0"},
+            "dbh": 40
+        },
+        {
+            "id": "ID_05087",
+            "description": "2029 KILBORN AVE",
+            "Point": {"coordinates": "-75.63557626677493,45.3896444498231,0"},
+            "dbh": 50
+        },
+        {
+            "id": "ID_09585",
+            "description": "2029 KILBORN AVE",
+            "Point": {"coordinates": "-75.63556064044293,45.38966429049812,0"},
+            "dbh": 75
+        },
+        {
+            "id": "ID_021993",
+            "description": "2029 KILBORN AVE",
+            "Point": {"coordinates": "-75.63556160236631,45.38961585099742,0"},
+            "dbh": 150
+        }
+    ]
+});

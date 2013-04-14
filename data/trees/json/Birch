@@ -1,95 +1,97 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": [
-            {
-                "id": "ID_03318",
-                "description": "<p>49 HELMSDALE DR<\/p>",
-                "name": "Birch",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.91994542378352,45.35295317121379,0"}
-            },
-            {
-                "id": "ID_012548",
-                "description": "<p>1872 ELMRIDGE DR<\/p>",
-                "name": "Birch",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60175805434122,45.44327480145109,0"}
-            },
-            {
-                "id": "ID_013069",
-                "description": "<p>494 TISDALE CRES<\/p>",
-                "name": "Birch",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.59968080027892,45.45992357243427,0"}
-            },
-            {
-                "id": "ID_013496",
-                "description": "<p>784 TELFORD AVE<\/p>",
-                "name": "Birch",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.64572292477379,45.43441075896092,0"}
-            },
-            {
-                "id": "ID_015735",
-                "description": "<p>1409 HALTON TER<\/p>",
-                "name": "Birch",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.93373972419008,45.34874790911313,0"}
-            },
-            {
-                "id": "ID_017053",
-                "description": "<p>1053 BOURGET AVE<\/p>",
-                "name": "Birch",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.62366571821232,45.43312719247413,0"}
-            },
-            {
-                "id": "ID_020340",
-                "description": "<p>16 LAXFORD DR<\/p>",
-                "name": "Birch",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.93485155920929,45.35077288744249,0"}
-            },
-            {
-                "id": "ID_024342",
-                "description": "<p>1881 MONTEREAU AVE<\/p>",
-                "name": "Birch",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.54088245624864,45.44127013564512,0"}
-            },
-            {
-                "id": "ID_024858",
-                "description": "<p>1053 BOURGET AVE<\/p>",
-                "name": "Birch",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.62361488601451,45.43303161123321,0"}
-            },
-            {
-                "id": "ID_031975",
-                "description": "<p>176 SHIRLEY'S BROOK DR<\/p>",
-                "name": "Birch",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.91999384695545,45.35366768852267,0"}
-            },
-            {
-                "id": "ID_031976",
-                "description": "<p>176 SHIRLEY'S BROOK DR<\/p>",
-                "name": "Birch",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.91982116566413,45.35367554650261,0"}
-            },
-            {
-                "id": "ID_036570",
-                "description": "<p>144 LYMAN ST<\/p>",
-                "name": "Birch",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.74501201044397,45.39484467965038,0"}
-            }
-        ]
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "winterColor": "black",
+    "commonName": "Birch",
+    "foodBearing": "no",
+    "allergen": "moderate",
+    "frenchName": "Bouleau",
+    "scientificName": "Betula",
+    "enWiki": "http://en.wikipedia.org/wiki/Betula",
+    "matDBH": 10,
+    "frWiki": "http://fr.wikipedia.org/wiki/Bouleau",
+    "lateFallColor": "gold",
+    "maxSpan": 35,
+    "native": "yes",
+    "leafPersistence": "deciduous",
+    "summerColor": "green",
+    "earlyFallColor": "yellow",
+    "earlySpringColor": "chartreuse",
+    "lateSpringColor": "chartreuse",
+    "name": "Birch",
+    "growthRate": "moderate",
+    "filename": "Birch",
+    "growthFactor": 5,
+    "Placemark": [
+        {
+            "id": "ID_03318",
+            "description": "49 HELMSDALE DR",
+            "Point": {"coordinates": "-75.91994542378352,45.35295317121379,0"},
+            "dbh": 22
+        },
+        {
+            "id": "ID_012548",
+            "description": "1872 ELMRIDGE DR",
+            "Point": {"coordinates": "-75.60175805434122,45.44327480145109,0"},
+            "dbh": 32
+        },
+        {
+            "id": "ID_013069",
+            "description": "494 TISDALE CRES",
+            "Point": {"coordinates": "-75.59968080027892,45.45992357243427,0"},
+            "dbh": 52
+        },
+        {
+            "id": "ID_013496",
+            "description": "784 TELFORD AVE",
+            "Point": {"coordinates": "-75.64572292477379,45.43441075896092,0"},
+            "dbh": 33
+        },
+        {
+            "id": "ID_015735",
+            "description": "1409 HALTON TER",
+            "Point": {"coordinates": "-75.93373972419008,45.34874790911313,0"},
+            "dbh": 12
+        },
+        {
+            "id": "ID_017053",
+            "description": "1053 BOURGET AVE",
+            "Point": {"coordinates": "-75.62366571821232,45.43312719247413,0"},
+            "dbh": 13
+        },
+        {
+            "id": "ID_020340",
+            "description": "16 LAXFORD DR",
+            "Point": {"coordinates": "-75.93485155920929,45.35077288744249,0"},
+            "dbh": 25
+        },
+        {
+            "id": "ID_024342",
+            "description": "1881 MONTEREAU AVE",
+            "Point": {"coordinates": "-75.54088245624864,45.44127013564512,0"},
+            "dbh": 50
+        },
+        {
+            "id": "ID_024858",
+            "description": "1053 BOURGET AVE",
+            "Point": {"coordinates": "-75.62361488601451,45.43303161123321,0"},
+            "dbh": 8
+        },
+        {
+            "id": "ID_031975",
+            "description": "176 SHIRLEY'S BROOK DR",
+            "Point": {"coordinates": "-75.91999384695545,45.35366768852267,0"},
+            "dbh": 13
+        },
+        {
+            "id": "ID_031976",
+            "description": "176 SHIRLEY'S BROOK DR",
+            "Point": {"coordinates": "-75.91982116566413,45.35367554650261,0"},
+            "dbh": 40
+        },
+        {
+            "id": "ID_036570",
+            "description": "144 LYMAN ST",
+            "Point": {"coordinates": "-75.74501201044397,45.39484467965038,0"},
+            "dbh": 10
+        }
+    ]
+});

@@ -1,53 +1,61 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": [
-            {
-                "id": "ID_015071",
-                "description": "<p>27 ST. ANDREW ST<\/p>",
-                "name": "Shagbark Hickory",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.69687802635325,45.43087271437018,0"}
-            },
-            {
-                "id": "ID_016055",
-                "description": "<p>69 PIGEON TER<\/p>",
-                "name": "Shagbark Hickory",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66493046395496,45.35193192571192,0"}
-            },
-            {
-                "id": "ID_020210",
-                "description": "<p>99 COBOURG ST<\/p>",
-                "name": "Shagbark Hickory",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67761561849913,45.43457143132447,0"}
-            },
-            {
-                "id": "ID_024233",
-                "description": "<p>64 PIGEON TER<\/p>",
-                "name": "Shagbark Hickory",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66484060207071,45.35170780442987,0"}
-            },
-            {
-                "id": "ID_032397",
-                "description": "<p>707 FIELDING DR<\/p>",
-                "name": "Shagbark Hickory",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67985857318473,45.36090428236417,0"}
-            },
-            {
-                "id": "ID_032405",
-                "description": "<p>99 COBOURG ST<\/p>",
-                "name": "Shagbark Hickory",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67772933145309,45.43453405656658,0"}
-            }
-        ]
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "winterColor": "black",
+    "commonName": "Hickory Shagbark",
+    "foodBearing": "yes",
+    "allergen": "severe",
+    "frenchName": "Caryer ovale",
+    "scientificName": "Carya ovata",
+    "enWiki": "http://en.wikipedia.org/wiki/Carya_ovata",
+    "matDBH": 25,
+    "frWiki": "http://fr.wikipedia.org/wiki/Caryer_ovale",
+    "lateFallColor": "gold",
+    "maxSpan": 35,
+    "native": "yes",
+    "leafPersistence": "deciduous",
+    "summerColor": "green",
+    "earlyFallColor": "yellow",
+    "earlySpringColor": "chartreuse",
+    "lateSpringColor": "chartreuse",
+    "name": "Shagbark Hickory",
+    "growthRate": "slow",
+    "filename": "Hickory_Shagbark",
+    "growthFactor": 7,
+    "Placemark": [
+        {
+            "id": "ID_015071",
+            "description": "27 ST. ANDREW ST",
+            "Point": {"coordinates": "-75.69687802635325,45.43087271437018,0"},
+            "dbh": 11
+        },
+        {
+            "id": "ID_016055",
+            "description": "69 PIGEON TER",
+            "Point": {"coordinates": "-75.66493046395496,45.35193192571192,0"},
+            "dbh": 2
+        },
+        {
+            "id": "ID_020210",
+            "description": "99 COBOURG ST",
+            "Point": {"coordinates": "-75.67761561849913,45.43457143132447,0"},
+            "dbh": 2
+        },
+        {
+            "id": "ID_024233",
+            "description": "64 PIGEON TER",
+            "Point": {"coordinates": "-75.66484060207071,45.35170780442987,0"},
+            "dbh": 2
+        },
+        {
+            "id": "ID_032397",
+            "description": "707 FIELDING DR",
+            "Point": {"coordinates": "-75.67985857318473,45.36090428236417,0"},
+            "dbh": 2
+        },
+        {
+            "id": "ID_032405",
+            "description": "99 COBOURG ST",
+            "Point": {"coordinates": "-75.67772933145309,45.43453405656658,0"},
+            "dbh": 5
+        }
+    ]
+});

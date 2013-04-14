@@ -1,186 +1,175 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": [
-            {
-                "id": "ID_00203",
-                "description": "<p>150 LAKEWAY DR<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66562747842323,45.45346629487491,0"}
-            },
-            {
-                "id": "ID_00565",
-                "description": "<p>66 LYTTLETON GDN<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66486928768158,45.4547610562839,0"}
-            },
-            {
-                "id": "ID_01430",
-                "description": "<p>3 BURROWS RD<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61687552864433,45.45802734190475,0"}
-            },
-            {
-                "id": "ID_02331",
-                "description": "<p>597 MARIPOSA AVE<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67079350544695,45.44966798874029,0"}
-            },
-            {
-                "id": "ID_02351",
-                "description": "<p>470 MANOR AVE<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68192185264591,45.45151841277928,0"}
-            },
-            {
-                "id": "ID_02666",
-                "description": "<p>117 CHARLOTTE ST<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67831944467342,45.43498887699333,0"}
-            },
-            {
-                "id": "ID_06130",
-                "description": "<p>524 ACACIA AVE<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67752981333922,45.45250905833068,0"}
-            },
-            {
-                "id": "ID_010220",
-                "description": "<p>524 ACACIA AVE<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67753272425642,45.45250925206328,0"}
-            },
-            {
-                "id": "ID_010271",
-                "description": "<p>122 WILLINGDON RD<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68168669237599,45.4486024499658,0"}
-            },
-            {
-                "id": "ID_011371",
-                "description": "<p>236 GREENRIDGE ST<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.53317597587129,45.46342825862295,0"}
-            },
-            {
-                "id": "ID_012298",
-                "description": "<p>79 BIRCH AVE<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66272100642304,45.44953881743285,0"}
-            },
-            {
-                "id": "ID_012487",
-                "description": "<p>150 LAKEWAY DR<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.66567947599836,45.45348444768802,0"}
-            },
-            {
-                "id": "ID_013338",
-                "description": "<p>1 DELONG DR<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60854952402013,45.45302104733565,0"}
-            },
-            {
-                "id": "ID_014320",
-                "description": "<p>524 ACACIA AVE<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67765498128244,45.45251309465812,0"}
-            },
-            {
-                "id": "ID_014593",
-                "description": "<p>510 MARIPOSA AVE<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67290681418545,45.44916414041162,0"}
-            },
-            {
-                "id": "ID_014611",
-                "description": "<p>470 MANOR AVE<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68187955076556,45.45149173871354,0"}
-            },
-            {
-                "id": "ID_014612",
-                "description": "<p>470 MANOR AVE<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68189790493567,45.45151295012217,0"}
-            },
-            {
-                "id": "ID_014641",
-                "description": "<p>225 MINTO PL<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68241944544289,45.4479427555121,0"}
-            },
-            {
-                "id": "ID_014642",
-                "description": "<p>225 MINTO PL<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68258872961152,45.44782967499113,0"}
-            },
-            {
-                "id": "ID_018584",
-                "description": "<p>218 COLTRIN RD<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68197346249312,45.45433364176603,0"}
-            },
-            {
-                "id": "ID_022646",
-                "description": "<p>524 ACACIA AVE<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.6773472771941,45.45251830174437,0"}
-            },
-            {
-                "id": "ID_022690",
-                "description": "<p>218 COLTRIN RD<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68199682557376,45.45431073508136,0"}
-            },
-            {
-                "id": "ID_026871",
-                "description": "<p>551 MARIPOSA AVE<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67189598069705,45.44945193102584,0"}
-            },
-            {
-                "id": "ID_030728",
-                "description": "<p>524 ACACIA AVE<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67755042621479,45.45251472915201,0"}
-            },
-            {
-                "id": "ID_030755",
-                "description": "<p>16 ROCKCLIFFE WAY<\/p>",
-                "name": "Hemlock",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67489535895196,45.4442528745697,0"}
-            }
-        ]
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "winterColor": "green",
+    "commonName": "Hemlock",
+    "foodBearing": "no",
+    "allergen": "none",
+    "frenchName": "Pruche du Canada",
+    "scientificName": "Tsuga canadensis",
+    "enWiki": "http://en.wikipedia.org/wiki/Tsuga_canadensis",
+    "matDBH": 20,
+    "frWiki": "http://fr.wikipedia.org/wiki/Pruche_du_Canada",
+    "lateFallColor": "green",
+    "maxSpan": 30,
+    "native": "yes",
+    "leafPersistence": "evergreen",
+    "summerColor": "green",
+    "earlyFallColor": "green",
+    "earlySpringColor": "green",
+    "lateSpringColor": "green",
+    "name": "Hemlock",
+    "growthRate": "slow",
+    "filename": "Hemlock",
+    "growthFactor": 7,
+    "Placemark": [
+        {
+            "id": "ID_00203",
+            "description": "150 LAKEWAY DR",
+            "Point": {"coordinates": "-75.66562747842323,45.45346629487491,0"},
+            "dbh": 74
+        },
+        {
+            "id": "ID_00565",
+            "description": "66 LYTTLETON GDN",
+            "Point": {"coordinates": "-75.66486928768158,45.4547610562839,0"},
+            "dbh": 17
+        },
+        {
+            "id": "ID_01430",
+            "description": "3 BURROWS RD",
+            "Point": {"coordinates": "-75.61687552864433,45.45802734190475,0"},
+            "dbh": 43
+        },
+        {
+            "id": "ID_02331",
+            "description": "597 MARIPOSA AVE",
+            "Point": {"coordinates": "-75.67079350544695,45.44966798874029,0"},
+            "dbh": 26
+        },
+        {
+            "id": "ID_02351",
+            "description": "470 MANOR AVE",
+            "Point": {"coordinates": "-75.68192185264591,45.45151841277928,0"},
+            "dbh": 3
+        },
+        {
+            "id": "ID_02666",
+            "description": "117 CHARLOTTE ST",
+            "Point": {"coordinates": "-75.67831944467342,45.43498887699333,0"},
+            "dbh": 42
+        },
+        {
+            "id": "ID_06130",
+            "description": "524 ACACIA AVE",
+            "Point": {"coordinates": "-75.67752981333922,45.45250905833068,0"},
+            "dbh": 17
+        },
+        {
+            "id": "ID_010220",
+            "description": "524 ACACIA AVE",
+            "Point": {"coordinates": "-75.67753272425642,45.45250925206328,0"},
+            "dbh": 17
+        },
+        {
+            "id": "ID_010271",
+            "description": "122 WILLINGDON RD",
+            "Point": {"coordinates": "-75.68168669237599,45.4486024499658,0"},
+            "dbh": 40
+        },
+        {
+            "id": "ID_011371",
+            "description": "236 GREENRIDGE ST",
+            "Point": {"coordinates": "-75.53317597587129,45.46342825862295,0"},
+            "dbh": 10
+        },
+        {
+            "id": "ID_012298",
+            "description": "79 BIRCH AVE",
+            "Point": {"coordinates": "-75.66272100642304,45.44953881743285,0"},
+            "dbh": 39
+        },
+        {
+            "id": "ID_012487",
+            "description": "150 LAKEWAY DR",
+            "Point": {"coordinates": "-75.66567947599836,45.45348444768802,0"},
+            "dbh": 71
+        },
+        {
+            "id": "ID_013338",
+            "description": "1 DELONG DR",
+            "Point": {"coordinates": "-75.60854952402013,45.45302104733565,0"},
+            "dbh": 12
+        },
+        {
+            "id": "ID_014320",
+            "description": "524 ACACIA AVE",
+            "Point": {"coordinates": "-75.67765498128244,45.45251309465812,0"},
+            "dbh": 22
+        },
+        {
+            "id": "ID_014593",
+            "description": "510 MARIPOSA AVE",
+            "Point": {"coordinates": "-75.67290681418545,45.44916414041162,0"},
+            "dbh": 15
+        },
+        {
+            "id": "ID_014611",
+            "description": "470 MANOR AVE",
+            "Point": {"coordinates": "-75.68187955076556,45.45149173871354,0"},
+            "dbh": 2
+        },
+        {
+            "id": "ID_014612",
+            "description": "470 MANOR AVE",
+            "Point": {"coordinates": "-75.68189790493567,45.45151295012217,0"},
+            "dbh": 2
+        },
+        {
+            "id": "ID_014641",
+            "description": "225 MINTO PL",
+            "Point": {"coordinates": "-75.68241944544289,45.4479427555121,0"},
+            "dbh": 45
+        },
+        {
+            "id": "ID_014642",
+            "description": "225 MINTO PL",
+            "Point": {"coordinates": "-75.68258872961152,45.44782967499113,0"},
+            "dbh": 35
+        },
+        {
+            "id": "ID_018584",
+            "description": "218 COLTRIN RD",
+            "Point": {"coordinates": "-75.68197346249312,45.45433364176603,0"},
+            "dbh": 2
+        },
+        {
+            "id": "ID_022646",
+            "description": "524 ACACIA AVE",
+            "Point": {"coordinates": "-75.6773472771941,45.45251830174437,0"},
+            "dbh": 31
+        },
+        {
+            "id": "ID_022690",
+            "description": "218 COLTRIN RD",
+            "Point": {"coordinates": "-75.68199682557376,45.45431073508136,0"},
+            "dbh": 2
+        },
+        {
+            "id": "ID_026871",
+            "description": "551 MARIPOSA AVE",
+            "Point": {"coordinates": "-75.67189598069705,45.44945193102584,0"},
+            "dbh": 14
+        },
+        {
+            "id": "ID_030728",
+            "description": "524 ACACIA AVE",
+            "Point": {"coordinates": "-75.67755042621479,45.45251472915201,0"},
+            "dbh": 30
+        },
+        {
+            "id": "ID_030755",
+            "description": "16 ROCKCLIFFE WAY",
+            "Point": {"coordinates": "-75.67489535895196,45.4442528745697,0"},
+            "dbh": 4
+        }
+    ]
+});

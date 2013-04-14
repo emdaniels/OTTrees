@@ -1,95 +1,97 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": [
-            {
-                "id": "ID_00709",
-                "description": "<p>940 BRANT ST<\/p>",
-                "name": "Unknown",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.65035048372403,45.42980535847735,0"}
-            },
-            {
-                "id": "ID_00808",
-                "description": "<p>38 AMBERLY PL<\/p>",
-                "name": "Unknown",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61462977406289,45.44781575741778,0"}
-            },
-            {
-                "id": "ID_00809",
-                "description": "<p>8 AMBERLY CRT<\/p>",
-                "name": "Unknown",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61453241754606,45.4478945578337,0"}
-            },
-            {
-                "id": "ID_04914",
-                "description": "<p>1044 ADLEY RD<\/p>",
-                "name": "Unknown",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.62487977231571,45.43286611683848,0"}
-            },
-            {
-                "id": "ID_06733",
-                "description": "<p>15 HENEY ST<\/p>",
-                "name": "Unknown",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68023104291632,45.43368060609875,0"}
-            },
-            {
-                "id": "ID_012467",
-                "description": "<p>38 AMBERLY PL<\/p>",
-                "name": "Unknown",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61457928411271,45.44782363298,0"}
-            },
-            {
-                "id": "ID_013018",
-                "description": "<p>940 BRANT ST<\/p>",
-                "name": "Unknown",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.65028011041351,45.42983875502443,0"}
-            },
-            {
-                "id": "ID_022942",
-                "description": "<p>10 TORMEY ST<\/p>",
-                "name": "Unknown",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.67791278982807,45.43284258925462,0"}
-            },
-            {
-                "id": "ID_029262",
-                "description": "<p>1033 BOURGET AVE<\/p>",
-                "name": "Unknown",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.62416566835404,45.43406098738241,0"}
-            },
-            {
-                "id": "ID_029270",
-                "description": "<p>9 TAUNTON PL<\/p>",
-                "name": "Unknown",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61349158523376,45.4491882944504,0"}
-            },
-            {
-                "id": "ID_031028",
-                "description": "<p>39 BUENA VISTA RD<\/p>",
-                "name": "Unknown",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.68482569627196,45.45069465002372,0"}
-            },
-            {
-                "id": "ID_032792",
-                "description": "<p>335 LINDSAY ST<\/p>",
-                "name": "Unknown",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.65243943378816,45.4070842636591,0"}
-            }
-        ]
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "winterColor": "black",
+    "commonName": "Unknown",
+    "foodBearing": "no",
+    "allergen": "moderate",
+    "frenchName": "Arbre inconnu",
+    "scientificName": "Silva",
+    "enWiki": "http://en.wikipedia.org/wiki/Tree",
+    "matDBH": 25,
+    "frWiki": "http://fr.wikipedia.org/wiki/Arbre",
+    "lateFallColor": "green",
+    "maxSpan": 40,
+    "native": "yes",
+    "leafPersistence": "deciduous",
+    "summerColor": "green",
+    "earlyFallColor": "green",
+    "earlySpringColor": "chartreuse",
+    "lateSpringColor": "chartreuse",
+    "name": "Unknown",
+    "growthRate": "moderate",
+    "filename": "Unknown",
+    "growthFactor": 5,
+    "Placemark": [
+        {
+            "id": "ID_00709",
+            "description": "940 BRANT ST",
+            "Point": {"coordinates": "-75.65035048372403,45.42980535847735,0"},
+            "dbh": 2
+        },
+        {
+            "id": "ID_00808",
+            "description": "38 AMBERLY PL",
+            "Point": {"coordinates": "-75.61462977406289,45.44781575741778,0"},
+            "dbh": 22
+        },
+        {
+            "id": "ID_00809",
+            "description": "8 AMBERLY CRT",
+            "Point": {"coordinates": "-75.61453241754606,45.4478945578337,0"},
+            "dbh": 14
+        },
+        {
+            "id": "ID_04914",
+            "description": "1044 ADLEY RD",
+            "Point": {"coordinates": "-75.62487977231571,45.43286611683848,0"},
+            "dbh": 22
+        },
+        {
+            "id": "ID_06733",
+            "description": "15 HENEY ST",
+            "Point": {"coordinates": "-75.68023104291632,45.43368060609875,0"},
+            "dbh": 25
+        },
+        {
+            "id": "ID_012467",
+            "description": "38 AMBERLY PL",
+            "Point": {"coordinates": "-75.61457928411271,45.44782363298,0"},
+            "dbh": 32
+        },
+        {
+            "id": "ID_013018",
+            "description": "940 BRANT ST",
+            "Point": {"coordinates": "-75.65028011041351,45.42983875502443,0"},
+            "dbh": 2
+        },
+        {
+            "id": "ID_022942",
+            "description": "10 TORMEY ST",
+            "Point": {"coordinates": "-75.67791278982807,45.43284258925462,0"},
+            "dbh": 18
+        },
+        {
+            "id": "ID_029262",
+            "description": "1033 BOURGET AVE",
+            "Point": {"coordinates": "-75.62416566835404,45.43406098738241,0"},
+            "dbh": 11
+        },
+        {
+            "id": "ID_029270",
+            "description": "9 TAUNTON PL",
+            "Point": {"coordinates": "-75.61349158523376,45.4491882944504,0"},
+            "dbh": 26
+        },
+        {
+            "id": "ID_031028",
+            "description": "39 BUENA VISTA RD",
+            "Point": {"coordinates": "-75.68482569627196,45.45069465002372,0"},
+            "dbh": 15
+        },
+        {
+            "id": "ID_032792",
+            "description": "335 LINDSAY ST",
+            "Point": {"coordinates": "-75.65243943378816,45.4070842636591,0"},
+            "dbh": 15
+        }
+    ]
+});

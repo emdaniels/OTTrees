@@ -1,67 +1,73 @@
-{"kml": {
-    "Document": {
-        "id": "TreeInventory2011",
-        "Placemark": [
-            {
-                "id": "ID_03016",
-                "description": "<p>77 VIEWMOUNT DR<\/p>",
-                "name": "Mulberry",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.7377933111112,45.34140066949645,0"}
-            },
-            {
-                "id": "ID_03097",
-                "description": "<p>4 PARKER AVE<\/p>",
-                "name": "Mulberry",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.74545466107917,45.34059097884386,0"}
-            },
-            {
-                "id": "ID_05482",
-                "description": "<p>1941 OAKDEAN CRES<\/p>",
-                "name": "Mulberry",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.60970246872209,45.45856980827849,0"}
-            },
-            {
-                "id": "ID_022500",
-                "description": "<p>12 TEMPLE ST<\/p>",
-                "name": "Mulberry",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.82483317814962,45.19159272676059,0"}
-            },
-            {
-                "id": "ID_029496",
-                "description": "<p>42 AMBERLY PL<\/p>",
-                "name": "Mulberry",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.61402304345879,45.44772679310236,0"}
-            },
-            {
-                "id": "ID_033991",
-                "description": "<p>15 KNUDSON DR<\/p>",
-                "name": "Mulberry",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.90154048114925,45.31804298356047,0"}
-            },
-            {
-                "id": "ID_037462",
-                "description": "<p>81 WINDEYER CRES<\/p>",
-                "name": "Mulberry",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.91307197990901,45.31860648936787,0"}
-            },
-            {
-                "id": "ID_037587",
-                "description": "<p>307 GOLDRIDGE DR<\/p>",
-                "name": "Mulberry",
-                "Style": {"IconStyle": {"Icon": {"href": "http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg"}}},
-                "Point": {"coordinates": "-75.92397344871363,45.3179244507587,0"}
-            }
-        ]
-    },
-    "xmlns:gx": "http://www.google.com/kml/ext/2.2",
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "xmlns": "http://www.opengis.net/kml/2.2",
-    "xsi:schemaLocation": "http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd"
-}}
+tree_data({
+    "winterColor": "black",
+    "commonName": "Mulberry",
+    "foodBearing": "yes",
+    "allergen": "severe",
+    "frenchName": "M?rier rouge",
+    "scientificName": "Morus rubra",
+    "enWiki": "http://en.wikipedia.org/wiki/Morus_rubra",
+    "matDBH": 20,
+    "frWiki": "http://fr.wikipedia.org/wiki/M%C3%BBrier_rouge",
+    "lateFallColor": "gold",
+    "maxSpan": 45,
+    "native": "yes",
+    "leafPersistence": "deciduous",
+    "summerColor": "green",
+    "earlyFallColor": "yellow",
+    "earlySpringColor": "chartreuse",
+    "lateSpringColor": "chartreuse",
+    "name": "Mulberry",
+    "growthRate": "fast",
+    "filename": "Mulberry",
+    "growthFactor": 3,
+    "Placemark": [
+        {
+            "id": "ID_03016",
+            "description": "77 VIEWMOUNT DR",
+            "Point": {"coordinates": "-75.7377933111112,45.34140066949645,0"},
+            "dbh": 23
+        },
+        {
+            "id": "ID_03097",
+            "description": "4 PARKER AVE",
+            "Point": {"coordinates": "-75.74545466107917,45.34059097884386,0"},
+            "dbh": 40
+        },
+        {
+            "id": "ID_05482",
+            "description": "1941 OAKDEAN CRES",
+            "Point": {"coordinates": "-75.60970246872209,45.45856980827849,0"},
+            "dbh": 14
+        },
+        {
+            "id": "ID_022500",
+            "description": "12 TEMPLE ST",
+            "Point": {"coordinates": "-75.82483317814962,45.19159272676059,0"},
+            "dbh": 31
+        },
+        {
+            "id": "ID_029496",
+            "description": "42 AMBERLY PL",
+            "Point": {"coordinates": "-75.61402304345879,45.44772679310236,0"},
+            "dbh": 24
+        },
+        {
+            "id": "ID_033991",
+            "description": "15 KNUDSON DR",
+            "Point": {"coordinates": "-75.90154048114925,45.31804298356047,0"},
+            "dbh": 10
+        },
+        {
+            "id": "ID_037462",
+            "description": "81 WINDEYER CRES",
+            "Point": {"coordinates": "-75.91307197990901,45.31860648936787,0"},
+            "dbh": 7
+        },
+        {
+            "id": "ID_037587",
+            "description": "307 GOLDRIDGE DR",
+            "Point": {"coordinates": "-75.92397344871363,45.3179244507587,0"},
+            "dbh": 8
+        }
+    ]
+});

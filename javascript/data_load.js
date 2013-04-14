@@ -69,7 +69,7 @@ window.tree_data = function(results) {
 function getCircle(magnitude) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
-		fillColor: 'red',
+		fillColor: 'green',
 		fillOpacity: .2,
 		scale: Math.pow(2, magnitude) / Math.PI,
 		strokeColor: 'white',
@@ -234,7 +234,7 @@ for (var i = 0; i < nameArray.length; i++) {
 		});
 		newCircle.setMap(map);
 	}
-
+	
 	//added for simple toggle
 	$("#accordion > li > div").click(function(){
 
@@ -246,7 +246,7 @@ for (var i = 0; i < nameArray.length; i++) {
 
 	$('#accordion ul:eq(0)').show();
 	//end simple toggle
-
+	
 	var goldStar = {
 			  path: 'M 125,5 155,90 245,90 175,145 200,230 125,180 50,230 75,145 5,90 95,90 z',
 			  fillColor: "yellow",

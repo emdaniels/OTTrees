@@ -1,45 +1,46 @@
-/*for collapsible menu*/
-h5 	{ 
+/*h5 	{ 
 	cursor: pointer; 
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
-	padding: 10px 0px 0px 0px;
-	border-bottom: #CCC 1px dashed;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 10px 5px 5px 5px;
+	border-bottom: #CCC 1px solid;
 	}
-
+*/
 #sidebar {
-	float: right;
+	float: left;
 	width: 20%;
-	height: 800px;
-	overflow: auto;
+	height: 100%;
+
 }
 
 #sidebar_menu {
-	float: right;
+	float: left;
 	width: 20%;
-	height: 800px;
+	height: 100%;
 	overflow: auto;
 }
 
+#sidebar_menu ul { 
+	list-style-type: none; 
+	}
+
 .side_bar {
-	float: right;
-	height: 800px;
+	float: left;
+	height: 100%;
 	overflow: auto;
 	width: 20%;
-	margin: 0px auto;
+	
 }
 
 .map_canvas_container {
 	width: 80%;
 	height: 100%;
-	position: absolute;
-	float: left;
+	float: right;
 }
 
 .map_canvas {
 	width: 100%;
 	height: 100%;
-	float: left;
 }
 
 .submenublock {
@@ -47,8 +48,8 @@ h5 	{
 	padding: 0px;
 }
 
-.submenublock h3 {
-	font-family: Arial, Helvetica, sans-serif;
+.submenublock h5 {
+	font-family: Arial, Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	height: 30px;
 	margin: 0px;
@@ -56,8 +57,8 @@ h5 	{
 	border-bottom: #CCC 1px solid;
 }
 
-.submenublock h3 a {
-	font-family: Arial, Helvetica, sans-serif;
+.submenublock h5 a {
+	font-family: Arial, Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	text-decoration: none;
 	color: #000000;
@@ -80,9 +81,8 @@ h5 	{
 	list-style: none;
 	display: block;
 	padding: 10px 0px 0px 0px;
-	border-bottom: #CCC 1px dashed;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	font-size: 13px;
 	height: 30px;
 }
 
@@ -98,13 +98,13 @@ h5 	{
 	color: #00aeef;
 }
 
-/* original css*/
 body {
-	font-size: 8pt;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	font-family: Arial, Arial, Helvetica, sans-serif;
 }
 
 .main_content {
 	margin: 0px auto;
+	
 }
 

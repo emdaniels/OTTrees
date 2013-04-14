@@ -1,0 +1,23 @@
+tree_data({
+    "winterColor": "black",
+    "commonName": "Katsura Tree",
+    "foodBearing": "no",
+    "allergen": "mild",
+    "frenchName": "Cercidiphyllum",
+    "scientificName": "Cercidiphyllum japonicum",
+    "enWiki": "http://en.wikipedia.org/wiki/Cercidiphyllum_japonicum",
+    "matDBH": 20,
+    "frWiki": "http://fr.wikipedia.org/wiki/Cercidiphyllum_japonicum",
+    "lateFallColor": "vermillion",
+    "maxSpan": 35,
+    "native": "no",
+    "leafPersistence": "deciduous",
+    "summerColor": "green",
+    "earlyFallColor": "orange",
+    "earlySpringColor": "chartreuse",
+    "lateSpringColor": "chartreuse",
+    "name": "Tree Katsura",
+    "growthRate": "moderate",
+    "filename": "Katsura_Tree",
+    "growthFactor": 5
+});

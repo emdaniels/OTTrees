@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Sample JSON Load</title>
+    <style>
+      html, body, #map-canvas { margin: 0; padding: 0; height: 100%; }
+    </style>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=visualization">
+    </script>
+    <script>
+      var map;
+
+      function initialize() {
+        var mapOptions = {
+          zoom: 12,
+          center: new google.maps.LatLng(45.420353,-75.695982),
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-canvas'),
+              mapOptions);
+
+        // Create a <script> tag and set the USGS URL as the source.
+        var script = document.createElement('script');
+        // (In this example we use a locally stored copy instead.)
+        //script.src = 'http://earthquake.usgs.gov/earthquakes/feed/geojsonp/2.5/day';
+        script.src = 'data/trees/json/Amur_Corktree';
+        document.getElementsByTagName('head')[0].appendChild(script);
+      }
+
+      // Loop through the results array and place a marker for each
+      // set of coordinates.
+      window.tree_data = function(results) {
+        for (var i = 0; i < results.Placemark.length; i++) {
+        	//alert(results.Placemark[i].description);
+			var coords = results.Placemark[i].Point.coordinates.split(',');
+			var latLng = new google.maps.LatLng(coords[1],coords[0]);
+			var marker = new google.maps.Marker({
+			      position: latLng,
+			      map: map,
+			      icon: getCircle(5.1)
+			    });
+        }
+      }
+      
+      function getCircle(magnitude) {
+    	  return {
+    	    path: google.maps.SymbolPath.CIRCLE,
+    	    fillColor: 'red',
+    	    fillOpacity: .2,
+    	    scale: Math.pow(2, magnitude) / Math.PI,
+    	    strokeColor: 'white',
+    	    strokeWeight: .5
+    	  };
+    	}
+
+  </script>
+  </head>
+  <body onload="initialize()">
+    <div id="map-canvas"></div>
+  </body>
+</html>
