@@ -21,7 +21,7 @@ function toggle(type) {
 jQuery( document ).ready(function( $ ) {
  
 	if ( jQuery( '#accordion' )[0] ){
-		jQuery( '#accordion' ).find( 'h4' ).click( function( e ){ //Click function to toggle extending lists
+		jQuery( '#accordion' ).find( 'h5' ).click( function( e ){ //Click function to toggle extending lists
 			e.preventDefault();		
 			jQuery( this ).next().slideToggle( 'fast' ).css( 'zoom', '1' ); //Find the next element after the clicked element				
 			jQuery( this ).parent( 'li' ).toggleClass( 'collapse' ); //Add a class for styling
@@ -50,7 +50,7 @@ jQuery( document ).ready(function( $ ) {
 			width="200">
 		 <ul id="accordion">
 		 <li>
-			<h4>Allergen</h4>
+			<h5>Allergen</h5>
 				<ul>
 					<li><input type="checkbox" /> Mild</li>
 					<li><input type="checkbox" /> Moderate</li>
@@ -58,19 +58,19 @@ jQuery( document ).ready(function( $ ) {
 				</ul>
 			</li>
 			<li>
-			<h4>Leaf Persistence</h4>
+			<h5>Leaf Persistence</h5>
 				<ul>
 					<li><input type="checkbox" /> Deciduous</li>
 					<li><input type="checkbox" /> Coniferous</li>
 					<li><input type="checkbox" /> Marcescent</li>
 				</ul></li>
-			<li><h4>Growth Rate</h4>
+			<li><h5>Growth Rate</h5>
 				<ul>
 					<li><input type="checkbox" /> Slow (12" or less per year)</li>
 					<li><input type="checkbox" /> Moderate (13" to 24" per year)</li>
 					<li><input type="checkbox" /> Fast (25"+ per year)</li>
 				</ul></li>
-			<li><h4>Estimated Age</h4>
+			<li><h5>Estimated Age</h5>
 				<ul>
 					<li><input type="checkbox" /> 0-9 years</li>
 					<li><input type="checkbox" /> 10-19 years</li>
@@ -79,17 +79,17 @@ jQuery( document ).ready(function( $ ) {
 					<li><input type="checkbox" /> 40-49 years</li>
 					<li><input type="checkbox" /> 50+ years</li>
 				</ul></li>
-			<li><h4>Native Species</h4>
+			<li><h5>Native Species</h5>
 				<ul>
 					<li><input type="radio" /> Native</li>
 					<li><input type="radio" /> Non-Native</li>
 				</ul></li>
-			<li><h4>Food Bearing</h4>
+			<li><h5>Food Bearing</h5>
 				<ul>
 					<li><input type="radio" /> Food Bearing</li>
 					<li><input type="radio" /> Non-Food Bearing</li>
 				</ul></li>
-			<li><h4>Seasonal Foliage</h4>
+			<li><h5>Seasonal Foliage</h5>
 				<ul>
 					<li><input type="radio" /> Early Spring</li>
 					<li><input type="radio" /> Late Spring</li>
@@ -98,7 +98,7 @@ jQuery( document ).ready(function( $ ) {
 					<li><input type="radio" /> Late Fall</li>
 					<li><input type="radio" /> Winter</li>
 				</ul></li>
-			<li><h4>Individual Species</h4>
+			<li><h5>Individual Species</h5>
 				<ul id="treeList"></ul></li>
 				</li>
 		</ul>
