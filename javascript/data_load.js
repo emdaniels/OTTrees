@@ -57,7 +57,8 @@ window.tree_data = function(results) {
 		var marker = new google.maps.Marker({
 			position: latLng,
 			map: map,
-			icon: getCircle(5.1)
+			//estimatedSpan = maxSpan * (estimatedAge) / matDBH;
+			icon: getCircle(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH))
 		});
 		
 		markersArray.push(marker);
@@ -66,12 +67,12 @@ window.tree_data = function(results) {
 	treeLayerArray[results.filename] = markersArray;
 }
 
-function getCircle(magnitude) {
+function getCircle(estimatedSpan) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
 		fillColor: 'green',
 		fillOpacity: .2,
-		scale: Math.pow(2, magnitude) / Math.PI,
+		scale: estimatedSpan,
 		strokeColor: 'white',
 		strokeWeight: .5
 	};
