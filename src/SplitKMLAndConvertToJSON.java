@@ -53,7 +53,9 @@ public class SplitKMLAndConvertToJSON {
 				
 				FileWriter treeSpeciesJSONFile = new FileWriter(outputFolder + fileNameMinusExtension);
 				BufferedWriter treeSpeciesJSONWriter = new BufferedWriter(treeSpeciesJSONFile);
+				treeSpeciesJSONWriter.write("tree_data(");
 				treeSpeciesJSONWriter.write(jsonPrettyPrintString);
+				treeSpeciesJSONWriter.write(");");
 				treeSpeciesJSONWriter.close();
 				//System.out.println(jsonPrettyPrintString);
 			}
