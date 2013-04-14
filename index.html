@@ -18,7 +18,7 @@
 	}
 </script>
 <script>
-	jQuery(document).ready(function($) {
+/*	jQuery(document).ready(function($) {
 
 		if (jQuery('#accordion')[0]) {
 			jQuery('#accordion').find('h5').click(function(e) { //Click function to toggle extending lists
@@ -34,7 +34,7 @@
 				}
 			});
 		}
-	});
+	});*/
 </script>
 
 </head>
@@ -49,65 +49,77 @@
 		<img src="images/OTTrees_logo.png" alt="OTTrees" height="98"
 			width="200">
 		<div class="submenublock" id="submenu1">
-			<ul id="accordion" class="second_level">
-				<li><h5>About</h5>
-					<ul>
-						<br />This application was made by James DeMond and Emily Daniels using the city of Ottawa's open
-						data tree inventory to depict the estimated size, seasonal coloring and location of each tree overlayed onto Google Maps. Source code is here.<br/>
-					</ul></li>
-				<li>
-					<h5>Allergen</h5>
-					<ul>
-						<li><input type="checkbox" /> Mild</li>
-						<li><input type="checkbox" /> Moderate</li>
-						<li><input type="checkbox" /> Severe</li>
-					</ul>
-				</li>
-				<li>
-					<h5>Leaf Persistence</h5>
-					<ul>
-						<li><input type="checkbox" /> Deciduous</li>
-						<li><input type="checkbox" /> Coniferous</li>
-						<li><input type="checkbox" /> Marcescent</li>
-					</ul>
-				</li>
-				<li><h5>Growth Rate</h5>
-					<ul>
-						<li><input type="checkbox" /> Slow (12" or less per year)</li>
-						<li><input type="checkbox" /> Moderate (13" to 24" per year)</li>
-						<li><input type="checkbox" /> Fast (25"+ per year)</li>
-					</ul></li>
-				<li><h5>Estimated Age</h5>
-					<ul>
-						<li><input type="checkbox" /> 0-9 years</li>
-						<li><input type="checkbox" /> 10-19 years</li>
-						<li><input type="checkbox" /> 20-29 years</li>
-						<li><input type="checkbox" /> 30-39 years</li>
-						<li><input type="checkbox" /> 40-49 years</li>
-						<li><input type="checkbox" /> 50+ years</li>
-					</ul></li>
-				<li><h5>Native Species</h5>
-					<ul>
-						<li><input type="radio" /> Native</li>
-						<li><input type="radio" /> Non-Native</li>
-					</ul></li>
-				<li><h5>Food Bearing</h5>
-					<ul>
-						<li><input type="radio" /> Food Bearing</li>
-						<li><input type="radio" /> Non-Food Bearing</li>
-					</ul></li>
-				<li><h5>Seasonal Foliage</h5>
-					<ul>
-						<li><input type="radio" /> Early Spring</li>
-						<li><input type="radio" /> Late Spring</li>
-						<li><input type="radio" /> Summer</li>
-						<li><input type="radio" /> Early Fall</li>
-						<li><input type="radio" /> Late Fall</li>
-						<li><input type="radio" /> Winter</li>
-					</ul></li>
-				<li><h5>Individual Species</h5>
-					<ul id="treeList"></ul></li>
+			<h5>About</h5>
+			<ul class="second_level">
+				<li>This application was made using the city of Ottawa's open data tree inventory to
+					depict the estimated size, seasonal coloring and location of each
+					tree.</li>
+					<li><br/></li>
 			</ul>
+		</div>
+		<div class="submenublock" id="submenu2">
+			<h5>Leaf Persistence</h5>
+			<ul class="second_level">
+				<li><input type="checkbox" /> Deciduous</li>
+				<li><input type="checkbox" /> Coniferous</li>
+				<li><input type="checkbox" /> Marcescent</li>
+			</ul>
+		</div>
+		<div class="submenublock" id="submenu3">
+			<h5>Annual Growth Rate</h5>
+			<ul class="second_level">
+				<li><input type="checkbox" /> Slow: 12" or less</li>
+				<li><input type="checkbox" /> Moderate: 13" - 24"</li>
+				<li><input type="checkbox" /> Fast: 25" or more</li>
+			</ul>
+		</div>
+		<div class="submenublock" id="submenu4">
+			<h5>Estimated Age</h5>
+			<ul class="second_level">
+				<li><input type="checkbox" /> 0-9 years</li>
+				<li><input type="checkbox" /> 10-19 years</li>
+				<li><input type="checkbox" /> 20-29 years</li>
+				<li><input type="checkbox" /> 30-39 years</li>
+				<li><input type="checkbox" /> 40-49 years</li>
+				<li><input type="checkbox" /> 50+ years</li>
+			</ul>
+		</div>
+		<div class="submenublock" id="submenu5">
+			<h5>Allergen</h5>
+			<ul class="second_level">
+				<li><input type="checkbox" /> Mild</li>
+				<li><input type="checkbox" /> Moderate</li>
+				<li><input type="checkbox" /> Severe</li>
+			</ul>
+		</div>
+		<div class="submenublock" id="submenu6">
+			<h5>Origin</h5>
+			<ul class="second_level">
+				<li><input type="radio" /> Native</li>
+				<li><input type="radio" /> Non-Native</li>
+			</ul>
+		</div>
+		<div class="submenublock" id="submenu7">
+			<h5>Food Bearing</h5>
+			<ul class="second_level">
+				<li><input type="radio" /> Food Bearing</li>
+				<li><input type="radio" /> Non-Food Bearing</li>
+			</ul>
+		</div>
+		<div class="submenublock" id="submenu8">
+			<h5>Seasonal Foliage</h5>
+			<ul class="second_level">
+				<li><input type="radio" /> Early Spring</li>
+				<li><input type="radio" /> Late Spring</li>
+				<li><input type="radio" /> Summer</li>
+				<li><input type="radio" /> Early Fall</li>
+				<li><input type="radio" /> Late Fall</li>
+				<li><input type="radio" /> Winter</li>
+			</ul>
+		</div>
+		<div class="submenublock" id="submenu9">
+			<h5>Individual Species</h5>
+			<ul class="second_level" id="treeList"></ul>
 		</div>
 	</div>
 
