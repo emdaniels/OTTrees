@@ -122,6 +122,7 @@ public class MassageKML {
 			String tempLine = "";
 			String speciesLine = "";
 			String descriptionLine = "";
+			String dbhLine = "";
 			//String iconLine = "";
 			speciesName = "";
 
@@ -183,8 +184,22 @@ public class MassageKML {
 					}
 				}
 				
+				if (line.contains("DBH")) {
+					
+					while ((line = reader.readLine()) != null) {
+						if (i > 0) 
+						System.out.println(line);
+						
+						if (line.contains("<td>")) {
+							dbhLine += " " + line.replaceAll("<td>", "").replaceAll("</td>", "").replaceAll("( )+", " ");
+							break;
+						}
+					}
+				}
+				
 				if (line.contains("</description>")) {
 					//tempLine += "<name>" + speciesName + "</name>";
+					tempLine += "<dbh>" + dbhLine + "</dbh>";
 					tempLine += "<description><![CDATA[" + descriptionLine + "]]></description>";
 				}
 				
@@ -202,6 +217,7 @@ public class MassageKML {
 					tempLine = "";
 					speciesLine = "";
 					descriptionLine = "";
+					dbhLine = "";
 					//iconLine = "";
 					speciesName ="";
 					//i++;
