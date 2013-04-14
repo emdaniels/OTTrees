@@ -1,22 +1,22 @@
-h5 	{ 
+/*h5 	{ 
 	cursor: pointer; 
 	font-family: Arial, Arial, Helvetica, sans-serif;
 	font-size: 20px;
 	padding: 10px 5px 5px 5px;
 	border-bottom: #CCC 1px solid;
 	}
-
+*/
 #sidebar {
 	float: left;
 	width: 20%;
-	height: 800px;
-	overflow: auto;
+	height: 100%;
+
 }
 
 #sidebar_menu {
 	float: left;
 	width: 20%;
-	height: 800px;
+	height: 100%;
 	overflow: auto;
 }
 
@@ -26,7 +26,7 @@ h5 	{
 
 .side_bar {
 	float: left;
-	height: 800px;
+	height: 100%;
 	overflow: auto;
 	width: 20%;
 	

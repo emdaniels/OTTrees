@@ -154,7 +154,7 @@ function load() {
 		newCircle.setMap(map);
 	}
 */
-	//added for simple toggle
+	/*//added for simple toggle
 	$("#accordion > li > div").click(function(){
 		 
 	    if(false == $(this).next().is(':visible')) {
@@ -165,7 +165,7 @@ function load() {
 	 
 	$('#accordion ul:eq(0)').show();
 	//end simple toggle
-		
+		*/
 	var goldStar = {
 			  path: 'M 125,5 155,90 245,90 175,145 200,230 125,180 50,230 75,145 5,90 95,90 z',
 			  fillColor: "yellow",
