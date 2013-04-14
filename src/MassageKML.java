@@ -214,7 +214,7 @@ public class MassageKML {
 						treeSpeciesWriter.write(tempLine);
 					}
 					
-					tempLine = "";
+					tempLine = ""; 
 					speciesLine = "";
 					descriptionLine = "";
 					dbhLine = "";
