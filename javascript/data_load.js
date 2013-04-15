@@ -35,13 +35,13 @@ function toggleDataOn(treeName) {
 function toggleDataOff(treeName) {
 	var script = document.getElementById(treeName + 'script');
 	document.getElementsByTagName('head')[0].removeChild(script);
-	
+
 	var markersArray = treeLayerArray[treeName];
-	
+
 	for (i in markersArray) {
-	      markersArray[i].setMap(null);
-	    }
-	
+		markersArray[i].setMap(null);
+	}
+
 	treeLayerArray[treeName] = null;
 }
 
@@ -49,7 +49,7 @@ function toggleDataOff(treeName) {
 //set of coordinates.
 window.tree_data = function(results) {
 	var markersArray = new Array();
-	
+
 	for (var i = 0; i < results.Placemark.length; i++) {
 		//alert(results.Placemark[i].description);
 		var coords = results.Placemark[i].Point.coordinates.split(',');
@@ -60,10 +60,10 @@ window.tree_data = function(results) {
 			//estimatedSpan = maxSpan * (estimatedAge) / matDBH;
 			icon: getCircle(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH))
 		});
-		
+
 		markersArray.push(marker);
 	}
-	
+
 	treeLayerArray[results.filename] = markersArray;
 }
 
@@ -235,35 +235,6 @@ for (var i = 0; i < nameArray.length; i++) {
 		});
 		newCircle.setMap(map);
 	}
-	
-	//added for simple toggle
-	$("#accordion > li > div").click(function(){
-
-	    if(false == $(this).next().is(':visible')) {
-	        $('#accordion ul').slideUp(600);
-	    }
-	    $(this).next().slideToggle(600);
-	});
-
-	$('#accordion ul:eq(0)').show();
-	//end simple toggle
-	
-	var goldStar = {
-			  path: 'M 125,5 155,90 245,90 175,145 200,230 125,180 50,230 75,145 5,90 95,90 z',
-			  fillColor: "yellow",
-			  fillOpacity: 0.8,
-			  scale: 1,
-			  strokeColor: "gold",
-			  strokeWeight: 14
-			};
-
-			var marker = new google.maps.Marker({
-			  position: new google.maps.LatLng(45.420353,-75.695982),
-			  icon: goldStar,
-			  map: map
-			});
-
-
 } 
 
 function toggleKML(kmlLayer, map) {

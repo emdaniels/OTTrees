@@ -1,16 +1,7 @@
-/*h5 	{ 
-	cursor: pointer; 
-	font-family: Arial, Arial, Helvetica, sans-serif;
-	font-size: 20px;
-	padding: 10px 5px 5px 5px;
-	border-bottom: #CCC 1px solid;
-	}
-*/
 #sidebar {
 	float: left;
 	width: 20%;
 	height: 100%;
-
 }
 
 #sidebar_menu {
@@ -20,16 +11,15 @@
 	overflow: auto;
 }
 
-#sidebar_menu ul { 
-	list-style-type: none; 
-	}
+#sidebar_menu ul {
+	list-style-type: none;
+}
 
 .side_bar {
 	float: left;
 	height: 100%;
 	overflow: auto;
 	width: 20%;
-	
 }
 
 .map_canvas_container {
@@ -105,6 +95,4 @@ body {
 
 .main_content {
 	margin: 0px auto;
-	
 }
-
