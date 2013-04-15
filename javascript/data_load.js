@@ -48,58 +48,59 @@ function toggleDataOff(treeName) {
 //Loop through the results array and place a marker for each set of coordinates.
 window.tree_data = function(results) {
 	var markersArray = new Array();
-	var date = new Date();
 
 	for (var i = 0; i < results.Placemark.length; i++) {
 		//alert(results.Placemark[i].description);
 		var coords = results.Placemark[i].Point.coordinates.split(',');
 		var latLng = new google.maps.LatLng(coords[1],coords[0]);
-
+		var now = new Date();
+		var month = now.getMonth() + 1;
+		
 		//early spring: April
-		else if (date.getMonth() == 3){
+		if (month == 4){
 			var marker = new google.maps.Marker({
 				position: latLng,
 				map: map,
-				icon: getCircle(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH), results.earlySpringColor) //estimatedSpan = maxSpan * (estimatedAge) / matDBH
+				icon: getCircleEarlySpring(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH), results.earlySpringColor) //estimatedSpan = maxSpan * (estimatedAge) / matDBH
 			});
 			markersArray.push(marker);
 		}
 		//late spring: May
-		else if (date.getMonth() == 4){
+		else if (month == 5){
 			var marker = new google.maps.Marker({
 				position: latLng,
 				map: map,
-				icon: getCircle(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH), results.lateSpringColor) //estimatedSpan = maxSpan * (estimatedAge) / matDBH
+				icon: getCircleLateSpring(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH), results.lateSpringColor) //estimatedSpan = maxSpan * (estimatedAge) / matDBH
 			});
 			markersArray.push(marker);
 		}
 
 		//summer: June-August
-		else if (date.getMonth() == 5 || date.getMonth() == 6 || date.getMonth() == 7){
+		else if (month == 6 || month == 7 || month == 8){
 			var marker = new google.maps.Marker({
 				position: latLng,
 				map: map,
-				icon: getCircle(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH), results.summerColor) //estimatedSpan = maxSpan * (estimatedAge) / matDBH
+				icon: getCircleSummer(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH), results.summerColor) //estimatedSpan = maxSpan * (estimatedAge) / matDBH
 			});
 			markersArray.push(marker);
 		}
 
 		//early fall: September
-		else if (date.getMonth() == 8){
+		else if (month == 9){
 			var marker = new google.maps.Marker({
 				position: latLng,
 				map: map,
-				icon: getCircle(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH), results.earlyFallColor) //estimatedSpan = maxSpan * (estimatedAge) / matDBH
+				icon: getCircleEarlyFall(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH), results.earlyFallColor) //estimatedSpan = maxSpan * (estimatedAge) / matDBH
 			});
 			markersArray.push(marker);
 		}
 
 		//late fall: October
-		else if (date.getMonth() == 9){
+		else if (month == 10){
 			var marker = new google.maps.Marker({
 				position: latLng,
 				map: map,
-				icon: getCircle(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH), results.lateFallColor) //estimatedSpan = maxSpan * (estimatedAge) / matDBH
+				icon: getCircleLateFall(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH), results.lateFallColor) //estimatedSpan = maxSpan * (estimatedAge) / matDBH
 			});
 			markersArray.push(marker);
 		}
@@ -109,18 +110,13 @@ window.tree_data = function(results) {
 			var marker = new google.maps.Marker({
 				position: latLng,
 				map: map,
-				icon: getCircle(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH), results.winterColor) //estimatedSpan = maxSpan * (estimatedAge) / matDBH
+				icon: getCircleWinter(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH), results.winterColor) //estimatedSpan = maxSpan * (estimatedAge) / matDBH
 			});
 			markersArray.push(marker);
 		}
 	}
-}
-}
-}
-}
-}
 
-treeLayerArray[results.filename] = markersArray;
+	treeLayerArray[results.filename] = markersArray;
 }
 
 function getCircle(estimatedSpan) {
@@ -137,7 +133,7 @@ function getCircle(estimatedSpan) {
 function getCircleEarlySpring(estimatedSpan, earlySpringColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
-		fillColor: 'earlySpringColor',
+		fillColor: earlySpringColor,
 		fillOpacity: .2,
 		scale: estimatedSpan,
 		strokeColor: 'white',
@@ -148,7 +144,7 @@ function getCircleEarlySpring(estimatedSpan, earlySpringColor) {
 function getCircleLateSpring(estimatedSpan, lateSpringColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
-		fillColor: 'lateSpringColor',
+		fillColor: lateSpringColor,
 		fillOpacity: .2,
 		scale: estimatedSpan,
 		strokeColor: 'white',
@@ -159,7 +155,7 @@ function getCircleLateSpring(estimatedSpan, lateSpringColor) {
 function getCircleSummer(estimatedSpan, summerColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
-		fillColor: 'summerColor',
+		fillColor: summerColor,
 		fillOpacity: .2,
 		scale: estimatedSpan,
 		strokeColor: 'white',
@@ -170,7 +166,7 @@ function getCircleSummer(estimatedSpan, summerColor) {
 function getCircleEarlyFall(estimatedSpan, earlyFallColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
-		fillColor: 'earlyFallColor',
+		fillColor: earlyFallColor,
 		fillOpacity: .2,
 		scale: estimatedSpan,
 		strokeColor: 'white',
@@ -181,7 +177,7 @@ function getCircleEarlyFall(estimatedSpan, earlyFallColor) {
 function getCircleLateFall(estimatedSpan, lateFallColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
-		fillColor: 'lateFallColor',
+		fillColor: lateFallColor,
 		fillOpacity: .2,
 		scale: estimatedSpan,
 		strokeColor: 'white',
@@ -192,7 +188,7 @@ function getCircleLateFall(estimatedSpan, lateFallColor) {
 function getCircleWinter(estimatedSpan, winterColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
-		fillColor: 'winterColor',
+		fillColor: winterColor,
 		fillOpacity: .2,
 		scale: estimatedSpan,
 		strokeColor: 'white',
