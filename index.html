@@ -34,8 +34,9 @@
 			<ul class="second_level">
 				<li>This application was made using the city of Ottawa's open
 					data tree inventory to depict the estimated size, seasonal coloring
-					and location of each tree. Please be patient; the data and
-					calculations can take some time to load.</li>
+					and location of each tree. Selecting a list will populate the map
+					with the subset of trees that fit into that category. Please be
+					patient; the data and calculations can take some time to load.</li>
 				<li><br /></li>
 			</ul>
 		</div>
@@ -53,43 +54,35 @@
 		<div class="submenublock" id="leafPersistence">
 			<h5>Leaf Persistence</h5>
 			<ul class="second_level">
-				<li><input type="checkbox" /> Deciduous</li>
-				<li><input type="checkbox" /> Coniferous</li>
-				<li><input type="checkbox" /> Marcescent</li>
-			</ul>
-		</div>
-		<div class="submenublock" id="growthRate">
-			<h5>Annual Growth Rate</h5>
-			<ul class="second_level">
-				<li><input type="checkbox" /> Slow: 12" or less</li>
-				<li><input type="checkbox" /> Moderate: 13" - 24"</li>
-				<li><input type="checkbox" /> Fast: 25" or more</li>
-			</ul>
-		</div>
-		<div class="submenublock" id="estimatedAge">
-			<h5>Estimated Age</h5>
-			<ul class="second_level">
-				<li><input type="checkbox" /> 0-9 years</li>
-				<li><input type="checkbox" /> 10-19 years</li>
-				<li><input type="checkbox" /> 20-29 years</li>
-				<li><input type="checkbox" /> 30-39 years</li>
-				<li><input type="checkbox" /> 40-49 years</li>
-				<li><input type="checkbox" /> 50+ years</li>
+				<li><input type="radio" id="coniferousList"/> Coniferous</li>
+				<li><input type="radio" id="marcescentList"/> Marcescent</li>
+			<li><input type="radio" id="deciduousList"/> Deciduous</li>
 			</ul>
 		</div>
 		<div class="submenublock" id="allergen">
 			<h5>Allergen</h5>
 			<ul class="second_level">
-				<li><input type="checkbox" /> Mild</li>
-				<li><input type="checkbox" /> Moderate</li>
-				<li><input type="checkbox" /> Severe</li>
+				<li><input type="radio" /> Mild</li>
+				<li><input type="radio" /> Moderate</li>
+				<li><input type="radio" /> Severe</li>
+			</ul>
+		</div>
+		<div class="submenublock" id="estimatedAge">
+			<h5>Estimated Age</h5>
+			<ul class="second_level">
+				<li><input type="radio" /> 0-9 years</li>
+				<li><input type="radio" /> 10-19 years</li>
+				<li><input type="radio" /> 20-29 years</li>
+				<li><input type="radio" /> 30-39 years</li>
+				<li><input type="radio" /> 40-49 years</li>
+				<li><input type="radio" /> 50+ years</li>
 			</ul>
 		</div>
 		<div class="submenublock" id="origin">
 			<h5>Origin</h5>
 			<ul class="second_level">
-				<li><input type="radio" /> Native</li>
-				<li><input type="radio" /> Non-Native</li>
+				<li><input type="radio" id="nativeList" /> Native</li>
+				<li><input type="radio" id="nonNativeList" /> Non-Native</li>
 			</ul>
 		</div>
 		<div class="submenublock" id="foodBearing">
@@ -104,18 +97,39 @@
 			<ul class="second_level" id="treeList"></ul>
 		</div>
 	</div>
+
 	<script type="text/javascript">
+		//array for individual speices
 		var items = [];
-
 		$.each(nameArray.sort(), function(i, item) {
-
 			items.push('<li><input type="checkbox" id="' + item
 					+ '" onclick="toggle(\'' + item + '\');" /> ' + item
 					+ '</li>');
-
 		}); // close each()
-
 		$('#treeList').append(items.join(''));
+
+		//array of coniferous trees
+		var conItems = [];
+		$.each(coniferousArray.sort(), function(i, item) {
+			conItems.push('onclick="toggleDataOn(' + item + ');"');
+		});
+		$('#coniferousList').append(conItems.join(''));
+		
+		//array of marcescent trees
+		var marItems = [];
+		$.each(marcescentArray.sort(), function(i, item) {
+			marItems.push('onclick="toggleDataOn(' + item + ');"');
+		});
+		$('#marcescentList').append(marItems.join(''));
+		
+		//array of deciduous trees
+		var decItems = [];
+		
+		$.each(deciduousArray.sort(), function(i, item) {
+			decItems.push('onclick="toggleDataOn(' + item + ');"');
+		});
+		$('#deciduousList').append(decItems.join(''));
+
 	</script>
 </body>
 </html>
