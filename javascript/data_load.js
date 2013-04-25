@@ -18,6 +18,21 @@ var coniferousArray = new Array('Cedar_Eastern_White', 'Fir', 'Fir_Balsam', 'Fir
 var marcescentArray = new Array('Beech', 'Beech_American', 'Beech_Blue', 'Beech_European', 'Oak', 'Oak_Bur', 'Oak_English', 'Oak_Pin', 'Oak_Red', 'Oak_White');
 var deciduousArray = new Array('Amur_Corktree', 'Apple', 'Ash', 'Ash_Black', 'Ash_European', 'Ash_Green', 'Ash_White', 'Aspen_Columnar', 'Aspen_Largetooth', 'Aspen_Trembling', 'Basswood', 'Birch', 'Birch_Gray', 'Birch_Weeping', 'Birch_White', 'Birch_Yellow', 'Buckeye_Ohio', 'Butternut', 'Catalpa_northern', 'Cherry', 'Cherry_Black', 'Cherry_Choke', 'Cherry_Choke_Schubert', 'Cherry_Purple_Leaf', 'Coffeetree_Kentucky', 'Crabapple', 'Elm', 'Elm_American', 'Elm_Prospector', 'Elm_Rock', 'Elm_Siberian', 'Ginkgo', 'Hackberry', 'Hawthorn', 'Hazel_Turkish', 'Hemlock', 'Hickory_Bitternut', 'Hickory_Shagbark', 'Horsechestnut_Common', 'Ironwood', 'Katsura_Tree', 'Larch_Eastern', 'Larch_European', 'Lilac_Japanese', 'Linden_Littleleaf', 'Locust_Black', 'Locust_Honey', 'Magnolia', 'Maple', 'Maple_Amur', 'Maple_Black', 'Maple_Freeman', 'Maple_Manitoba', 'Maple_Norway', 'Maple_Red', 'Maple_Silver', 'Maple_Sugar', 'Mountain_Ash_Oakleaf', 'Mountain_Ash_Showy', 'Mulberry', 'Olive_Russian', 'Pear', 'Poplar', 'Poplar_Balsam', 'Poplar_Lombardy', 'Redbud_Eastern', 'Serviceberry', 'Sycamore_American', 'Unknown', 'Walnut_Black', 'Willow', 'Willow_Black', 'Willow_Weeping');
 
+//Origin Arrays
+var nativeArray = new Array();
+var nonNativeArray = new Array();
+
+//Allergen Arrays
+var mildAllergenArray = new Array();
+var moderateAllergenArray = new Array();
+var severeAllergenArray = new Array();
+
+//Food Bearing Arrays
+var foodBearingArray = new Array();
+var nonFoodBearingArray = new Array();
+
+
+
 function initialize() { 
 	var myOptions = {
 			zoom: 12,
@@ -42,15 +57,30 @@ function toggleDataOn(treeName) {
 
 function toggleDataOff(treeName) {
 	var script = document.getElementById(treeName + 'script');
-	document.getElementsByTagName('head')[0].removeChild(script);
+	
+	if (script) {
+		document.getElementsByTagName('head')[0].removeChild(script);
 
-	var markersArray = treeLayerArray[treeName];
+		var markersArray = treeLayerArray[treeName];
 
-	for (i in markersArray) {
-		markersArray[i].setMap(null);
+		for (i in markersArray) {
+			markersArray[i].setMap(null);
+		}
+
+		treeLayerArray[treeName] = null;
 	}
+}
 
-	treeLayerArray[treeName] = null;
+function toggleArray(treeArray, toggleState) {
+	
+	for (i in treeArray) {
+		
+		if (toggleState == 'on') {
+			toggleDataOn(treeArray[i]);
+		} else {
+			toggleDataOff(treeArray[i]);
+		}
+	}
 }
 
 function calibrateSeason() {
