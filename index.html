@@ -33,6 +33,18 @@
 			toggleArray(coniferousArray, 'off');
 			toggleArray(marcescentArray, 'off');
 			toggleArray(deciduousArray, 'on');
+		} else if (listName == 'nativeList') {
+			toggleArray(nonNativeArray, 'off');
+			toggleArray(nativeArray, 'on');
+		} else if (listName == 'nonNativeList') {
+			toggleArray(nativeArray, 'off');
+			toggleArray(nonNativeArray, 'on');
+		} else if (listName == 'foodBearingList') {
+			toggleArray(nonFoodBearingArray, 'off');
+			toggleArray(foodBearingArray, 'on');
+		} else if (listName == 'nonFoodBearingList') {
+			toggleArray(foodBearingArray, 'off');
+			toggleArray(nonFoodBearingArray, 'on');
 		}
 	}
 </script>
@@ -49,9 +61,12 @@
 		<div class="submenublock" id="about">
 			<h5>About</h5>
 			<ul class="second_level">
-				<li><p>This application was made using the city of Ottawa's
-						<a href="http://ottawa.ca/en/open-data-ottawa">open data</a> tree inventory to show unique information about the
-						trees owned and cared for by the city.</p>
+				<li><p>
+						This application was made using the city of Ottawa's <a
+							href="http://ottawa.ca/en/open-data-ottawa">open data</a> tree
+						inventory to show unique information about the trees owned and
+						cared for by the city.
+					</p>
 					<p>The trees generated display the color of the current
 						foliage; the size of the tree on the map is based on a calculation
 						combining the species growth factor, the diameter at breast height
@@ -60,7 +75,8 @@
 						trees in that category. Please be patient! The data and
 						calculations can take some time to load.</p>
 					<p>
-						Source code is available on <a href="www.github.com/emdaniels/ottrees">Github</a>.
+						Source code is available on <a
+							href="www.github.com/emdaniels/ottrees">Github</a>.
 					</p></li>
 			</ul>
 		</div>
@@ -111,17 +127,20 @@
 		<div class="submenublock" id="origin">
 			<h5>Origin</h5>
 			<ul class="second_level">
-				<li><input type="radio" name="origin" id="nativeList" />
-					Native</li>
-				<li><input type="radio" name="origin" id="nonNativeList" />
-					Non-Native</li>
+				<li><input type="radio" name="origin" id="nativeList"
+					onclick="toggleList('nativeList')" /> Native</li>
+				<li><input type="radio" name="origin" id="nonNativeList"
+					onclick="toggleList('nonNativeList')" /> Non-Native</li>
 			</ul>
 		</div>
 		<div class="submenublock" id="foodBearing">
 			<h5>Food Bearing</h5>
 			<ul class="second_level">
-				<li><input type="radio" name="foodBearing" /> Food Bearing</li>
-				<li><input type="radio" name="foodBearing" /> Non-Food Bearing</li>
+				<li><input type="radio" name="foodbearing" id="foodBearingList"
+					onclick="toggleList('foodBearingList')" /> Food Bearing</li>
+				<li><input type="radio" name="foodbearing"
+					id="nonFoodBearingList" onclick="toggleList('nonFoodBearingList')" />
+					Non-Food Bearing</li>
 			</ul>
 		</div>
 		<div class="submenublock" id="individualSpecies">
