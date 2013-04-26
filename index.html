@@ -9,18 +9,14 @@
 <script type="text/javascript" src="javascript/data_load.js"></script>
 <script type="text/javascript">
 	function toggle(type) {
-		//alert("in function");
 		if ($('#' + type).is(':checked')) {
-			//alert("checked: " + type);
 			toggleDataOn(type);
 		} else {
-			//alert("unchecked: " + type);
 			toggleDataOff(type);
 		}
 	}
 
 	function toggleList(listName) {
-
 		if (listName == 'coniferousList') {
 			toggleArray(marcescentArray, 'off');
 			toggleArray(deciduousArray, 'off');
@@ -45,7 +41,20 @@
 		} else if (listName == 'nonFoodBearingList') {
 			toggleArray(foodBearingArray, 'off');
 			toggleArray(nonFoodBearingArray, 'on');
+		} else if (listName == 'mildAllergenList') {
+			toggleArray(severeAllergenArray, 'off');
+			toggleArray(moderateAllergenArray, 'off');
+			toggleArray(mildAllergenArray, 'on');
+		} else if (listName == 'moderateAllergenList') {
+			toggleArray(mildAllergenArray, 'off');
+			toggleArray(severeAllergenArray, 'off');
+			toggleArray(moderateAllergenArray, 'on');
+		} else if (listName == 'severeAllergenList') {
+			toggleArray(mildAllergenArray, 'off');
+			toggleArray(moderateAllergenArray, 'off');
+			toggleArray(severeAllergenArray, 'on');
 		}
+
 	}
 </script>
 </head>
@@ -108,9 +117,13 @@
 		<div class="submenublock" id="allergen">
 			<h5>Allergen</h5>
 			<ul class="second_level">
-				<li><input type="radio" name="allergen" /> Mild</li>
-				<li><input type="radio" name="allergen" /> Moderate</li>
-				<li><input type="radio" name="allergen" /> Severe</li>
+				<li><input type="radio" name="allergen" id="mildAllergenList"
+					onclick="toggleList('mildAllergenList')" /> Mild</li>
+				<li><input type="radio" name="allergen"
+					id="moderateAllergenList"
+					onclick="toggleList('moderateAllergenList')" /> Moderate</li>
+				<li><input type="radio" name="allergen" id="severeAllergenList"
+					onclick="toggleList('severeAllergenList')" /> Severe</li>
 			</ul>
 		</div>
 		<div class="submenublock" id="estimatedAge">
@@ -156,8 +169,9 @@
 			items.push('<li><input type="checkbox" id="' + item
 					+ '" onclick="toggle(\'' + item + '\');" /> ' + item
 					+ '</li>');
-		}); // close each()
+		});
 		$('#treeList').append(items.join(''));
 	</script>
+
 </body>
 </html>
