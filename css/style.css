@@ -3,6 +3,7 @@
 	width: 20%;
 	height: 100%;
 	overflow: auto;
+	background: #F5F5F5;
 }
 
 #sidebar_menu {
@@ -55,7 +56,7 @@
 	color: #000000;
 }
 
-.submenublock h3 a:hover,.submenublock h3 a:active,.submenublock h3 a:focus
+.submenublock h5 a:hover,.submenublock h5 a:active,.submenublock h3 a:focus
 	{
 	color: #00aeef;
 }
@@ -91,6 +92,7 @@
 body {
 	font-size: 13pt;
 	font-family: Arial, Arial, Helvetica, sans-serif;
+	background: #F5F5F5;
 }
 
 .main_content {
