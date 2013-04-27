@@ -139,6 +139,12 @@ function changeSeason(seasonNumber) {
 	} else {
 		season = seasonNumber;
 	}
+
+	for (treeLayer in treeLayerArray) {
+		toggleDataOff(treeLayer);
+		toggleDataOn(treeLayer);
+	}
+	
 }
 
 //Array to loop through called tree species and display the correct season and location
