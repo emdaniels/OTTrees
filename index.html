@@ -4,11 +4,9 @@
 <meta name="ttw" content="8bwgdwr" />
 <link rel="stylesheet" href="css/style.css" type="text/css">
 <script type="text/javascript" src="javascript/jquery-1.9.1.min.js"></script>
-<script type="text/javascript"
-	src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript"src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="javascript/data_load.js"></script>
 <script type="text/javascript">
-
 	function toggle(type) {
 		if ($('#' + type).is(':checked')) {
 			toggleDataOn(type);
@@ -17,7 +15,18 @@
 		}
 	}
 
-	function toggleList(listName) {
+	function toggleOriginList(listName) {
+		if (listName == 'nativeList') {
+			toggleArray(nonNativeArray, 'off');
+			toggleArray(nativeArray, 'on');
+		} else if (listName == 'nonNativeList') {
+			toggleArray(nativeArray, 'off');
+			toggleArray(nonNativeArray, 'on');
+		}
+
+	}
+
+	function togglePersistenceList(listName) {
 		if (listName == 'coniferousList') {
 			toggleArray(marcescentArray, 'off');
 			toggleArray(deciduousArray, 'off');
@@ -30,19 +39,21 @@
 			toggleArray(coniferousArray, 'off');
 			toggleArray(marcescentArray, 'off');
 			toggleArray(deciduousArray, 'on');
-		} else if (listName == 'nativeList') {
-			toggleArray(nonNativeArray, 'off');
-			toggleArray(nativeArray, 'on');
-		} else if (listName == 'nonNativeList') {
-			toggleArray(nativeArray, 'off');
-			toggleArray(nonNativeArray, 'on');
-		} else if (listName == 'foodBearingList') {
+		}
+	}
+
+	function toggleNourishmentList(listName) {
+		if (listName == 'foodBearingList') {
 			toggleArray(nonFoodBearingArray, 'off');
 			toggleArray(foodBearingArray, 'on');
 		} else if (listName == 'nonFoodBearingList') {
 			toggleArray(foodBearingArray, 'off');
 			toggleArray(nonFoodBearingArray, 'on');
-		} else if (listName == 'mildAllergenList') {
+		}
+	}
+
+	function toggleAllergenList(listName) {
+		if (listName == 'mildAllergenList') {
 			toggleArray(severeAllergenArray, 'off');
 			toggleArray(moderateAllergenArray, 'off');
 			toggleArray(mildAllergenArray, 'on');
@@ -55,17 +66,21 @@
 			toggleArray(moderateAllergenArray, 'off');
 			toggleArray(severeAllergenArray, 'on');
 		}
-
 	}
-	
+
 	var _gaq = _gaq || [];
-	_gaq.push(['_setAccount', 'UA-40391491-1']);
-	_gaq.push(['_trackPageview']);
+	_gaq.push([ '_setAccount', 'UA-40391491-1' ]);
+	_gaq.push([ '_trackPageview' ]);
 
 	(function() {
-	  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
 	})();
 </script>
 </head>
@@ -102,12 +117,12 @@
 			<h5>Allergen</h5>
 			<ul class="second_level">
 				<li><input type="radio" name="allergen" id="mildAllergenList"
-					onclick="toggleList('mildAllergenList')" /> Mild</li>
+					onclick="toggleAllergenList('mildAllergenList')" /> Mild</li>
 				<li><input type="radio" name="allergen"
 					id="moderateAllergenList"
-					onclick="toggleList('moderateAllergenList')" /> Moderate</li>
+					onclick="toggleAllergenList('moderateAllergenList')" /> Moderate</li>
 				<li><input type="radio" name="allergen" id="severeAllergenList"
-					onclick="toggleList('severeAllergenList')" /> Severe</li>
+					onclick="toggleAllergenList('severeAllergenList')" /> Severe</li>
 			</ul>
 		</div>
 		<div class="submenublock" id="age">
@@ -124,22 +139,30 @@
 		<div class="submenublock" id="foliage">
 			<h5>Foliage</h5>
 			<ul class="second_level">
-				<li><input type="radio" name="seasonalFoliage" id="currentSeasonList" onclick="changeSeason(0);" /> Current Season</li>
-				<li><input type="radio" name="seasonalFoliage" id="earlySpringList" onclick="changeSeason(1);" /> Early Spring</li>
-				<li><input type="radio" name="seasonalFoliage" id="lateSpringList" onclick="changeSeason(2);" /> Late Spring</li>
-				<li><input type="radio" name="seasonalFoliage" id="summerList" onclick="changeSeason(3);" /> Summer</li>
-				<li><input type="radio" name="seasonalFoliage" id="earlyFallList" onclick="changeSeason(4);" /> Early Fall</li>
-				<li><input type="radio" name="seasonalFoliage" id="lateFallList" onclick="changeSeason(5);" /> Late Fall</li>
-				<li><input type="radio" name="seasonalFoliage" id="winterList" onclick="changeSeason(6);" /> Winter</li>
+				<li><input type="radio" name="seasonalFoliage"
+					id="currentSeasonList" onclick="changeSeason(0);" /> Current
+					Season</li>
+				<li><input type="radio" name="seasonalFoliage"
+					id="earlySpringList" onclick="changeSeason(1);" /> Early Spring</li>
+				<li><input type="radio" name="seasonalFoliage"
+					id="lateSpringList" onclick="changeSeason(2);" /> Late Spring</li>
+				<li><input type="radio" name="seasonalFoliage" id="summerList"
+					onclick="changeSeason(3);" /> Summer</li>
+				<li><input type="radio" name="seasonalFoliage"
+					id="earlyFallList" onclick="changeSeason(4);" /> Early Fall</li>
+				<li><input type="radio" name="seasonalFoliage"
+					id="lateFallList" onclick="changeSeason(5);" /> Late Fall</li>
+				<li><input type="radio" name="seasonalFoliage" id="winterList"
+					onclick="changeSeason(6);" /> Winter</li>
 			</ul>
 		</div>
 		<div class="submenublock" id="nourishment">
 			<h5>Nourishment</h5>
 			<ul class="second_level">
 				<li><input type="radio" name="foodbearing" id="foodBearingList"
-					onclick="toggleList('foodBearingList')" /> Food Bearing</li>
+					onclick="toggleNourishmentList('foodBearingList')" /> Food Bearing</li>
 				<li><input type="radio" name="foodbearing"
-					id="nonFoodBearingList" onclick="toggleList('nonFoodBearingList')" />
+					id="nonFoodBearingList" onclick="toggleNourishmentList('nonFoodBearingList')" />
 					Non-Food Bearing</li>
 			</ul>
 		</div>
@@ -147,22 +170,22 @@
 			<h5>Origin</h5>
 			<ul class="second_level">
 				<li><input type="radio" name="origin" id="nativeList"
-					onclick="toggleList('nativeList')" /> Native</li>
+					onclick="toggleOriginList('nativeList')" /> Native</li>
 				<li><input type="radio" name="origin" id="nonNativeList"
-					onclick="toggleList('nonNativeList')" /> Non-Native</li>
+					onclick="toggleOriginList('nonNativeList')" /> Non-Native</li>
 			</ul>
 		</div>
 		<div class="submenublock" id="persistence">
 			<h5>Persistence</h5>
 			<ul class="second_level">
 				<li><input type="radio" name="leafPersistence"
-					id="coniferousList" onclick="toggleList('coniferousList')" />
+					id="coniferousList" onclick="togglePersistenceList('coniferousList')" />
 					Coniferous</li>
 				<li><input type="radio" name="leafPersistence"
-					id="marcescentList" onclick="toggleList('marcescentList')" />
+					id="marcescentList" onclick="togglePersistenceList('marcescentList')" />
 					Marcescent</li>
 				<li><input type="radio" name="leafPersistence"
-					id="deciduousList" onclick="toggleList('deciduousList')" />
+					id="deciduousList" onclick="togglePersistenceList('deciduousList')" />
 					Deciduous</li>
 			</ul>
 		</div>
@@ -177,7 +200,7 @@
 		var items = [];
 		$.each(nameArray.sort(), function(i, item) {
 			items.push('<li><input type="checkbox" id="' + item
-					+ '" onclick="toggle(\'' + item + '\');" /> ' + item
+					+ '" onclick="toggle(\'' + item + '\');" /> ' + item.replace("_", ", ").replace("_", " ")
 					+ '</li>');
 		});
 		$('#treeList').append(items.join(''));

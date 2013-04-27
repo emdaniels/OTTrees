@@ -88,11 +88,20 @@ function toggleDataOff(treeName) {
 		var markersArray = treeLayerArray[treeName];
 
 		for (i in markersArray) {
-			markersArray[i].setMap(null);
+			var marker = markersArray[i];
+			if (marker) marker.setMap(null);
+			delete markersArray[i];
 		}
 
 		treeLayerArray[treeName] = null;
 	}
+	
+	/*var i = overlays.length;
+    while (i--) {
+      var overlay = overlays[i];
+      if (overlay) overlay.setMap(null);
+      delete overlays[i];
+    }*/
 }
 
 function toggleArray(treeArray, toggleState) {
@@ -151,72 +160,75 @@ function changeSeason(seasonNumber) {
 window.tree_data = function(results) {
 	var markersArray = new Array();
 
-	for (var i = 0; i < results.Placemark.length; i++) {
-		var coords = results.Placemark[i].Point.coordinates.split(',');
-		var latLng = new google.maps.LatLng(coords[1],coords[0]);
-		var zoomLevel = map.getZoom();
-		//estimatedSpan = maxSpan * (estimatedAge) / matDBH / zoomLevel
-		var estimatedSpan = parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH) / zoomLevel;
-		if (estimatedSpan > 80)
-			estimatedSpan = 80;
-		else if (estimatedSpan < 1)
-			estimatedSpan = 1;
+	if (results.Placemark) {
+		for (var i = 0; i < results.Placemark.length; i++) {
+			var coords = results.Placemark[i].Point.coordinates.split(',');
+			var latLng = new google.maps.LatLng(coords[1],coords[0]);
+			var zoomLevel = map.getZoom();
+			//estimatedSpan = maxSpan * (estimatedAge) / matDBH / zoomLevel
+			var estimatedSpan = parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH) / zoomLevel;
+			if (estimatedSpan > 80)
+				estimatedSpan = 80;
+			else if (estimatedSpan < 1)
+				estimatedSpan = 1;
 
-		if (season == 1){
-			var marker = new google.maps.Marker({
-				position: latLng,
-				title: results.scientificName,
-				map: map,
-				icon: getCircleEarlySpring(estimatedSpan, results.earlySpringColor)
-			});
-			markersArray.push(marker);
-		}
-		else if (season == 2){
-			var marker = new google.maps.Marker({
-				position: latLng,
-				title: results.scientificName,
-				map: map,
-				icon: getCircleLateSpring(estimatedSpan, results.lateSpringColor)
-			});
-			markersArray.push(marker);
-		}
-		else if (season == 3){
-			var marker = new google.maps.Marker({
-				position: latLng,
-				title: results.scientificName,
-				map: map,
-				icon: getCircleSummer(estimatedSpan, results.summerColor)
-			});
-			markersArray.push(marker);
-		}
-		else if (season == 4){
-			var marker = new google.maps.Marker({
-				position: latLng,
-				title: results.scientificName,
-				map: map,
-				icon: getCircleEarlyFall(estimatedSpan, results.earlyFallColor)
-			});
-			markersArray.push(marker);
-		}
-		else if (season == 5){
-			var marker = new google.maps.Marker({
-				position: latLng,
-				title: results.scientificName,
-				map: map,
-				icon: getCircleLateFall(estimatedSpan, results.lateFallColor)
-			});
-			markersArray.push(marker);
-		}
-		else if (season == 6){
-			var marker = new google.maps.Marker({
-				position: latLng,
-				title: results.scientificName,
-				map: map,
-				icon: getCircleWinter(estimatedSpan, results.winterColor)
-			});
-			markersArray.push(marker);
+			if (season == 1){
+				var marker = new google.maps.Marker({
+					position: latLng,
+					title: results.commonName,
+					map: map,
+					icon: getCircleEarlySpring(estimatedSpan, results.earlySpringColor)
+				});
+				markersArray.push(marker);
+			}
+			else if (season == 2){
+				var marker = new google.maps.Marker({
+					position: latLng,
+					title: results.commonName,
+					map: map,
+					icon: getCircleLateSpring(estimatedSpan, results.lateSpringColor)
+				});
+				markersArray.push(marker);
+			}
+			else if (season == 3){
+				var marker = new google.maps.Marker({
+					position: latLng,
+					title: results.commonName,
+					map: map,
+					icon: getCircleSummer(estimatedSpan, results.summerColor)
+				});
+				markersArray.push(marker);
+			}
+			else if (season == 4){
+				var marker = new google.maps.Marker({
+					position: latLng,
+					title: results.commonName,
+					map: map,
+					icon: getCircleEarlyFall(estimatedSpan, results.earlyFallColor)
+				});
+				markersArray.push(marker);
+			}
+			else if (season == 5){
+				var marker = new google.maps.Marker({
+					position: latLng,
+					title: results.commonName,
+					map: map,
+					icon: getCircleLateFall(estimatedSpan, results.lateFallColor)
+				});
+				markersArray.push(marker);
+			}
+			else if (season == 6){
+				var marker = new google.maps.Marker({
+					position: latLng,
+					title: results.commonName,
+					map: map,
+					icon: getCircleWinter(estimatedSpan, results.winterColor)
+				});
+				markersArray.push(marker);
+			}
 		}
 	}
+	
 	treeLayerArray[results.filename] = markersArray;
 }
 
