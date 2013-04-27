@@ -3,9 +3,7 @@ var ottawa = new google.maps.LatLng(45.420353,-75.695982);
 var browserSupportFlag =  new Boolean();
 //var useGeolocation = true;
 var map = null;
-var zoomLevel = 13;
-var maxTreeSpan;
-var minTreeSpan;
+var season;
 //var geocoder;
 bounds = new google.maps.LatLngBounds(
 		new google.maps.LatLng(0,180), new google.maps.LatLng(180,0));
@@ -27,6 +25,7 @@ var contentString = '<div id="content">'+
 //Tree Name Arrays
 var nameArray = new Array('Amur_Corktree', 'Apple', 'Ash', 'Ash_Black', 'Ash_European', 'Ash_Green', 'Ash_White', 'Aspen_Columnar', 'Aspen_Largetooth', 'Aspen_Trembling', 'Basswood', 'Beech', 'Beech_American', 'Beech_Blue', 'Beech_European', 'Birch', 'Birch_Gray', 'Birch_Weeping', 'Birch_White', 'Birch_Yellow', 'Buckeye_Ohio', 'Butternut', 'Catalpa_northern', 'Cedar_Eastern_White', 'Cherry', 'Cherry_Black', 'Cherry_Choke', 'Cherry_Choke_Schubert', 'Cherry_Purple_Leaf', 'Coffeetree_Kentucky', 'Crabapple', 'Elm', 'Elm_American', 'Elm_Prospector', 'Elm_Rock', 'Elm_Siberian', 'Fir', 'Fir_Balsam', 'Fir_Colorado', 'Fir_Douglas', 'Ginkgo', 'Hackberry', 'Hawthorn', 'Hazel_Turkish', 'Hemlock', 'Hickory_Bitternut', 'Hickory_Shagbark', 'Horsechestnut_Common', 'Ironwood', 'Juniper', 'Katsura_Tree', 'Larch_Eastern', 'Larch_European', 'Lilac_Japanese', 'Linden_Littleleaf', 'Locust_Black', 'Locust_Honey', 'Magnolia', 'Maple', 'Maple_Amur', 'Maple_Black', 'Maple_Freeman', 'Maple_Manitoba', 'Maple_Norway', 'Maple_Red', 'Maple_Silver', 'Maple_Sugar', 'Mountain_Ash_Oakleaf', 'Mountain_Ash_Showy', 'Mulberry', 'Oak', 'Oak_Bur', 'Oak_English', 'Oak_Pin', 'Oak_Red', 'Oak_White', 'Olive_Russian', 'Pear', 'Pine', 'Pine_Austrian', 'Pine_Jack', 'Pine_Red', 'Pine_Scotch', 'Pine_White', 'Poplar', 'Poplar_Balsam', 'Poplar_Lombardy', 'Redbud_Eastern', 'Serviceberry', 'Spruce', 'Spruce_Black', 'Spruce_Colorado', 'Spruce_Norway', 'Spruce_Red', 'Spruce_White', 'Sycamore_American', 'Unknown', 'Walnut_Black', 'Willow', 'Willow_Black', 'Willow_Weeping', 'Yew_Canada');
 var treeLayerArray = new Array();
+var seasonalTreeLayerArray = new Array();
 
 //Leaf Persistence Arrays
 var coniferousArray = new Array('Cedar_Eastern_White', 'Fir', 'Fir_Balsam', 'Fir_Colorado', 'Fir_Douglas', 'Hemlock', 'Pine', 'Pine_Austrian', 'Pine_Jack', 'Pine_Red', 'Pine_Scotch', 'Pine_White', 'Spruce', 'Spruce_Black', 'Spruce_Colorado', 'Spruce_Norway', 'Spruce_Red', 'Spruce_White', 'Yew_Canada');
@@ -66,7 +65,7 @@ function initialize() {
 		strokeWeight: 0,
 		map: map
 	});
-	
+
 	/*google.maps.event.addListener(marker, 'click', function() {
 		  infowindow.open(map,marker);
 		});*/
@@ -108,71 +107,114 @@ function toggleArray(treeArray, toggleState) {
 	}
 }
 
-//Loops through results array and places a marker for each set of coordinates
-window.tree_data = function(results) {
-	var markersArray = new Array();
+function getSeason(){
 	var now = new Date();
 	var month = now.getMonth() + 1;
+
+	if (month == 4){
+		season = 1;
+	}
+	else if (month == 5){
+		season = 2;
+	}
+	else if ((month == 6) || (month == 7) || (month == 8)){
+		season = 3;
+	}
+	else if (month == 9){
+		season = 4;
+	}
+	else if (month == 10){
+		season = 5;
+	}
+	else if ((month == 11) || (month == 12) || (month == 1)){
+		season = 6;
+	}
+}
+
+getSeason();
+
+function changeSeason(seasonNumber) {
+	if (seasonNumber == 0) {
+		getSeason();
+	} else {
+		season = seasonNumber;
+	}
+}
+
+//Array to loop through called tree species and display the correct season and location
+window.tree_data = function(results) {
+	var markersArray = new Array();
 
 	for (var i = 0; i < results.Placemark.length; i++) {
 		var coords = results.Placemark[i].Point.coordinates.split(',');
 		var latLng = new google.maps.LatLng(coords[1],coords[0]);
-		if (month == 4){
+		var zoomLevel = map.getZoom();
+		//estimatedSpan = maxSpan * (estimatedAge) / matDBH / zoomLevel
+		var estimatedSpan = parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH) / zoomLevel;
+		if (estimatedSpan > 80)
+			estimatedSpan = 80;
+		else if (estimatedSpan < 1)
+			estimatedSpan = 1;
+
+		if (season == 1){
 			var marker = new google.maps.Marker({
 				position: latLng,
 				title: results.scientificName,
 				map: map,
-				//estimatedSpan = maxSpan * (estimatedAge) / matDBH
-				icon: getCircleEarlySpring(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH) / zoomLevel, results.earlySpringColor)
-			});
-		}
-		else if (month == 5){
-			var marker = new google.maps.Marker({
-				position: latLng,
-				title: results.scientificName,
-				map: map,
-				icon: getCircleLateSpring(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH) / zoomLevel, results.lateSpringColor)
-			});
-		}
-		else if ((month == 6) || (month == 7) || (month == 8)){
-			var marker = new google.maps.Marker({
-				position: latLng,
-				title: results.scientificName,
-				map: map,
-				icon: getCircleSummer(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH) / zoomLevel, results.summerColor)
-			});
-		}
-		else if (month == 9){
-			var marker = new google.maps.Marker({
-				position: latLng,
-				title: results.scientificName,
-				map: map,
-				icon: getCircleEarlyFall(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH) / zoomLevel, results.earlyFallColor)
-			});
-		}
-		else if (month == 10){
-			var marker = new google.maps.Marker({
-				position: latLng,
-				title: results.scientificName,
-				map: map,
-				icon: getCircleLateFall(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH) / zoomLevel, results.lateFallColor)
-			});
-		}
-		else if ((month == 11) || (month == 12) || (month == 1)){
-			var marker = new google.maps.Marker({
-				position: latLng,
-				title: results.scientificName,
-				map: map,
-				icon: getCircleWinter(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH) / zoomLevel, results.winterColor)
+				icon: getCircleEarlySpring(estimatedSpan, results.earlySpringColor)
 			});
 			markersArray.push(marker);
-
+		}
+		else if (season == 2){
+			var marker = new google.maps.Marker({
+				position: latLng,
+				title: results.scientificName,
+				map: map,
+				icon: getCircleLateSpring(estimatedSpan, results.lateSpringColor)
+			});
+			markersArray.push(marker);
+		}
+		else if (season == 3){
+			var marker = new google.maps.Marker({
+				position: latLng,
+				title: results.scientificName,
+				map: map,
+				icon: getCircleSummer(estimatedSpan, results.summerColor)
+			});
+			markersArray.push(marker);
+		}
+		else if (season == 4){
+			var marker = new google.maps.Marker({
+				position: latLng,
+				title: results.scientificName,
+				map: map,
+				icon: getCircleEarlyFall(estimatedSpan, results.earlyFallColor)
+			});
+			markersArray.push(marker);
+		}
+		else if (season == 5){
+			var marker = new google.maps.Marker({
+				position: latLng,
+				title: results.scientificName,
+				map: map,
+				icon: getCircleLateFall(estimatedSpan, results.lateFallColor)
+			});
+			markersArray.push(marker);
+		}
+		else if (season == 6){
+			var marker = new google.maps.Marker({
+				position: latLng,
+				title: results.scientificName,
+				map: map,
+				icon: getCircleWinter(estimatedSpan, results.winterColor)
+			});
+			markersArray.push(marker);
 		}
 	}
-
 	treeLayerArray[results.filename] = markersArray;
 }
 
+//Defines symbol for Early Spring
 function getCircleEarlySpring(estimatedSpan, earlySpringColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
@@ -184,6 +226,7 @@ function getCircleEarlySpring(estimatedSpan, earlySpringColor) {
 	};
 }
 
+//Defines symbol for Late Spring
 function getCircleLateSpring(estimatedSpan, lateSpringColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
@@ -195,6 +238,7 @@ function getCircleLateSpring(estimatedSpan, lateSpringColor) {
 	};
 }
 
+//Defines symbol for Summer
 function getCircleSummer(estimatedSpan, summerColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
@@ -206,6 +250,7 @@ function getCircleSummer(estimatedSpan, summerColor) {
 	};
 }
 
+//Defines symbol for Early Fall
 function getCircleEarlyFall(estimatedSpan, earlyFallColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
@@ -217,6 +262,7 @@ function getCircleEarlyFall(estimatedSpan, earlyFallColor) {
 	};
 }
 
+//Defines symbol for Late Fall
 function getCircleLateFall(estimatedSpan, lateFallColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
@@ -228,6 +274,7 @@ function getCircleLateFall(estimatedSpan, lateFallColor) {
 	};
 }
 
+//Defines symbol for Winter
 function getCircleWinter(estimatedSpan, winterColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
@@ -257,6 +304,7 @@ function toTitleCase(str) {
 	});
 
 }
+
 
 /* map loading function */
 /*
