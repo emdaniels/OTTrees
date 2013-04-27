@@ -4,8 +4,7 @@
 <meta name="ttw" content="8bwgdwr" />
 <link rel="stylesheet" href="css/style.css" type="text/css">
 <script type="text/javascript" src="javascript/jquery-1.9.1.min.js"></script>
-<script type="text/javascript"
-	src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript"src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="javascript/data_load.js"></script>
 <script type="text/javascript">
 
@@ -124,12 +123,13 @@
 		<div class="submenublock" id="foliage">
 			<h5>Foliage</h5>
 			<ul class="second_level">
-				<li><input type="radio" name="seasonalFoliage" /> Early Spring</li>
-				<li><input type="radio" name="seasonalFoliage" /> Late Spring</li>
-				<li><input type="radio" name="seasonalFoliage" /> Summer</li>
-				<li><input type="radio" name="seasonalFoliage" /> Early Fall</li>
-				<li><input type="radio" name="seasonalFoliage" /> Late Fall</li>
-				<li><input type="radio" name="seasonalFoliage" /> Winter</li>
+				<li><input type="radio" name="seasonalFoliage" id="currentSeasonList" onclick="changeSeason(0);" /> Current Season</li>
+				<li><input type="radio" name="seasonalFoliage" id="earlySpringList" onclick="changeSeason(1);" /> Early Spring</li>
+				<li><input type="radio" name="seasonalFoliage" id="lateSpringList" onclick="changeSeason(2);" /> Late Spring</li>
+				<li><input type="radio" name="seasonalFoliage" id="summerList" onclick="changeSeason(3);" /> Summer</li>
+				<li><input type="radio" name="seasonalFoliage" id="earlyFallList" onclick="changeSeason(4);" /> Early Fall</li>
+				<li><input type="radio" name="seasonalFoliage" id="lateFallList" onclick="changeSeason(5);" /> Late Fall</li>
+				<li><input type="radio" name="seasonalFoliage" id="winterList" onclick="changeSeason(6);" /> Winter</li>
 			</ul>
 		</div>
 		<div class="submenublock" id="nourishment">
@@ -176,7 +176,7 @@
 		var items = [];
 		$.each(nameArray.sort(), function(i, item) {
 			items.push('<li><input type="checkbox" id="' + item
-					+ '" onclick="toggle(\'' + item + '\');" /> ' + item
+					+ '" onclick="toggle(\'' + item + '\');" /> ' + item.replace("_", ", ").replace("_", " ")
 					+ '</li>');
 		});
 		$('#treeList').append(items.join(''));
