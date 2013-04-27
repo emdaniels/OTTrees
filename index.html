@@ -63,56 +63,29 @@
 	<div class="main_content">
 		<div class="map_canvas_container" id="map_canvas"></div>
 	</div>
-
 	<div id="sidebar_menu">
 		<img src="images/OTTrees_logo.png" alt="OTTrees" height="98"
 			width="200">
 		<div class="submenublock" id="about">
 			<h5>About</h5>
-			<ul class="second_level">
-				<li><p>
-						This application was made using the city of Ottawa's <a
-							href="http://ottawa.ca/en/open-data-ottawa">open data</a> tree
-						inventory to show unique information about the trees owned and
-						cared for by the city.
-					</p>
-					<p>The trees generated display the color of the current
-						foliage; the size of the tree on the map is based on a calculation
-						combining the species growth factor, the diameter at breast height
-						(DBH), and estimated age for that tree.</p>
-					<p>Selecting a list will populate the map with the subset of
-						trees in that category. Please be patient! The data and
-						calculations can take some time to load.</p>
-					<p>
-						Source code is available on <a
-							href="http://www.github.com/emdaniels/ottrees">Github</a>.
-					</p></li>
-			</ul>
-		</div>
-		<div class="submenublock" id="seasonalFoliage">
-			<h5>Seasonal Foliage</h5>
-			<ul class="second_level">
-				<li><input type="radio" name="seasonalFoliage" /> Early Spring</li>
-				<li><input type="radio" name="seasonalFoliage" /> Late Spring</li>
-				<li><input type="radio" name="seasonalFoliage" /> Summer</li>
-				<li><input type="radio" name="seasonalFoliage" /> Early Fall</li>
-				<li><input type="radio" name="seasonalFoliage" /> Late Fall</li>
-				<li><input type="radio" name="seasonalFoliage" /> Winter</li>
-			</ul>
-		</div>
-		<div class="submenublock" id="leafPersistence">
-			<h5>Leaf Persistence</h5>
-			<ul class="second_level">
-				<li><input type="radio" name="leafPersistence"
-					id="coniferousList" onclick="toggleList('coniferousList')" />
-					Coniferous</li>
-				<li><input type="radio" name="leafPersistence"
-					id="marcescentList" onclick="toggleList('marcescentList')" />
-					Marcescent</li>
-				<li><input type="radio" name="leafPersistence"
-					id="deciduousList" onclick="toggleList('deciduousList')" />
-					Deciduous</li>
-			</ul>
+			<div class="second_level">
+				<p>
+					This application was made using the city of Ottawa's <a
+						href="http://ottawa.ca/en/open-data-ottawa">open data</a> tree
+					inventory to show unique information about the trees owned and
+					cared for by the city.
+				</p>
+				<p>The trees displayed show foliage based on the season, the
+					location, and the estimated span of branches over the houses and
+					buildings of the city. The size of the tree on the map is a
+					combination of the growth factor, the diameter at breast height,
+					and estimated age of the tree.</p>
+				<p>
+					Please be patient! The data and calculations can take some time to
+					load. Source code is available on <a
+						href="http://www.github.com/emdaniels/ottrees">Github</a>.
+				</p>
+			</div>
 		</div>
 		<div class="submenublock" id="allergen">
 			<h5>Allergen</h5>
@@ -126,8 +99,8 @@
 					onclick="toggleList('severeAllergenList')" /> Severe</li>
 			</ul>
 		</div>
-		<div class="submenublock" id="estimatedAge">
-			<h5>Estimated Age</h5>
+		<div class="submenublock" id="age">
+			<h5>Age</h5>
 			<ul class="second_level">
 				<li><input type="radio" name="estimatedAge" /> 0-9 years</li>
 				<li><input type="radio" name="estimatedAge" /> 10-19 years</li>
@@ -135,6 +108,27 @@
 				<li><input type="radio" name="estimatedAge" /> 30-39 years</li>
 				<li><input type="radio" name="estimatedAge" /> 40-49 years</li>
 				<li><input type="radio" name="estimatedAge" /> 50+ years</li>
+			</ul>
+		</div>
+		<div class="submenublock" id="foliage">
+			<h5>Foliage</h5>
+			<ul class="second_level">
+				<li><input type="radio" name="seasonalFoliage" /> Early Spring</li>
+				<li><input type="radio" name="seasonalFoliage" /> Late Spring</li>
+				<li><input type="radio" name="seasonalFoliage" /> Summer</li>
+				<li><input type="radio" name="seasonalFoliage" /> Early Fall</li>
+				<li><input type="radio" name="seasonalFoliage" /> Late Fall</li>
+				<li><input type="radio" name="seasonalFoliage" /> Winter</li>
+			</ul>
+		</div>
+		<div class="submenublock" id="nourishment">
+			<h5>Nourishment</h5>
+			<ul class="second_level">
+				<li><input type="radio" name="foodbearing" id="foodBearingList"
+					onclick="toggleList('foodBearingList')" /> Food Bearing</li>
+				<li><input type="radio" name="foodbearing"
+					id="nonFoodBearingList" onclick="toggleList('nonFoodBearingList')" />
+					Non-Food Bearing</li>
 			</ul>
 		</div>
 		<div class="submenublock" id="origin">
@@ -146,18 +140,22 @@
 					onclick="toggleList('nonNativeList')" /> Non-Native</li>
 			</ul>
 		</div>
-		<div class="submenublock" id="foodBearing">
-			<h5>Food Bearing</h5>
+		<div class="submenublock" id="persistence">
+			<h5>Persistence</h5>
 			<ul class="second_level">
-				<li><input type="radio" name="foodbearing" id="foodBearingList"
-					onclick="toggleList('foodBearingList')" /> Food Bearing</li>
-				<li><input type="radio" name="foodbearing"
-					id="nonFoodBearingList" onclick="toggleList('nonFoodBearingList')" />
-					Non-Food Bearing</li>
+				<li><input type="radio" name="leafPersistence"
+					id="coniferousList" onclick="toggleList('coniferousList')" />
+					Coniferous</li>
+				<li><input type="radio" name="leafPersistence"
+					id="marcescentList" onclick="toggleList('marcescentList')" />
+					Marcescent</li>
+				<li><input type="radio" name="leafPersistence"
+					id="deciduousList" onclick="toggleList('deciduousList')" />
+					Deciduous</li>
 			</ul>
 		</div>
-		<div class="submenublock" id="individualSpecies">
-			<h5>Individual Species</h5>
+		<div class="submenublock" id="species">
+			<h5>Species</h5>
 			<ul class="second_level" id="treeList"></ul>
 		</div>
 	</div>

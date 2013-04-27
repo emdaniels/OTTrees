@@ -4,9 +4,11 @@ var browserSupportFlag =  new Boolean();
 //var useGeolocation = true;
 var map = null;
 var zoomLevel = 13;
+var maxTreeSpan;
+var minTreeSpan;
 //var geocoder;
 bounds = new google.maps.LatLngBounds(
-	    new google.maps.LatLng(0,180), new google.maps.LatLng(180,0));
+		new google.maps.LatLng(0,180), new google.maps.LatLng(180,0));
 var infowindow = new google.maps.InfoWindow({
 	size: new google.maps.Size(50,50)
 });
@@ -45,11 +47,11 @@ function initialize() {
 	map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
 
 	rect = new google.maps.Rectangle({
-	    bounds: bounds,
+		bounds: bounds,
 		fillColor: "#000000",
-	    fillOpacity: 0.7,
-	    strokeWeight: 0,
-	    map: map
+		fillOpacity: 0.4,
+		strokeWeight: 0,
+		map: map
 	});
 }
 
@@ -63,7 +65,7 @@ function toggleDataOn(treeName) {
 
 function toggleDataOff(treeName) {
 	var script = document.getElementById(treeName + 'script');
-	
+
 	if (script) {
 		document.getElementsByTagName('head')[0].removeChild(script);
 
@@ -78,9 +80,9 @@ function toggleDataOff(treeName) {
 }
 
 function toggleArray(treeArray, toggleState) {
-	
+
 	for (i in treeArray) {
-		
+
 		if (toggleState == 'on') {
 			toggleDataOn(treeArray[i]);
 		} else {
@@ -101,6 +103,7 @@ window.tree_data = function(results) {
 		if (month == 4){
 			var marker = new google.maps.Marker({
 				position: latLng,
+				title: results.scientificName,
 				map: map,
 				//estimatedSpan = maxSpan * (estimatedAge) / matDBH
 				icon: getCircleEarlySpring(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH) / zoomLevel, results.earlySpringColor)
@@ -109,6 +112,7 @@ window.tree_data = function(results) {
 		else if (month == 5){
 			var marker = new google.maps.Marker({
 				position: latLng,
+				title: results.scientificName,
 				map: map,
 				icon: getCircleLateSpring(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH) / zoomLevel, results.lateSpringColor)
 			});
@@ -116,6 +120,7 @@ window.tree_data = function(results) {
 		else if ((month == 6) || (month == 7) || (month == 8)){
 			var marker = new google.maps.Marker({
 				position: latLng,
+				title: results.scientificName,
 				map: map,
 				icon: getCircleSummer(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH) / zoomLevel, results.summerColor)
 			});
@@ -123,6 +128,7 @@ window.tree_data = function(results) {
 		else if (month == 9){
 			var marker = new google.maps.Marker({
 				position: latLng,
+				title: results.scientificName,
 				map: map,
 				icon: getCircleEarlyFall(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH) / zoomLevel, results.earlyFallColor)
 			});
@@ -130,6 +136,7 @@ window.tree_data = function(results) {
 		else if (month == 10){
 			var marker = new google.maps.Marker({
 				position: latLng,
+				title: results.scientificName,
 				map: map,
 				icon: getCircleLateFall(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH) / zoomLevel, results.lateFallColor)
 			});
@@ -137,11 +144,12 @@ window.tree_data = function(results) {
 		else if ((month == 11) || (month == 12) || (month == 1)){
 			var marker = new google.maps.Marker({
 				position: latLng,
+				title: results.scientificName,
 				map: map,
 				icon: getCircleWinter(parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) / parseInt(results.growthFactor)) / parseInt(results.matDBH) / zoomLevel, results.winterColor)
 			});
 			markersArray.push(marker);
-			
+
 		}
 	}
 
@@ -152,10 +160,10 @@ function getCircleEarlySpring(estimatedSpan, earlySpringColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
 		fillColor: earlySpringColor,
-		fillOpacity: .4,
+		fillOpacity: .5,
 		scale: estimatedSpan,
 		strokeColor: earlySpringColor,
-		strokeWeight: .2
+		strokeWeight: .3
 	};
 }
 
@@ -163,10 +171,10 @@ function getCircleLateSpring(estimatedSpan, lateSpringColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
 		fillColor: lateSpringColor,
-		fillOpacity: .4,
+		fillOpacity: .5,
 		scale: estimatedSpan,
 		strokeColor: lateSpringColor,
-		strokeWeight: .2
+		strokeWeight: .3
 	};
 }
 
@@ -174,10 +182,10 @@ function getCircleSummer(estimatedSpan, summerColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
 		fillColor: summerColor,
-		fillOpacity: .4,
+		fillOpacity: .5,
 		scale: estimatedSpan,
 		strokeColor: summerColor,
-		strokeWeight: .2
+		strokeWeight: .3
 	};
 }
 
@@ -185,10 +193,10 @@ function getCircleEarlyFall(estimatedSpan, earlyFallColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
 		fillColor: earlyFallColor,
-		fillOpacity: .4,
+		fillOpacity: .5,
 		scale: estimatedSpan,
 		strokeColor: earlyFallColor,
-		strokeWeight: .2
+		strokeWeight: .3
 	};
 }
 
@@ -196,10 +204,10 @@ function getCircleLateFall(estimatedSpan, lateFallColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
 		fillColor: lateFallColor,
-		fillOpacity: .4,
+		fillOpacity: .5,
 		scale: estimatedSpan,
 		strokeColor: lateFallColor,
-		strokeWeight: .2
+		strokeWeight: .3
 	};
 }
 
@@ -207,10 +215,10 @@ function getCircleWinter(estimatedSpan, winterColor) {
 	return {
 		path: google.maps.SymbolPath.CIRCLE,
 		fillColor: winterColor,
-		fillOpacity: .4,
+		fillOpacity: .5,
 		scale: estimatedSpan,
 		strokeColor: winterColor,
-		strokeWeight: .2
+		strokeWeight: .3
 	};
 }
 
@@ -230,7 +238,7 @@ function toTitleCase(str) {
 	return str.replace(/\w\S*/g, function(txt){
 		return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
 	});
-	
+
 }
 
 

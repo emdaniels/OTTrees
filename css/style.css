@@ -1,13 +1,13 @@
 #sidebar {
-	float: left;
+	float: right;
 	width: 20%;
 	height: 100%;
 	overflow: auto;
-	background: #F5F5F5;
+	background: #eeeeee;
 }
 
 #sidebar_menu {
-	float: left;
+	float: right;
 	width: 20%;
 	height: 100%;
 	overflow: auto;
@@ -18,7 +18,7 @@
 }
 
 .side_bar {
-	float: left;
+	float: right;
 	height: 100%;
 	overflow: auto;
 	width: 20%;
@@ -27,7 +27,7 @@
 .map_canvas_container {
 	width: 80%;
 	height: 100%;
-	float: right;
+	float: left;
 }
 
 .map_canvas {
@@ -36,29 +36,17 @@
 }
 
 .submenublock {
-	margin: 10px;
-	padding: 0px;
+	margin: 20px;
+	padding: 0px 10px 10px 0px;
 }
 
 .submenublock h5 {
 	font-family: Arial, Arial, Helvetica, sans-serif;
 	font-size: 15px;
-	height: 30px;
+	color: #707070;
+	height: 20px;
 	margin: 0px;
-	padding: 15px 10px 5px 30px;
-	border-bottom: #CCC 1px solid;
-}
-
-.submenublock h5 a {
-	font-family: Arial, Arial, Helvetica, sans-serif;
-	font-size: 15px;
-	text-decoration: none;
-	color: #000000;
-}
-
-.submenublock h5 a:hover,.submenublock h5 a:active,.submenublock h3 a:focus
-	{
-	color: #00aeef;
+	border-bottom: #c8c8c8 1px solid;
 }
 
 .second_level {
@@ -66,22 +54,29 @@
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
+	display: block;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #969696;
 }
 
 .second_level li {
 	list-style-type: none;
 	list-style: none;
+	white-space: nowrap;
 	display: block;
-	padding: 10px 0px 0px 0px;
+	padding: 10px 0px 0px 10px;
 	font-family: Arial, Arial, Helvetica, sans-serif;
 	font-size: 13px;
+	color: #969696;
 }
 
 .second_level li a {
 	display: block;
 	margin-left: 30px;
 	text-decoration: none;
-	color: #000000;
+	color: #969696;
+	float: right;
 }
 
 #sidebar_menu ul li a:hover,#sidebar_menu ul li a:active,#sidebar_menu ul li a:focus
@@ -92,7 +87,7 @@
 body {
 	font-size: 13pt;
 	font-family: Arial, Arial, Helvetica, sans-serif;
-	background: #F5F5F5;
+	background: #eeeeee;
 }
 
 .main_content {
