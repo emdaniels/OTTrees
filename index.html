@@ -16,11 +16,6 @@
 		}
 	}
 
-	/*function advancedOriginListFilter(listName){
-		toggleOriginList(listName);
-		if (toggleDataOn(treeName) = )
-	}*/
-
 	function toggleOriginList(listName) {
 		if (listName == 'nativeList') {
 			toggleArray(nonNativeArray, 'off');
@@ -144,12 +139,12 @@
 			<div class="submenublock" id="age">
 				<h5>Age</h5>
 				<ul class="second_level">
-					<li><input type="radio" name="estimatedAge" /> 0-9 years</li>
-					<li><input type="radio" name="estimatedAge" /> 10-19 years</li>
-					<li><input type="radio" name="estimatedAge" /> 20-29 years</li>
-					<li><input type="radio" name="estimatedAge" /> 30-39 years</li>
-					<li><input type="radio" name="estimatedAge" /> 40-49 years</li>
-					<li><input type="radio" name="estimatedAge" /> 50+ years</li>
+					<li><input type="checkbox" name="age0019" onclick="setAge(0)"/> 0-19 years</li>
+					<li><input type="checkbox" name="age2039" onclick="setAge(1)"/> 20-39 years</li>
+					<li><input type="checkbox" name="age4059" onclick="setAge(2)"/> 40-59 years</li>
+					<li><input type="checkbox" name="age6079" onclick="setAge(3)"/> 60-79 years</li>
+					<li><input type="checkbox" name="age8099" onclick="setAge(4)"/> 80-99 years</li>
+					<li><input type="checkbox" name="age100up" onclick="setAge(5)"/> 100+ years</li>
 				</ul>
 			</div>
 			<div class="submenublock" id="foliage">
