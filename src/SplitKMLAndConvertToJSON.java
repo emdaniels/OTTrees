@@ -45,7 +45,7 @@ public class SplitKMLAndConvertToJSON {
 				fisTargetFile = new FileInputStream(new File(fileFolder + fileName));
 
 				StringWriter writer = new StringWriter();
-				IOUtils.copy(fisTargetFile, writer, "UTF-8");
+				IOUtils.copy(fisTargetFile, writer);
 				String xmlString = writer.toString();
 
 				JSONObject xmlJSONObj = XML.toJSONObject(xmlString);
