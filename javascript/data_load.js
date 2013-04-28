@@ -139,6 +139,7 @@ function setAge(index) {
 	}
 }
 
+//Array to loop through called tree species and display the correct season and location
 window.tree_data = function(results) {
 	var markersArray = new Array();
 
@@ -147,7 +148,7 @@ window.tree_data = function(results) {
 			var coords = results.Placemark[i].Point.coordinates.split(',');
 			var latLng = new google.maps.LatLng(coords[1],coords[0]);
 			var age = parseInt(results.Placemark[i].dbh) * parseInt(results.growthFactor);
-			
+
 			if ((age >= 0 && age <= 19 && ages[0])
 					|| (age >= 20 && age <= 39 && ages[1])
 					|| (age >= 40 && age <= 59 && ages[2])
