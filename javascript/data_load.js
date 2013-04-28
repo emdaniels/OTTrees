@@ -8,6 +8,8 @@ var season;
 bounds = new google.maps.LatLngBounds(
 		new google.maps.LatLng(0,180), new google.maps.LatLng(180,0));
 
+var ages = new Array(false, false, false, false, false, false);
+
 //Tree Name Arrays
 var nameArray = new Array('Amur_Corktree', 'Apple', 'Ash', 'Ash_Black', 'Ash_European', 'Ash_Green', 'Ash_White', 'Aspen_Columnar', 'Aspen_Largetooth', 'Aspen_Trembling', 'Basswood', 'Beech', 'Beech_American', 'Beech_Blue', 'Beech_European', 'Birch', 'Birch_Gray', 'Birch_Weeping', 'Birch_White', 'Birch_Yellow', 'Buckeye_Ohio', 'Butternut', 'Catalpa_northern', 'Cedar_Eastern_White', 'Cherry', 'Cherry_Black', 'Cherry_Choke', 'Cherry_Choke_Schubert', 'Cherry_Purple_Leaf', 'Coffeetree_Kentucky', 'Crabapple', 'Elm', 'Elm_American', 'Elm_Prospector', 'Elm_Rock', 'Elm_Siberian', 'Fir', 'Fir_Balsam', 'Fir_Colorado', 'Fir_Douglas', 'Ginkgo', 'Hackberry', 'Hawthorn', 'Hazel_Turkish', 'Hemlock', 'Hickory_Bitternut', 'Hickory_Shagbark', 'Horsechestnut_Common', 'Ironwood', 'Juniper', 'Katsura_Tree', 'Larch_Eastern', 'Larch_European', 'Lilac_Japanese', 'Linden_Littleleaf', 'Locust_Black', 'Locust_Honey', 'Magnolia', 'Maple', 'Maple_Amur', 'Maple_Black', 'Maple_Freeman', 'Maple_Manitoba', 'Maple_Norway', 'Maple_Red', 'Maple_Silver', 'Maple_Sugar', 'Mountain_Ash_Oakleaf', 'Mountain_Ash_Showy', 'Mulberry', 'Oak', 'Oak_Bur', 'Oak_English', 'Oak_Pin', 'Oak_Red', 'Oak_White', 'Olive_Russian', 'Pear', 'Pine', 'Pine_Austrian', 'Pine_Jack', 'Pine_Red', 'Pine_Scotch', 'Pine_White', 'Poplar', 'Poplar_Balsam', 'Poplar_Lombardy', 'Redbud_Eastern', 'Serviceberry', 'Spruce', 'Spruce_Black', 'Spruce_Colorado', 'Spruce_Norway', 'Spruce_Red', 'Spruce_White', 'Sycamore_American', 'Unknown', 'Walnut_Black', 'Willow', 'Willow_Black', 'Willow_Weeping', 'Yew_Canada');
 var treeLayerArray = new Array();
@@ -129,6 +131,20 @@ function changeSeason(seasonNumber) {
 	}
 }
 
+function setAge(index) {
+
+	if (ages[index]) {
+		ages[index] = false;
+	} else {
+		ages[index] = true;
+	}
+	
+	for (treeLayer in treeLayerArray) {
+		toggleDataOff(treeLayer);
+		toggleDataOn(treeLayer);
+	}
+}
+
 //Array to loop through called tree species and display the correct season and location
 window.tree_data = function(results) {
 	var markersArray = new Array();
@@ -140,44 +156,54 @@ window.tree_data = function(results) {
 			var zoomLevel = map.getZoom();
 			//estimatedSpan = maxSpan * (estimatedAge) / matDBH / zoomLevel
 			var estimatedSpan = parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) * parseInt(results.growthFactor)) / parseInt(results.matDBH) / zoomLevel / 10;
+		
+			var age = parseInt(results.Placemark[i].dbh) * parseInt(results.growthFactor);
 			
-			if (estimatedSpan > 50)
-				estimatedSpan = 50;
-			else if (estimatedSpan < 1)
-				estimatedSpan = 1;
-			
-			var color = results.winterColor;
-			
-			switch(season)
-			{
-			case 1:
-				color = results.earlySpringColor;
-				break;
-			case 2:
-				color = results.lateSpringColor;
-				break;
-			case 3:
-				color = results.summerColor;
-				break;
-			case 4:
-				color = results.earlyFallColor;
-				break;
-			case 5:
-				color = results.lateFallColor;
-				break;
+			if ((age >= 0 && age <= 9 && ages[0])
+					|| (age >= 10 && age <= 19 && ages[1])
+					|| (age >= 20 && age <= 29 && ages[2])
+					|| (age >= 30 && age <= 39 && ages[3])
+					|| (age >= 40 && age <= 49 && ages[4])
+					|| (age >= 50 && ages[5])) {
+
+				if (estimatedSpan > 50)
+					estimatedSpan = 50;
+				else if (estimatedSpan < 1)
+					estimatedSpan = 1;
+
+				var color = results.winterColor;
+
+				switch(season)
+				{
+				case 1:
+					color = results.earlySpringColor;
+					break;
+				case 2:
+					color = results.lateSpringColor;
+					break;
+				case 3:
+					color = results.summerColor;
+					break;
+				case 4:
+					color = results.earlyFallColor;
+					break;
+				case 5:
+					color = results.lateFallColor;
+					break;
+				}
+
+				var contentString = '<div id="content">' +
+				'<h4>' + results.commonName + '</h4>' +
+				'Scientific Name: '+ results.scientificName + '<br/>' +
+				'<a href="' + results.enWiki + '"> En Wiki </a><br/> French Name: '+ results.frenchName +
+				'<a href="' + results.frWiki + '"> Fr Wiki </a><br/> Address: '+ results.Placemark.description +
+				'DBH: '+ results.Placemark.dbh +
+				'Estimated Age: '+ parseInt(results.Placemark.dbh * results.growthFactor) +
+				'Growth Rate: '+ results.growthRate +
+				'</div>';
+
+				markersArray.push(createMarker(latLng, results.commonName, map, estimatedSpan, color, contentString));
 			}
-			
-			var contentString = '<div id="content">' +
-			'<h4>' + results.commonName + '</h4>' +
-			'Scientific Name: '+ results.scientificName + '<br/>' +
-			'<a href="' + results.enWiki + '"> En Wiki </a><br/> French Name: '+ results.frenchName +
-			'<a href="' + results.frWiki + '"> Fr Wiki </a><br/> Address: '+ results.Placemark.description +
-			'DBH: '+ results.Placemark.dbh +
-			'Estimated Age: '+ parseInt(results.Placemark.dbh * results.growthFactor) +
-			'Growth Rate: '+ results.growthRate +
-			'</div>';
-			
-			markersArray.push(createMarker(latLng, results.commonName, map, estimatedSpan, color, contentString));
 		}
 	}
 
