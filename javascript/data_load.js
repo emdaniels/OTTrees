@@ -6,7 +6,7 @@ bounds = new google.maps.LatLngBounds(
 		new google.maps.LatLng(0,180), new google.maps.LatLng(180,0));
 
 //Age Array
-var ages = new Array(true, true, true, true, true, true);
+var ages = new Array(true, true, true, true, true, true, true, true, true, true);
 
 //Tree Name Arrays
 var nameArray = new Array('Amur_Corktree', 'Apple', 'Ash', 'Ash_Black', 'Ash_European', 'Ash_Green', 'Ash_White', 'Aspen_Columnar', 'Aspen_Largetooth', 'Aspen_Trembling', 'Basswood', 'Beech', 'Beech_American', 'Beech_Blue', 'Beech_European', 'Birch', 'Birch_Gray', 'Birch_Weeping', 'Birch_White', 'Birch_Yellow', 'Buckeye_Ohio', 'Butternut', 'Catalpa_northern', 'Cedar_Eastern_White', 'Cherry', 'Cherry_Black', 'Cherry_Choke', 'Cherry_Choke_Schubert', 'Cherry_Purple_Leaf', 'Coffeetree_Kentucky', 'Crabapple', 'Elm', 'Elm_American', 'Elm_Prospector', 'Elm_Rock', 'Elm_Siberian', 'Fir', 'Fir_Balsam', 'Fir_Colorado', 'Fir_Douglas', 'Ginkgo', 'Hackberry', 'Hawthorn', 'Hazel_Turkish', 'Hemlock', 'Hickory_Bitternut', 'Hickory_Shagbark', 'Horsechestnut_Common', 'Ironwood', 'Juniper', 'Katsura_Tree', 'Larch_Eastern', 'Larch_European', 'Lilac_Japanese', 'Linden_Littleleaf', 'Locust_Black', 'Locust_Honey', 'Magnolia', 'Maple', 'Maple_Amur', 'Maple_Black', 'Maple_Freeman', 'Maple_Manitoba', 'Maple_Norway', 'Maple_Red', 'Maple_Silver', 'Maple_Sugar', 'Mountain_Ash_Oakleaf', 'Mountain_Ash_Showy', 'Mulberry', 'Oak', 'Oak_Bur', 'Oak_English', 'Oak_Pin', 'Oak_Red', 'Oak_White', 'Olive_Russian', 'Pear', 'Pine', 'Pine_Austrian', 'Pine_Jack', 'Pine_Red', 'Pine_Scotch', 'Pine_White', 'Poplar', 'Poplar_Balsam', 'Poplar_Lombardy', 'Redbud_Eastern', 'Serviceberry', 'Spruce', 'Spruce_Black', 'Spruce_Colorado', 'Spruce_Norway', 'Spruce_Red', 'Spruce_White', 'Sycamore_American', 'Unknown', 'Walnut_Black', 'Willow', 'Willow_Black', 'Willow_Weeping', 'Yew_Canada');
@@ -154,7 +154,12 @@ window.tree_data = function(results) {
 					|| (age >= 40 && age <= 59 && ages[2])
 					|| (age >= 60 && age <= 79 && ages[3])
 					|| (age >= 80 && age <= 99 && ages[4])
-					|| (age >= 100 && ages[5])) {
+					|| (age >= 100 && age <= 199 && ages[5])
+					|| (age >= 200 && age <= 299 && ages[6])
+					|| (age >= 300 && age <= 399 && ages[7])
+					|| (age >= 400 && age <= 499 && ages[8])
+					|| (age >= 500 && ages[9]))
+					{
 
 				var zoomLevel = map.getZoom();
 				//estimatedSpan = maxSpan * (estimatedAge) / matDBH / zoomLevel

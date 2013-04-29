@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>OTTrees</title>
-<meta name="ttw" content="8bwgdwr; charset=utf-8"/>
+<meta name="ttw" content="8bwgdwr; charset=utf-8" />
 <link rel="stylesheet" href="css/style.css" type="text/css">
 <script type="text/javascript" src="javascript/jquery-1.9.1.min.js"></script>
 <script type="text/javascript"
@@ -67,12 +67,13 @@
 			toggleArray(severeAllergenArray, 'on');
 		}
 	}
-	
-	function resetForm(){
+
+	function resetForm() {
 		document.getElementById("treeLists").reset();
 		for (treeLayer in treeLayerArray) {
 			toggleDataOff(treeLayer);
 		}
+		ages = new Array(true, true, true, true, true, true, true, true, true, true);
 		getSeason();
 	}
 
@@ -121,10 +122,13 @@
 							href="http://www.github.com/emdaniels/ottrees">Github</a>.
 					</p>
 				</div>
-				<p><input type="button" onclick="resetForm()" value="clear" style="float: right;" /></p>
+				<p>
+					<input type="button" onclick="resetForm()" value="clear"
+						style="float: right;" />
+				</p>
 			</div>
 			<div class="submenublock" id="allergen">
-				<h5>Allergen</h5>
+				<h5>Allergen Potential</h5>
 				<ul class="second_level">
 					<li><input type="radio" name="allergen" id="mildAllergenList"
 						onclick="toggleAllergenList('mildAllergenList')" /> Mild</li>
@@ -136,19 +140,8 @@
 						onclick="toggleAllergenList('severeAllergenList')" /> Severe</li>
 				</ul>
 			</div>
-			<div class="submenublock" id="age">
-				<h5>Age</h5>
-				<ul class="second_level">
-					<li><input type="checkbox" name="age0019" onclick="setAge(0)" checked="checked" /> 0-19 years</li>
-					<li><input type="checkbox" name="age2039" onclick="setAge(1)" checked="checked"/> 20-39 years</li>
-					<li><input type="checkbox" name="age4059" onclick="setAge(2)" checked="checked"/> 40-59 years</li>
-					<li><input type="checkbox" name="age6079" onclick="setAge(3)" checked="checked"/> 60-79 years</li>
-					<li><input type="checkbox" name="age8099" onclick="setAge(4)" checked="checked"/> 80-99 years</li>
-					<li><input type="checkbox" name="age100up" onclick="setAge(5)" checked="checked"/> 100+ years</li>
-				</ul>
-			</div>
 			<div class="submenublock" id="foliage">
-				<h5>Foliage</h5>
+				<h5>Seasonal Foliage</h5>
 				<ul class="second_level">
 					<li><input type="radio" name="seasonalFoliage"
 						id="earlySpringList" onclick="changeSeason(1);" /> Early Spring</li>
@@ -186,8 +179,8 @@
 						onclick="toggleOriginList('nonNativeList')" /> Non-Native</li>
 				</ul>
 			</div>
-			<div class="submenublock" id="persistence">
-				<h5>Persistence</h5>
+			<div class="submenublock" id="leafPersistence">
+				<h5>Leaf Persistence</h5>
 				<ul class="second_level">
 					<li><input type="radio" name="leafPersistence"
 						id="coniferousList"
@@ -200,8 +193,33 @@
 						onclick="togglePersistenceList('deciduousList')" /> Deciduous</li>
 				</ul>
 			</div>
-			<div class="submenublock" id="species">
-				<h5>Species</h5>
+			<div class="submenublock" id="age">
+				<h5>Estimated Age</h5>
+				<ul class="second_level">
+					<li><input type="checkbox" name="age0019" onclick="setAge(0)"
+						checked="checked" /> 0-19 years</li>
+					<li><input type="checkbox" name="age2039" onclick="setAge(1)"
+						checked="checked" /> 20-39 years</li>
+					<li><input type="checkbox" name="age4059" onclick="setAge(2)"
+						checked="checked" /> 40-59 years</li>
+					<li><input type="checkbox" name="age6079" onclick="setAge(3)"
+						checked="checked" /> 60-79 years</li>
+					<li><input type="checkbox" name="age8099" onclick="setAge(4)"
+						checked="checked" /> 80-99 years</li>
+					<li><input type="checkbox" name="age100199"
+						onclick="setAge(5)" checked="checked" /> 100-199 years</li>
+					<li><input type="checkbox" name="age200299"
+						onclick="setAge(6)" checked="checked" /> 200-299 years</li>
+					<li><input type="checkbox" name="age300399"
+						onclick="setAge(7)" checked="checked" /> 300-399 years</li>
+					<li><input type="checkbox" name="age400499"
+						onclick="setAge(8)" checked="checked" /> 400-499 years</li>
+					<li><input type="checkbox" name="age500up" onclick="setAge(9)"
+						checked="checked" /> 500+ years</li>
+				</ul>
+			</div>
+			<div class="submenublock" id="indvidualspecies">
+				<h5>Individual Species</h5>
 				<ul class="second_level" id="treeList"></ul>
 			</div>
 		</form>
