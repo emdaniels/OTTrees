@@ -139,6 +139,12 @@ function setAge(index) {
 	}
 }
 
+function resetAge() {
+	for (i = 0; i < ages.length; i++) {
+		ages[i] = true;
+	}
+}
+
 //Array to loop through called tree species and display the correct season and location
 window.tree_data = function(results) {
 	var markersArray = new Array();
