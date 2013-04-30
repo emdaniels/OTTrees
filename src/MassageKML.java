@@ -35,7 +35,6 @@ public class MassageKML {
 					labels = currentLine;
 				} else {
 					treeStats.put(currentLine[0], currentLine);
-					//System.out.println(currentLine[0]);
 				}
 			}
 			
@@ -71,8 +70,6 @@ public class MassageKML {
 								}
 								
 								String backwardSpeciesName = speciesLine.replaceAll("_", " ");
-								
-								//System.out.print(speciesName + " -> ");
 								
 								String[] currentTree = treeStats.get(backwardSpeciesName);
 								
@@ -152,7 +149,6 @@ public class MassageKML {
 									speciesName += " ";
 								}
 							}
-							
 							break;
 						}
 					}
@@ -198,14 +194,11 @@ public class MassageKML {
 				}
 				
 				if (line.contains("</description>")) {
-					//tempLine += "<name>" + speciesName + "</name>";
 					tempLine += "<dbh>" + dbhLine + "</dbh>";
 					tempLine += "<description><![CDATA[" + descriptionLine + "]]></description>";
 				}
 				
 				if (line.contains("</Placemark")) {
-					//iconLine = "<Style><IconStyle><Icon><href>http://www.iconeasy.com/icon/thumbnails/Kids/Freestyle%20Icons/Tree%20Icon.jpg</href></Icon></IconStyle></Style>";
-					//tempLine += iconLine;
 					tempLine += line;
 					
 					BufferedWriter treeSpeciesWriter = treeNames.get(speciesLine);
@@ -218,9 +211,7 @@ public class MassageKML {
 					speciesLine = "";
 					descriptionLine = "";
 					dbhLine = "";
-					//iconLine = "";
 					speciesName ="";
-					//i++;
 				}
 			}
 			
@@ -231,11 +222,7 @@ public class MassageKML {
 				BufferedWriter treeSpeciesWriter = treeNames.get(treeName);
 				
 				if (treeSpeciesWriter != null) {
-					/*treeSpeciesWriter.write("</Document>");
-					treeSpeciesWriter.write("</kml>");*/
 					treeSpeciesWriter.close();
-
-					//System.out.print("'" + treeName + "', ");
 				}
 			}
 

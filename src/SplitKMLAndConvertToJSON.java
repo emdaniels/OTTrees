@@ -57,15 +57,12 @@ public class SplitKMLAndConvertToJSON {
 				treeSpeciesJSONWriter.write(jsonPrettyPrintString);
 				treeSpeciesJSONWriter.write(");");
 				treeSpeciesJSONWriter.close();
-				//System.out.println(jsonPrettyPrintString);
 				
 				System.out.print("'" + fileNameMinusExtension + "', ");
 			}
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (JSONException je) {
 			System.out.println(je.toString());
