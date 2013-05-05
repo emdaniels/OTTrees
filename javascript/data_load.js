@@ -152,7 +152,7 @@ window.tree_data = function(results) {
 		for (var i = 0; i < results.Placemark.length; i++) {
 			var coords = results.Placemark[i].Point.coordinates.split(',');
 			var latLng = new google.maps.LatLng(coords[1],coords[0]);
-			var age = parseInt(results.Placemark[i].dbh) * parseInt(results.growthFactor);
+			var age = results.Placemark[i].estimatedAge;
 
 			if ((age >= 0 && age <= 19 && ages[0])
 					|| (age >= 20 && age <= 39 && ages[1])
@@ -167,12 +167,7 @@ window.tree_data = function(results) {
 					{
 
 				var zoomLevel = map.getZoom();
-				//estimatedSpan = maxSpan * (estimatedAge) / matDBH / zoomLevel
-				var estimatedSpan = parseInt(results.maxSpan) * (parseInt(results.Placemark[i].dbh) * parseInt(results.growthFactor)) / parseInt(results.matDBH) / zoomLevel / 10;
-				if (estimatedSpan > 50)
-					estimatedSpan = 50;
-				else if (estimatedSpan < 1)
-					estimatedSpan = 1;
+				var estimatedSpan = results.Placemark[i].estimatedSpan / zoomLevel;
 				var color = results.winterColor;
 
 				switch(season){
@@ -195,8 +190,8 @@ window.tree_data = function(results) {
 				
 				var contentString = '<div id="content">' +
 				'<h4>' + results.scientificName + '</h4>' + results.name + ' <a href="' + results.enWiki + '">en.wiki</a><br/>'+ 
-				results.frenchName + ' <a href="' + results.frWiki + '">fr.wiki</a><br/>' + (parseInt(results.Placemark[i].dbh) * parseInt(results.growthFactor)) + ' years old : '
-				+ parseInt(results.Placemark[i].dbh) + ' d.b.h.' + '<br/>' + results.Placemark[i].description + '</div>';
+				results.frenchName + ' <a href="' + results.frWiki + '">fr.wiki</a><br/>' + results.Placemark[i].estimatedAge + ' years old : '
+				+ results.Placemark[i].dbh + ' d.b.h.' + '<br/>' + results.Placemark[i].description + '</div>';
 
 				markersArray.push(createMarker(latLng, results.name, map, estimatedSpan, color, contentString));
 			}

@@ -74,19 +74,8 @@ public class MassageKML {
 								String[] currentTree = treeStats.get(backwardSpeciesName);
 								
 								if (currentTree != null) {
-									//System.out.println("found!");
 									FileWriter treeSpeciesFile = new FileWriter(outputDir + speciesLine + ".kml");
 									BufferedWriter treeSpeciesWriter = new BufferedWriter(treeSpeciesFile);
-									
-									/*treeSpeciesWriter.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
-									treeSpeciesWriter.write("<kml xmlns=\"http://www.opengis.net/kml/2.2\" "
-											+ "xmlns:gx=\"http://www.google.com/kml/ext/2.2\" "
-											+ "xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" "
-											+ "xsi:schemaLocation=\"http://www.opengis.net/kml/2.2 "
-											+ "http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd "
-											+ "http://www.google.com/kml/ext/2.2 "
-											+ "http://code.google.com/apis/kml/schema/kml22gx.xsd\">\n");
-									treeSpeciesWriter.write("<Document id=\"TreeInventory2011\">\n");*/
 									
 									treeSpeciesWriter.write("<name>" + speciesName + "</name>");
 									treeSpeciesWriter.write("<filename>" + speciesLine + "</filename>");
@@ -96,9 +85,6 @@ public class MassageKML {
 									}
 									
 									treeNames.put(speciesLine, treeSpeciesWriter);
-								} else {
-									//System.out.print(backwardSpeciesName + " -> ");
-									//System.out.println("not found!");
 								}
 								
 								speciesName = "";
@@ -120,7 +106,6 @@ public class MassageKML {
 			String speciesLine = "";
 			String descriptionLine = "";
 			String dbhLine = "";
-			//String iconLine = "";
 			speciesName = "";
 
 			while ((line = reader.readLine()) != null && i < 100) {
@@ -154,6 +139,7 @@ public class MassageKML {
 					}
 				}
 				
+				// adds the address number to the description
 				if (line.contains("ADDNUM")) {
 					
 					while ((line = reader.readLine()) != null) {
@@ -167,6 +153,7 @@ public class MassageKML {
 					}
 				}
 				
+				// adds the address to the description
 				if (line.contains("ADDSTR")) {
 					
 					while ((line = reader.readLine()) != null) {
@@ -180,6 +167,7 @@ public class MassageKML {
 					}
 				}
 				
+				// adds the diameter at breast height to the dbh line
 				if (line.contains("DBH")) {
 					
 					while ((line = reader.readLine()) != null) {
@@ -193,8 +181,72 @@ public class MassageKML {
 					}
 				}
 				
+				// inserts the dbh and description tags to the kml
 				if (line.contains("</description>")) {
+					
+					String backwardSpeciesName = speciesLine.replaceAll("_", " ");
+					
+					String[] currentTree = treeStats.get(backwardSpeciesName);
+					
+					int growthFactor = 0;
+					int maxSpan = 0;
+					int matDBH = 0;
+					int estimatedAge = 1;
+					int estimatedSpan = 0;
+					
+					if (currentTree != null) {
+						
+						for (int j = 0; j < labels.length; j++) {
+							
+							if ("matDBH".equals(labels[j])) {
+								//System.out.println(speciesLine + " -- " + labels[j] + " = " +  currentTree[j]);
+								matDBH = Integer.parseInt(currentTree[j]);
+							}
+							
+							if ("growthFactor".equals(labels[j])) {
+								//System.out.println(speciesLine + " -- " + labels[j] + " = " +  currentTree[j]);
+								growthFactor = Integer.parseInt(currentTree[j]);
+							}
+							
+							if ("maxSpan".equals(labels[j])) {
+								//System.out.println(speciesLine + " -- " + labels[j] + " = " +  currentTree[j]);
+								maxSpan = Integer.parseInt(currentTree[j]);
+							}
+						}
+					}
+					
+					//System.out.println(speciesLine + " -- dbh = " + dbhLine);
+					
+					try {
+						estimatedAge = Integer.parseInt(dbhLine.trim()) * growthFactor; // dbh * growthFactor
+					} catch (NumberFormatException e) {
+						// do nothing
+					}
+					
+					if (estimatedAge == 0) {
+						estimatedAge = 1;
+					}
+					
+					if (maxSpan == 0) {
+						maxSpan = 1;
+					}
+					
+					if (matDBH == 0) {
+						matDBH = 1;
+					}
+					
+					//System.out.println(speciesLine + " maxSpan = " +  maxSpan);
+					//System.out.println(speciesLine + " matDBH = " +  matDBH);
+					//System.out.println(speciesLine + " growthFactor = " +  growthFactor);
+					//System.out.println(speciesLine + " estimatedAge = " +  estimatedAge);
+					//System.out.println(speciesLine + " estimatedSpan = " +  estimatedSpan);
+					
+					estimatedSpan = maxSpan * estimatedAge / matDBH; //  maxSpan * (estimatedAge) / matDBH 
+					if (estimatedSpan > maxSpan)
+						estimatedSpan = maxSpan;
 					tempLine += "<dbh>" + dbhLine + "</dbh>";
+					tempLine += "<estimatedAge>" + estimatedAge + "</estimatedAge>";
+					tempLine += "<estimatedSpan>" + estimatedSpan + "</estimatedSpan>";
 					tempLine += "<description><![CDATA[" + descriptionLine + "]]></description>";
 				}
 				
@@ -213,6 +265,8 @@ public class MassageKML {
 					dbhLine = "";
 					speciesName ="";
 				}
+				
+				//i++;
 			}
 			
 			Iterator<String> itr = treeNames.keySet().iterator();
